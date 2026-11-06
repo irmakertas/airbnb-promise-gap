@@ -1,0 +1,27 @@
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Local/editor files
+.vscode/
+.idea/
+*.log
+.env
+.env.*
+!.env.example
+.DS_Store
+Thumbs.db
+
+# Duplicate of the canonical dashboard under project/
+/dashboard_2000.html
+
+# Temporary checkpoint files
+*.json.tmp
+
+# Source datasets are downloaded locally and should not be committed.
+# Recreate processed data with prepare_data.py when the raw snapshot is available.
+data/raw/
+data/processed/eligible_reviews.csv

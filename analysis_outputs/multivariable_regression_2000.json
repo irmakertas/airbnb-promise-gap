@@ -1,0 +1,3212 @@
+{
+  "negative_promise_share": {
+    "review_scores_rating": {
+      "n": 1981,
+      "df_resid": 1957,
+      "rank": 24,
+      "n_columns": 24,
+      "r_squared": 0.1586283214034795,
+      "max_leverage": 0.0803567041569113,
+      "coefficients": [
+        {
+          "term": "intercept",
+          "estimate": 4.748799330069362,
+          "hc3_se": 0.04875148730510649,
+          "t_value": 97.40829649666806,
+          "p_value": 0.0,
+          "ci95_low": 4.653189038364351,
+          "ci95_high": 4.844409621774373
+        },
+        {
+          "term": "negative_promise_share",
+          "estimate": -0.3020763150481543,
+          "hc3_se": 0.030265295033229882,
+          "t_value": -9.980947309996106,
+          "p_value": 6.453068021946021e-23,
+          "ci95_low": -0.36143191313597345,
+          "ci95_high": -0.24272071696033515,
+          "p_holm_7_outcomes": 4.517147615362215e-22
+        },
+        {
+          "term": "log1p(number_of_reviews)",
+          "estimate": 0.044779962463934224,
+          "hc3_se": 0.005739931946921273,
+          "t_value": 7.801479682690811,
+          "p_value": 9.876421193576795e-15,
+          "ci95_low": 0.03352294040884364,
+          "ci95_high": 0.05603698451902481
+        },
+        {
+          "term": "room_type_pooled=Other (<20)",
+          "estimate": -0.16462939529967932,
+          "hc3_se": 0.05074219851790115,
+          "t_value": -3.244427717131735,
+          "p_value": 0.0011967066607831394,
+          "ci95_low": -0.2641438238890593,
+          "ci95_high": -0.0651149667102993
+        },
+        {
+          "term": "room_type_pooled=Private room",
+          "estimate": -0.08913690177398628,
+          "hc3_se": 0.0346489096399303,
+          "t_value": -2.5725745110103726,
+          "p_value": 0.010167642040235684,
+          "ci95_low": -0.15708954365343292,
+          "ci95_high": -0.021184259894539648
+        },
+        {
+          "term": "property_type_pooled=Entire home",
+          "estimate": -0.08645987523902357,
+          "hc3_se": 0.02727567835337501,
+          "t_value": -3.1698524274585194,
+          "p_value": 0.0015487484538663466,
+          "ci95_low": -0.13995230609548834,
+          "ci95_high": -0.03296744438255881
+        },
+        {
+          "term": "property_type_pooled=Entire loft",
+          "estimate": -0.03514380880236099,
+          "hc3_se": 0.04146688431673382,
+          "t_value": -0.8475150564465925,
+          "p_value": 0.39681173406924813,
+          "ci95_low": -0.11646770525721994,
+          "ci95_high": 0.04618008765249796
+        },
+        {
+          "term": "property_type_pooled=Entire rental unit",
+          "estimate": -0.06422468340377498,
+          "hc3_se": 0.018390493163346625,
+          "t_value": -3.492276299135832,
+          "p_value": 0.0004895528929404099,
+          "ci95_low": -0.10029169413807926,
+          "ci95_high": -0.028157672669470703
+        },
+        {
+          "term": "property_type_pooled=Entire serviced apartment",
+          "estimate": -0.12951121604669766,
+          "hc3_se": 0.024827029114021588,
+          "t_value": -5.216541030821665,
+          "p_value": 2.015753525328272e-07,
+          "ci95_low": -0.17820141253044183,
+          "ci95_high": -0.08082101956295348
+        },
+        {
+          "term": "property_type_pooled=Other (<20)",
+          "estimate": 0.008031225287116538,
+          "hc3_se": 0.0321633336360552,
+          "t_value": 0.2497012709563635,
+          "p_value": 0.8028445817829629,
+          "ci95_low": -0.055046762301309504,
+          "ci95_high": 0.07110921287554259
+        },
+        {
+          "term": "property_type_pooled=Private room in rental unit",
+          "estimate": 0.059744185203060615,
+          "hc3_se": 0.04753155157906613,
+          "t_value": 1.2569374072226411,
+          "p_value": 0.2089262964645534,
+          "ci95_low": -0.03347359671249245,
+          "ci95_high": 0.15296196711861368
+        },
+        {
+          "term": "property_type_pooled=Room in aparthotel",
+          "estimate": -0.1109663792937748,
+          "hc3_se": 0.029912692093997394,
+          "t_value": -3.7096754429549494,
+          "p_value": 0.0002133122279451173,
+          "ci95_low": -0.1696304606353442,
+          "ci95_high": -0.05230229795220539
+        },
+        {
+          "term": "property_type_pooled=Room in boutique hotel",
+          "estimate": -0.1517530324701549,
+          "hc3_se": 0.046434233602611334,
+          "t_value": -3.268128290193654,
+          "p_value": 0.0011013624023652076,
+          "ci95_low": -0.24281877969668617,
+          "ci95_high": -0.06068728524362363
+        },
+        {
+          "term": "property_type_pooled=Room in hotel",
+          "estimate": -0.12568086467254946,
+          "hc3_se": 0.043047280006896886,
+          "t_value": -2.9196006031603696,
+          "p_value": 0.0035448634038400145,
+          "ci95_low": -0.21010419667898808,
+          "ci95_high": -0.04125753266611085
+        },
+        {
+          "term": "neighbourhood_cleansed_pooled=Atasehir",
+          "estimate": 0.0016236454964973501,
+          "hc3_se": 0.0532181940069709,
+          "t_value": 0.03050921826254896,
+          "p_value": 0.9756640526546596,
+          "ci95_low": -0.10274664829938793,
+          "ci95_high": 0.10599393929238263
+        },
+        {
+          "term": "neighbourhood_cleansed_pooled=Besiktas",
+          "estimate": -0.04401865533470965,
+          "hc3_se": 0.047807318905813266,
+          "t_value": -0.9207513900001842,
+          "p_value": 0.35729372363581086,
+          "ci95_low": -0.1377772657666933,
+          "ci95_high": 0.04973995509727398
+        },
+        {
+          "term": "neighbourhood_cleansed_pooled=Beyoglu",
+          "estimate": -0.07275000538938739,
+          "hc3_se": 0.04016161229884006,
+          "t_value": -1.811431394936516,
+          "p_value": 0.07022734529130868,
+          "ci95_low": -0.15151403248879103,
+          "ci95_high": 0.006014021710016262
+        },
+        {
+          "term": "neighbourhood_cleansed_pooled=Esenyurt",
+          "estimate": -0.17004939521856277,
+          "hc3_se": 0.06959263908662211,
+          "t_value": -2.4434968618865267,
+          "p_value": 0.014633503594304301,
+          "ci95_low": -0.3065328727779543,
+          "ci95_high": -0.03356591765917122
+        },
+        {
+          "term": "neighbourhood_cleansed_pooled=Fatih",
+          "estimate": -0.050861026703040144,
+          "hc3_se": 0.040928036134598944,
+          "t_value": -1.2426940431682292,
+          "p_value": 0.214129475048005,
+          "ci95_low": -0.1311281465398607,
+          "ci95_high": 0.02940609313378044
+        },
+        {
+          "term": "neighbourhood_cleansed_pooled=Kadikoy",
+          "estimate": -0.07413388809339953,
+          "hc3_se": 0.04365993046988502,
+          "t_value": -1.69798456606646,
+          "p_value": 0.08966965028744445,
+          "ci95_low": -0.15975873604770893,
+          "ci95_high": 0.011490959860909866
+        },
+        {
+          "term": "neighbourhood_cleansed_pooled=Kagithane",
+          "estimate": -0.15720978071262942,
+          "hc3_se": 0.06544237724626009,
+          "t_value": -2.402262682497734,
+          "p_value": 0.01638665439993235,
+          "ci95_low": -0.2855538605398902,
+          "ci95_high": -0.02886570088536866
+        },
+        {
+          "term": "neighbourhood_cleansed_pooled=Other (<20)",
+          "estimate": -0.04802493620236363,
+          "hc3_se": 0.042275475129258694,
+          "t_value": -1.1359999161576722,
+          "p_value": 0.2560956939831617,
+          "ci95_low": -0.13093462229624753,
+          "ci95_high": 0.03488474989152027
+        },
+        {
+          "term": "neighbourhood_cleansed_pooled=Sile",
+          "estimate": -0.13677629460020252,
+          "hc3_se": 0.07303948523823664,
+          "t_value": -1.8726349748231694,
+          "p_value": 0.061267802622907354,
+          "ci95_low": -0.28001964727798123,
+          "ci95_high": 0.006467058077576221
+        },
+        {
+          "term": "neighbourhood_cleansed_pooled=Sisli",
+          "estimate": -0.08325398678073215,
+          "hc3_se": 0.04233129139569157,
+          "t_value": -1.9667244734519402,
+          "p_value": 0.049356089812060626,
+          "ci95_low": -0.16627313844808939,
+          "ci95_high": -0.00023483511337490937
+        }
+      ],
+      "predictor": "negative_promise_share",
+      "formula": "review_scores_rating ~ negative_promise_share + log1p(number_of_reviews) + room_type_pooled + property_type_pooled + neighbourhood_cleansed_pooled"
+    },
+    "review_scores_accuracy": {
+      "n": 1981,
+      "df_resid": 1957,
+      "rank": 24,
+      "n_columns": 24,
+      "r_squared": 0.13833059137120418,
+      "max_leverage": 0.0803567041569113,
+      "coefficients": [
+        {
+          "term": "intercept",
+          "estimate": 4.789067318613602,
+          "hc3_se": 0.03876827429443482,
+          "t_value": 123.53057766363028,
+          "p_value": 0.0,
+          "ci95_low": 4.7130358738498135,
+          "ci95_high": 4.865098763377391
+        },
+        {
+          "term": "negative_promise_share",
+          "estimate": -0.263127538349053,
+          "hc3_se": 0.030078602600225622,
+          "t_value": -8.74799743346718,
+          "p_value": 4.5895264403003605e-18,
+          "ci95_low": -0.322116999546177,
+          "ci95_high": -0.204138077151929,
+          "p_holm_7_outcomes": 2.2947632201501803e-17
+        },
+        {
+          "term": "log1p(number_of_reviews)",
+          "estimate": 0.04139793412407296,
+          "hc3_se": 0.005298681141681409,
+          "t_value": 7.8128751319684655,
+          "p_value": 9.047603886769656e-15,
+          "ci95_low": 0.03100628296402859,
+          "ci95_high": 0.051789585284117326
+        },
+        {
+          "term": "room_type_pooled=Other (<20)",
+          "estimate": -0.1207781777330064,
+          "hc3_se": 0.04499356599484427,
+          "t_value": -2.684343306926287,
+          "p_value": 0.0073285291081364575,
+          "ci95_low": -0.2090185208981904,
+          "ci95_high": -0.03253783456782243
+        },
+        {
+          "term": "room_type_pooled=Private room",
+          "estimate": -0.06445329875305479,
+          "hc3_se": 0.03270580540703368,
+          "t_value": -1.970699022724373,
+          "p_value": 0.04889905312716028,
+          "ci95_low": -0.12859516945832583,
+          "ci95_high": -0.0003114280477837378
+        },
+        {
+          "term": "property_type_pooled=Entire home",
+          "estimate": -0.10727535961227137,
+          "hc3_se": 0.026325290976994896,
+          "t_value": -4.074992360237044,
+          "p_value": 4.7853914097436894e-05,
+          "ci95_low": -0.15890391268138204,
+          "ci95_high": -0.0556468065431607
+        },
+        {
+          "term": "property_type_pooled=Entire loft",
+          "estimate": -0.04029239586910974,
+          "hc3_se": 0.03742362341436581,
+          "t_value": -1.0766567262335878,
+          "p_value": 0.28176635579080006,
+          "ci95_low": -0.1136867423618206,
+          "ci95_high": 0.03310195062360112
+        },
+        {
+          "term": "property_type_pooled=Entire rental unit",
+          "estimate": -0.06774364242099558,
+          "hc3_se": 0.017548333756517532,
+          "t_value": -3.8604031220819057,
+          "p_value": 0.00011687400089659255,
+          "ci95_low": -0.10215902956389786,
+          "ci95_high": -0.03332825527809329
+        },
+        {
+          "term": "property_type_pooled=Entire serviced apartment",
+          "estimate": -0.12954406586770645,
+          "hc3_se": 0.024342703994733823,
+          "t_value": -5.321679378582238,
+          "p_value": 1.146039638356262e-07,
+          "ci95_low": -0.1772844151058607,
+          "ci95_high": -0.08180371662955219
+        },
+        {
+          "term": "property_type_pooled=Other (<20)",
+          "estimate": -0.034687764363397516,
+          "hc3_se": 0.030924354018937818,
+          "t_value": -1.1216972985807567,
+          "p_value": 0.26212877668558887,
+          "ci95_low": -0.09533589372272402,
+          "ci95_high": 0.025960364995928985
+        },
+        {
+          "term": "property_type_pooled=Private room in rental unit",
+          "estimate": 0.019089006309861815,
+          "hc3_se": 0.043444341996358965,
+          "t_value": 0.43938992818585326,
+          "p_value": 0.6604275349394754,
+          "ci95_low": -0.06611303450600967,
+          "ci95_high": 0.10429104712573331
+        },
+        {
+          "term": "property_type_pooled=Room in aparthotel",
+          "estimate": -0.10013519492069174,
+          "hc3_se": 0.02767292071944467,
+          "t_value": -3.6185264264617607,
+          "p_value": 0.00030380421567468614,
+          "ci95_low": -0.15440668833702903,
+          "ci95_high": -0.04586370150435447
+        },
+        {
+          "term": "property_type_pooled=Room in boutique hotel",
+          "estimate": -0.13317763309114433,
+          "hc3_se": 0.04236649711620663,
+          "t_value": -3.1434657608310825,
+          "p_value": 0.0016946316603438463,
+          "ci95_low": -0.21626582940501798,
+          "ci95_high": -0.05008943677727068
+        },
+        {
+          "term": "property_type_pooled=Room in hotel",
+          "estimate": -0.12031810251286669,
+          "hc3_se": 0.04093743237647648,
+          "t_value": -2.9390730079594354,
+          "p_value": 0.003330507480615106,
+          "ci95_low": -0.20060365004238964,
+          "ci95_high": -0.04003255498334374
+        },
+        {
+          "term": "neighbourhood_cleansed_pooled=Atasehir",
+          "estimate": -0.008860061337237567,
+          "hc3_se": 0.044218842420720744,
+          "t_value": -0.20036845951186147,
+          "p_value": 0.8412132442898878,
+          "ci95_low": -0.09558103450968411,
+          "ci95_high": 0.07786091183520896
+        },
+        {
+          "term": "neighbourhood_cleansed_pooled=Besiktas",
+          "estimate": -0.05014876329854016,
+          "hc3_se": 0.038634184607153135,
+          "t_value": -1.2980411987070926,
+          "p_value": 0.19442613744145168,
+          "ci95_low": -0.12591723446245953,
+          "ci95_high": 0.02561970786537921
+        },
+        {
+          "term": "neighbourhood_cleansed_pooled=Beyoglu",
+          "estimate": -0.07744388971158798,
+          "hc3_se": 0.03015968386929492,
+          "t_value": -2.5677951415940514,
+          "p_value": 0.010308408495755095,
+          "ci95_low": -0.13659236562223265,
+          "ci95_high": -0.018295413800943315
+        },
+        {
+          "term": "neighbourhood_cleansed_pooled=Esenyurt",
+          "estimate": -0.13301267410356932,
+          "hc3_se": 0.05994189380826171,
+          "t_value": -2.2190268884236746,
+          "p_value": 0.02659920232307917,
+          "ci95_low": -0.25056933276490145,
+          "ci95_high": -0.015456015442237153
+        },
+        {
+          "term": "neighbourhood_cleansed_pooled=Fatih",
+          "estimate": -0.07596848116736725,
+          "hc3_se": 0.03108247186775424,
+          "t_value": -2.4440939411314617,
+          "p_value": 0.01460938250985378,
+          "ci95_low": -0.13692670760238898,
+          "ci95_high": -0.015010254732345511
+        },
+        {
+          "term": "neighbourhood_cleansed_pooled=Kadikoy",
+          "estimate": -0.03970186944347813,
+          "hc3_se": 0.0329477827757538,
+          "t_value": -1.2049936626598936,
+          "p_value": 0.228351440688291,
+          "ci95_low": -0.10431830057937873,
+          "ci95_high": 0.02491456169242247
+        },
+        {
+          "term": "neighbourhood_cleansed_pooled=Kagithane",
+          "estimate": -0.1279725622037763,
+          "hc3_se": 0.04998543545876171,
+          "t_value": -2.560197005972959,
+          "p_value": 0.010535771153477971,
+          "ci95_low": -0.22600284454787206,
+          "ci95_high": -0.02994227985968058
+        },
+        {
+          "term": "neighbourhood_cleansed_pooled=Other (<20)",
+          "estimate": -0.047772143836175715,
+          "hc3_se": 0.03265116286747063,
+          "t_value": -1.4631069659013483,
+          "p_value": 0.1435986944806873,
+          "ci95_low": -0.11180685085402059,
+          "ci95_high": 0.01626256318166916
+        },
+        {
+          "term": "neighbourhood_cleansed_pooled=Sile",
+          "estimate": -0.09301633807766488,
+          "hc3_se": 0.06956081058672751,
+          "t_value": -1.3371945682216184,
+          "p_value": 0.1813145358807042,
+          "ci95_low": -0.22943739431767368,
+          "ci95_high": 0.043404718162343925
+        },
+        {
+          "term": "neighbourhood_cleansed_pooled=Sisli",
+          "estimate": -0.08222080915393187,
+          "hc3_se": 0.03248573298024011,
+          "t_value": -2.5309821146391807,
+          "p_value": 0.011452118088224428,
+          "ci95_low": -0.14593107889510765,
+          "ci95_high": -0.0185105394127561
+        }
+      ],
+      "predictor": "negative_promise_share",
+      "formula": "review_scores_accuracy ~ negative_promise_share + log1p(number_of_reviews) + room_type_pooled + property_type_pooled + neighbourhood_cleansed_pooled"
+    },
+    "review_scores_cleanliness": {
+      "n": 1981,
+      "df_resid": 1957,
+      "rank": 24,
+      "n_columns": 24,
+      "r_squared": 0.13428615396909593,
+      "max_leverage": 0.0803567041569113,
+      "coefficients": [
+        {
+          "term": "intercept",
+          "estimate": 4.707733965700595,
+          "hc3_se": 0.05122365726161746,
+          "t_value": 91.9054635567414,
+          "p_value": 0.0,
+          "ci95_low": 4.607275311335239,
+          "ci95_high": 4.8081926200659515
+        },
+        {
+          "term": "negative_promise_share",
+          "estimate": -0.32006402448530613,
+          "hc3_se": 0.03740967169284303,
+          "t_value": -8.555649114304808,
+          "p_value": 2.3277375603788042e-17,
+          "ci95_low": -0.3934310091837761,
+          "ci95_high": -0.24669703978683616,
+          "p_holm_7_outcomes": 9.310950241515217e-17
+        },
+        {
+          "term": "log1p(number_of_reviews)",
+          "estimate": 0.04684012556904125,
+          "hc3_se": 0.006469022077819805,
+          "t_value": 7.240681049712439,
+          "p_value": 6.386699908229194e-13,
+          "ci95_low": 0.03415322877683364,
+          "ci95_high": 0.059527022361248856
+        },
+        {
+          "term": "room_type_pooled=Other (<20)",
+          "estimate": -0.11783794127106824,
+          "hc3_se": 0.0635601342940805,
+          "t_value": -1.853959916539112,
+          "p_value": 0.06389526552294145,
+          "ci95_low": -0.24249060966320052,
+          "ci95_high": 0.00681472712106404
+        },
+        {
+          "term": "room_type_pooled=Private room",
+          "estimate": -0.07414887988967378,
+          "hc3_se": 0.03743231361081002,
+          "t_value": -1.9808788914468924,
+          "p_value": 0.047744651300137005,
+          "ci95_low": -0.14756026939507888,
+          "ci95_high": -0.0007374903842686659
+        },
+        {
+          "term": "property_type_pooled=Entire home",
+          "estimate": -0.10621846964637996,
+          "hc3_se": 0.03555264144473916,
+          "t_value": -2.987639323831379,
+          "p_value": 0.002846370141839567,
+          "ci95_low": -0.17594348948303856,
+          "ci95_high": -0.03649344980972134
+        },
+        {
+          "term": "property_type_pooled=Entire loft",
+          "estimate": -0.06410838664995913,
+          "hc3_se": 0.053911230397705165,
+          "t_value": -1.1891471624192058,
+          "p_value": 0.23452602482890608,
+          "ci95_low": -0.16983784741988153,
+          "ci95_high": 0.04162107411996327
+        },
+        {
+          "term": "property_type_pooled=Entire rental unit",
+          "estimate": -0.06245110635779063,
+          "hc3_se": 0.0249885830203504,
+          "t_value": -2.4991855803480814,
+          "p_value": 0.012529275097193041,
+          "ci95_low": -0.1114581386339182,
+          "ci95_high": -0.013444074081663066
+        },
+        {
+          "term": "property_type_pooled=Entire serviced apartment",
+          "estimate": -0.11634086850994636,
+          "hc3_se": 0.030579646602050415,
+          "t_value": -3.804519719405309,
+          "p_value": 0.0001464411226252307,
+          "ci95_low": -0.17631296563921547,
+          "ci95_high": -0.056368771380677245
+        },
+        {
+          "term": "property_type_pooled=Other (<20)",
+          "estimate": -0.004843213929317069,
+          "hc3_se": 0.04023367740063301,
+          "t_value": -0.12037711296161234,
+          "p_value": 0.9041967775776788,
+          "ci95_low": -0.08374857344307463,
+          "ci95_high": 0.07406214558444049
+        },
+        {
+          "term": "property_type_pooled=Private room in rental unit",
+          "estimate": -0.011390921571605993,
+          "hc3_se": 0.05518523559087311,
+          "t_value": -0.20641248423862665,
+          "p_value": 0.83649019142404,
+          "ci95_low": -0.11961893192197835,
+          "ci95_high": 0.09683708877876636
+        },
+        {
+          "term": "property_type_pooled=Room in aparthotel",
+          "estimate": -0.11343791378115682,
+          "hc3_se": 0.03879079584615577,
+          "t_value": -2.9243512876366697,
+          "p_value": 0.003491438935490921,
+          "ci95_low": -0.18951352729237758,
+          "ci95_high": -0.03736230026993605
+        },
+        {
+          "term": "property_type_pooled=Room in boutique hotel",
+          "estimate": -0.18858911088023275,
+          "hc3_se": 0.05442857261988382,
+          "t_value": -3.464891725110893,
+          "p_value": 0.0005418756827291868,
+          "ci95_low": -0.29533317127589087,
+          "ci95_high": -0.08184505048457466
+        },
+        {
+          "term": "property_type_pooled=Room in hotel",
+          "estimate": -0.14335223277256826,
+          "hc3_se": 0.05046793425254021,
+          "t_value": -2.8404616692896023,
+          "p_value": 0.00455141983677108,
+          "ci95_low": -0.24232878061481722,
+          "ci95_high": -0.04437568493031928
+        },
+        {
+          "term": "neighbourhood_cleansed_pooled=Atasehir",
+          "estimate": 0.03268252290919821,
+          "hc3_se": 0.06226950111983439,
+          "t_value": 0.5248560261676484,
+          "p_value": 0.5997427299066528,
+          "ci95_low": -0.08943898548977199,
+          "ci95_high": 0.1548040313081684
+        },
+        {
+          "term": "neighbourhood_cleansed_pooled=Besiktas",
+          "estimate": -0.029282910726364176,
+          "hc3_se": 0.04664997027903864,
+          "t_value": -0.6277155280315784,
+          "p_value": 0.5302635468745621,
+          "ci95_low": -0.12077175574344272,
+          "ci95_high": 0.062205934290714374
+        },
+        {
+          "term": "neighbourhood_cleansed_pooled=Beyoglu",
+          "estimate": -0.07095494285368678,
+          "hc3_se": 0.03904133464504286,
+          "t_value": -1.8174312814558464,
+          "p_value": 0.06930396402859872,
+          "ci95_low": -0.14752190727478037,
+          "ci95_high": 0.005612021567406825
+        },
+        {
+          "term": "neighbourhood_cleansed_pooled=Esenyurt",
+          "estimate": -0.14185249965278424,
+          "hc3_se": 0.06033673821056624,
+          "t_value": -2.351013724967036,
+          "p_value": 0.018821065693972745,
+          "ci95_low": -0.2601835180427984,
+          "ci95_high": -0.023521481262770066
+        },
+        {
+          "term": "neighbourhood_cleansed_pooled=Fatih",
+          "estimate": -0.05282027945170166,
+          "hc3_se": 0.0399432639854152,
+          "t_value": -1.3223826543316126,
+          "p_value": 0.18619528412637662,
+          "ci95_low": -0.13115608687835573,
+          "ci95_high": 0.025515527974952407
+        },
+        {
+          "term": "neighbourhood_cleansed_pooled=Kadikoy",
+          "estimate": -0.08242550228295846,
+          "hc3_se": 0.043213995895146295,
+          "t_value": -1.9073797869318612,
+          "p_value": 0.05661768451431554,
+          "ci95_low": -0.16717579364158316,
+          "ci95_high": 0.002324789075666245
+        },
+        {
+          "term": "neighbourhood_cleansed_pooled=Kagithane",
+          "estimate": -0.20803685247580134,
+          "hc3_se": 0.07421310656723415,
+          "t_value": -2.8032360063963653,
+          "p_value": 0.005109144987945717,
+          "ci95_low": -0.35358188421650627,
+          "ci95_high": -0.06249182073509643
+        },
+        {
+          "term": "neighbourhood_cleansed_pooled=Other (<20)",
+          "estimate": -0.05475276461535275,
+          "hc3_se": 0.0416540658041564,
+          "t_value": -1.3144638718530404,
+          "p_value": 0.1888441781197421,
+          "ci95_low": -0.13644375708314455,
+          "ci95_high": 0.02693822785243903
+        },
+        {
+          "term": "neighbourhood_cleansed_pooled=Sile",
+          "estimate": -0.18674195854700454,
+          "hc3_se": 0.08999062028198435,
+          "t_value": -2.075126918359394,
+          "p_value": 0.03810514809491444,
+          "ci95_low": -0.36322948603571226,
+          "ci95_high": -0.010254431058296792
+        },
+        {
+          "term": "neighbourhood_cleansed_pooled=Sisli",
+          "estimate": -0.0768067408152677,
+          "hc3_se": 0.042013010213646784,
+          "t_value": -1.8281656188091735,
+          "p_value": 0.06767685775748838,
+          "ci95_low": -0.15920168677441612,
+          "ci95_high": 0.005588205143880726
+        }
+      ],
+      "predictor": "negative_promise_share",
+      "formula": "review_scores_cleanliness ~ negative_promise_share + log1p(number_of_reviews) + room_type_pooled + property_type_pooled + neighbourhood_cleansed_pooled"
+    },
+    "review_scores_checkin": {
+      "n": 1981,
+      "df_resid": 1957,
+      "rank": 24,
+      "n_columns": 24,
+      "r_squared": 0.10084779040128633,
+      "max_leverage": 0.0803567041569113,
+      "coefficients": [
+        {
+          "term": "intercept",
+          "estimate": 4.807065960976822,
+          "hc3_se": 0.03506199873564918,
+          "t_value": 137.1018805065797,
+          "p_value": 0.0,
+          "ci95_low": 4.738303178297062,
+          "ci95_high": 4.875828743656583
+        },
+        {
+          "term": "negative_promise_share",
+          "estimate": -0.18104258058700204,
+          "hc3_se": 0.026735668559937056,
+          "t_value": -6.7715748413447665,
+          "p_value": 1.678695606966915e-11,
+          "ci95_low": -0.23347595670015114,
+          "ci95_high": -0.12860920447385293,
+          "p_holm_7_outcomes": 3.35739121393383e-11
+        },
+        {
+          "term": "log1p(number_of_reviews)",
+          "estimate": 0.027853852401397275,
+          "hc3_se": 0.004126719977911822,
+          "t_value": 6.749634710008047,
+          "p_value": 1.9464422697087552e-11,
+          "ci95_low": 0.019760624426551136,
+          "ci95_high": 0.03594708037624342
+        },
+        {
+          "term": "room_type_pooled=Other (<20)",
+          "estimate": -0.08011205874682643,
+          "hc3_se": 0.03347728700094201,
+          "t_value": -2.3930272110930666,
+          "p_value": 0.016803743914448874,
+          "ci95_low": -0.14576694134806267,
+          "ci95_high": -0.014457176145590195
+        },
+        {
+          "term": "room_type_pooled=Private room",
+          "estimate": -0.05052412257322967,
+          "hc3_se": 0.022947137035357328,
+          "t_value": -2.2017614875172127,
+          "p_value": 0.027798468697468576,
+          "ci95_low": -0.09552751810072482,
+          "ci95_high": -0.0055207270457345095
+        },
+        {
+          "term": "property_type_pooled=Entire home",
+          "estimate": -0.03986943160121872,
+          "hc3_se": 0.021341100134949765,
+          "t_value": -1.8681994531259232,
+          "p_value": 0.061883602361868933,
+          "ci95_low": -0.0817231046274089,
+          "ci95_high": 0.0019842414249714585
+        },
+        {
+          "term": "property_type_pooled=Entire loft",
+          "estimate": -0.016337882739927402,
+          "hc3_se": 0.02378393556862179,
+          "t_value": -0.6869293222220975,
+          "p_value": 0.49220865677251746,
+          "ci95_low": -0.06298238823732004,
+          "ci95_high": 0.030306622757465235
+        },
+        {
+          "term": "property_type_pooled=Entire rental unit",
+          "estimate": -0.03167055819673411,
+          "hc3_se": 0.014913654236180064,
+          "t_value": -2.1235947739690997,
+          "p_value": 0.033829185719418,
+          "ci95_low": -0.060918872673480076,
+          "ci95_high": -0.0024222437199881465
+        },
+        {
+          "term": "property_type_pooled=Entire serviced apartment",
+          "estimate": -0.051406303851464795,
+          "hc3_se": 0.017991467336255382,
+          "t_value": -2.8572602162289304,
+          "p_value": 0.004318305400254396,
+          "ci95_low": -0.08669075434330378,
+          "ci95_high": -0.0161218533596258
+        },
+        {
+          "term": "property_type_pooled=Other (<20)",
+          "estimate": 0.019167238724901458,
+          "hc3_se": 0.02211503371184018,
+          "t_value": 0.8667062856268448,
+          "p_value": 0.3862092097314546,
+          "ci95_low": -0.024204254969685934,
+          "ci95_high": 0.06253873241948885
+        },
+        {
+          "term": "property_type_pooled=Private room in rental unit",
+          "estimate": 0.0337840601833385,
+          "hc3_se": 0.031894096032087586,
+          "t_value": 1.0592574923380642,
+          "p_value": 0.289613247291558,
+          "ci95_low": -0.02876590483026438,
+          "ci95_high": 0.09633402519694138
+        },
+        {
+          "term": "property_type_pooled=Room in aparthotel",
+          "estimate": -0.023453941770255792,
+          "hc3_se": 0.021119497612349953,
+          "t_value": -1.110535023169336,
+          "p_value": 0.266904972377633,
+          "ci95_low": -0.06487301304377052,
+          "ci95_high": 0.017965129503258934
+        },
+        {
+          "term": "property_type_pooled=Room in boutique hotel",
+          "estimate": -0.04665472928598009,
+          "hc3_se": 0.030554144130114796,
+          "t_value": -1.5269525825138799,
+          "p_value": 0.1269343977112549,
+          "ci95_low": -0.10657681155589316,
+          "ci95_high": 0.013267352983932973
+        },
+        {
+          "term": "property_type_pooled=Room in hotel",
+          "estimate": -0.05099579180710768,
+          "hc3_se": 0.030919793715295525,
+          "t_value": -1.6492927564998883,
+          "p_value": 0.09924816465817635,
+          "ci95_low": -0.11163497760418398,
+          "ci95_high": 0.009643393989968621
+        },
+        {
+          "term": "neighbourhood_cleansed_pooled=Atasehir",
+          "estimate": 0.012674599793938202,
+          "hc3_se": 0.038765058293025234,
+          "t_value": 0.3269593895133821,
+          "p_value": 0.7437335672287666,
+          "ci95_low": -0.06335053782211278,
+          "ci95_high": 0.08869973740998918
+        },
+        {
+          "term": "neighbourhood_cleansed_pooled=Besiktas",
+          "estimate": 0.006792648717718852,
+          "hc3_se": 0.03387644350927431,
+          "t_value": 0.20051245095605263,
+          "p_value": 0.8411006561325085,
+          "ci95_low": -0.05964505041501646,
+          "ci95_high": 0.07323034785045417
+        },
+        {
+          "term": "neighbourhood_cleansed_pooled=Beyoglu",
+          "estimate": -0.006423622487150865,
+          "hc3_se": 0.02850328269430609,
+          "t_value": -0.22536430473792654,
+          "p_value": 0.8217194086495838,
+          "ci95_low": -0.06232360264360311,
+          "ci95_high": 0.04947635766930138
+        },
+        {
+          "term": "neighbourhood_cleansed_pooled=Esenyurt",
+          "estimate": -0.0789539841249648,
+          "hc3_se": 0.05778870960672643,
+          "t_value": -1.3662527622138632,
+          "p_value": 0.17201660666817176,
+          "ci95_low": -0.19228786762633082,
+          "ci95_high": 0.03437989937640122
+        },
+        {
+          "term": "neighbourhood_cleansed_pooled=Fatih",
+          "estimate": -0.0006817193468136758,
+          "hc3_se": 0.029022411317999666,
+          "t_value": -0.02348941097085459,
+          "p_value": 0.9812622796894891,
+          "ci95_low": -0.05759980257842204,
+          "ci95_high": 0.05623636388479469
+        },
+        {
+          "term": "neighbourhood_cleansed_pooled=Kadikoy",
+          "estimate": 0.024043651484317485,
+          "hc3_se": 0.030133596572712366,
+          "t_value": 0.7979018178696379,
+          "p_value": 0.4250242741004948,
+          "ci95_low": -0.03505366262237147,
+          "ci95_high": 0.08314096559100645
+        },
+        {
+          "term": "neighbourhood_cleansed_pooled=Kagithane",
+          "estimate": -0.04981624461275587,
+          "hc3_se": 0.047589886165268235,
+          "t_value": -1.0467821763589857,
+          "p_value": 0.2953293200338189,
+          "ci95_low": -0.14314843097239016,
+          "ci95_high": 0.043515941746878437
+        },
+        {
+          "term": "neighbourhood_cleansed_pooled=Other (<20)",
+          "estimate": -0.004250652145345968,
+          "hc3_se": 0.03013853281814533,
+          "t_value": -0.1410371291460745,
+          "p_value": 0.887855126077925,
+          "ci95_low": -0.06335764710264814,
+          "ci95_high": 0.05485634281195621
+        },
+        {
+          "term": "neighbourhood_cleansed_pooled=Sile",
+          "estimate": -0.025006944277669595,
+          "hc3_se": 0.04492759305210343,
+          "t_value": -0.5566054751401559,
+          "p_value": 0.5778606527577336,
+          "ci95_low": -0.11311790283022394,
+          "ci95_high": 0.06310401427488474
+        },
+        {
+          "term": "neighbourhood_cleansed_pooled=Sisli",
+          "estimate": -0.0024524635436456443,
+          "hc3_se": 0.030668195747103964,
+          "t_value": -0.07996765000031779,
+          "p_value": 0.9362711613803435,
+          "ci95_low": -0.06259822121245512,
+          "ci95_high": 0.05769329412516382
+        }
+      ],
+      "predictor": "negative_promise_share",
+      "formula": "review_scores_checkin ~ negative_promise_share + log1p(number_of_reviews) + room_type_pooled + property_type_pooled + neighbourhood_cleansed_pooled"
+    },
+    "review_scores_communication": {
+      "n": 1981,
+      "df_resid": 1957,
+      "rank": 24,
+      "n_columns": 24,
+      "r_squared": 0.12493346814251294,
+      "max_leverage": 0.0803567041569113,
+      "coefficients": [
+        {
+          "term": "intercept",
+          "estimate": 4.8134337926083495,
+          "hc3_se": 0.035636116731650944,
+          "t_value": 135.071782059048,
+          "p_value": 0.0,
+          "ci95_low": 4.743545062965632,
+          "ci95_high": 4.883322522251067
+        },
+        {
+          "term": "negative_promise_share",
+          "estimate": -0.1885901568298006,
+          "hc3_se": 0.02645092468291809,
+          "t_value": -7.129813384240265,
+          "p_value": 1.4081191166357526e-12,
+          "ci95_low": -0.24046509982330727,
+          "ci95_high": -0.13671521383629393,
+          "p_holm_7_outcomes": 4.224357349907258e-12
+        },
+        {
+          "term": "log1p(number_of_reviews)",
+          "estimate": 0.028155722748514245,
+          "hc3_se": 0.004137037654671238,
+          "t_value": 6.805769030582276,
+          "p_value": 1.3317602864771946e-11,
+          "ci95_low": 0.020042259984142365,
+          "ci95_high": 0.036269185512886125
+        },
+        {
+          "term": "room_type_pooled=Other (<20)",
+          "estimate": -0.11976253379599687,
+          "hc3_se": 0.03481860933701935,
+          "t_value": -3.4396127839794177,
+          "p_value": 0.0005947600988002976,
+          "ci95_low": -0.18804798680465878,
+          "ci95_high": -0.05147708078733497
+        },
+        {
+          "term": "room_type_pooled=Private room",
+          "estimate": -0.06050846749666172,
+          "hc3_se": 0.02337948431142977,
+          "t_value": -2.588101032967623,
+          "p_value": 0.009722086034755975,
+          "ci95_low": -0.10635977252329586,
+          "ci95_high": -0.014657162470027588
+        },
+        {
+          "term": "property_type_pooled=Entire home",
+          "estimate": -0.039561111519040265,
+          "hc3_se": 0.023692259619740426,
+          "t_value": -1.6697905625716631,
+          "p_value": 0.09512073408723233,
+          "ci95_low": -0.08602582426139294,
+          "ci95_high": 0.0069036012233124056
+        },
+        {
+          "term": "property_type_pooled=Entire loft",
+          "estimate": -0.014924440649536505,
+          "hc3_se": 0.02863493000325583,
+          "t_value": -0.5211970362015754,
+          "p_value": 0.6022884891553809,
+          "ci95_low": -0.0710826044698448,
+          "ci95_high": 0.04123372317077179
+        },
+        {
+          "term": "property_type_pooled=Entire rental unit",
+          "estimate": -0.03247718142014591,
+          "hc3_se": 0.018340078615277925,
+          "t_value": -1.7708310908270202,
+          "p_value": 0.07674442718651445,
+          "ci95_low": -0.06844532030635953,
+          "ci95_high": 0.0034909574660676942
+        },
+        {
+          "term": "property_type_pooled=Entire serviced apartment",
+          "estimate": -0.05239053316135121,
+          "hc3_se": 0.02061246126407615,
+          "t_value": -2.5416922554832686,
+          "p_value": 0.011108275467067358,
+          "ci95_low": -0.09281521645117002,
+          "ci95_high": -0.011965849871532395
+        },
+        {
+          "term": "property_type_pooled=Other (<20)",
+          "estimate": 0.008393384025075327,
+          "hc3_se": 0.02414450962941399,
+          "t_value": 0.347631165590131,
+          "p_value": 0.728154581339457,
+          "ci95_low": -0.03895827099819427,
+          "ci95_high": 0.05574503904834492
+        },
+        {
+          "term": "property_type_pooled=Private room in rental unit",
+          "estimate": 0.03634746590364128,
+          "hc3_se": 0.0325121077346136,
+          "t_value": 1.1179670724621897,
+          "p_value": 0.26371827486154614,
+          "ci95_low": -0.02741452939707517,
+          "ci95_high": 0.10010946120435774
+        },
+        {
+          "term": "property_type_pooled=Room in aparthotel",
+          "estimate": -0.035519685685919955,
+          "hc3_se": 0.024392719703989804,
+          "t_value": -1.4561593015029877,
+          "p_value": 0.145508993299191,
+          "ci95_low": -0.0833581245786907,
+          "ci95_high": 0.012318753206850788
+        },
+        {
+          "term": "property_type_pooled=Room in boutique hotel",
+          "estimate": -0.05386522863845242,
+          "hc3_se": 0.033210734130338836,
+          "t_value": -1.6219222504101523,
+          "p_value": 0.1049810766683996,
+          "ci95_low": -0.11899735390197544,
+          "ci95_high": 0.011266896625070605
+        },
+        {
+          "term": "property_type_pooled=Room in hotel",
+          "estimate": -0.06605228786762207,
+          "hc3_se": 0.033191851795199644,
+          "t_value": -1.9900151481507535,
+          "p_value": 0.046728199205843,
+          "ci95_low": -0.1311473815312796,
+          "ci95_high": -0.0009571942039645343
+        },
+        {
+          "term": "neighbourhood_cleansed_pooled=Atasehir",
+          "estimate": -0.03380261742286409,
+          "hc3_se": 0.04922641997629466,
+          "t_value": -0.6866763302946262,
+          "p_value": 0.4923680696160191,
+          "ci95_low": -0.130344336121032,
+          "ci95_high": 0.0627391012753038
+        },
+        {
+          "term": "neighbourhood_cleansed_pooled=Besiktas",
+          "estimate": 0.0009103603883266476,
+          "hc3_se": 0.032713545274956124,
+          "t_value": 0.027828239974454085,
+          "p_value": 0.9778019798034356,
+          "ci95_low": -0.06324668956727562,
+          "ci95_high": 0.06506741034392892
+        },
+        {
+          "term": "neighbourhood_cleansed_pooled=Beyoglu",
+          "estimate": 0.009607022845768566,
+          "hc3_se": 0.02682667918867935,
+          "t_value": 0.35811450154526225,
+          "p_value": 0.7202962492233961,
+          "ci95_low": -0.04300484121191954,
+          "ci95_high": 0.06221888690345667
+        },
+        {
+          "term": "neighbourhood_cleansed_pooled=Esenyurt",
+          "estimate": -0.06501596917290285,
+          "hc3_se": 0.044990448006439226,
+          "t_value": -1.4451060625934973,
+          "p_value": 0.14858819496902412,
+          "ci95_low": -0.1532501974111909,
+          "ci95_high": 0.02321825906538519
+        },
+        {
+          "term": "neighbourhood_cleansed_pooled=Fatih",
+          "estimate": 0.02977793412614669,
+          "hc3_se": 0.027177471955736013,
+          "t_value": 1.0956844762693916,
+          "p_value": 0.27335169779815405,
+          "ci95_low": -0.023521896609899194,
+          "ci95_high": 0.08307776486219257
+        },
+        {
+          "term": "neighbourhood_cleansed_pooled=Kadikoy",
+          "estimate": 0.00922440131682712,
+          "hc3_se": 0.028912359639299383,
+          "t_value": 0.31904699000384495,
+          "p_value": 0.7497249297719364,
+          "ci95_low": -0.04747785110253733,
+          "ci95_high": 0.06592665373619157
+        },
+        {
+          "term": "neighbourhood_cleansed_pooled=Kagithane",
+          "estimate": -0.07559171315926182,
+          "hc3_se": 0.048384233465563066,
+          "t_value": -1.5623211890514577,
+          "p_value": 0.11837402637262646,
+          "ci95_low": -0.1704817551104797,
+          "ci95_high": 0.019298328791956074
+        },
+        {
+          "term": "neighbourhood_cleansed_pooled=Other (<20)",
+          "estimate": 0.014511520952082864,
+          "hc3_se": 0.028391616722412655,
+          "t_value": 0.5111199229675184,
+          "p_value": 0.6093247426061907,
+          "ci95_low": -0.04116946247757339,
+          "ci95_high": 0.07019250438173912
+        },
+        {
+          "term": "neighbourhood_cleansed_pooled=Sile",
+          "estimate": -0.008983231491870691,
+          "hc3_se": 0.04721607631550538,
+          "t_value": -0.19025789927657902,
+          "p_value": 0.8491267752041398,
+          "ci95_low": -0.10158231060178445,
+          "ci95_high": 0.08361584761804307
+        },
+        {
+          "term": "neighbourhood_cleansed_pooled=Sisli",
+          "estimate": -0.008992544364657275,
+          "hc3_se": 0.029037249317816545,
+          "t_value": -0.30968995259270893,
+          "p_value": 0.7568297152458521,
+          "ci95_low": -0.06593972753904137,
+          "ci95_high": 0.04795463880972683
+        }
+      ],
+      "predictor": "negative_promise_share",
+      "formula": "review_scores_communication ~ negative_promise_share + log1p(number_of_reviews) + room_type_pooled + property_type_pooled + neighbourhood_cleansed_pooled"
+    },
+    "review_scores_location": {
+      "n": 1981,
+      "df_resid": 1957,
+      "rank": 24,
+      "n_columns": 24,
+      "r_squared": 0.1265333936533849,
+      "max_leverage": 0.0803567041569113,
+      "coefficients": [
+        {
+          "term": "intercept",
+          "estimate": 4.70885654162348,
+          "hc3_se": 0.04539726722081325,
+          "t_value": 103.72555067509911,
+          "p_value": 0.0,
+          "ci95_low": 4.619824468931461,
+          "ci95_high": 4.797888614315499
+        },
+        {
+          "term": "negative_promise_share",
+          "estimate": -0.16584358492490733,
+          "hc3_se": 0.03154724479952632,
+          "t_value": -5.25699109316188,
+          "p_value": 1.624104408995917e-07,
+          "ci95_low": -0.2277133133066331,
+          "ci95_high": -0.10397385654318156,
+          "p_holm_7_outcomes": 1.624104408995917e-07
+        },
+        {
+          "term": "log1p(number_of_reviews)",
+          "estimate": 0.0359928739277881,
+          "hc3_se": 0.005786780502415396,
+          "t_value": 6.21984433533719,
+          "p_value": 6.068512401767222e-10,
+          "ci95_low": 0.024643973566940015,
+          "ci95_high": 0.04734177428863618
+        },
+        {
+          "term": "room_type_pooled=Other (<20)",
+          "estimate": -0.04032417439931749,
+          "hc3_se": 0.05369305700285736,
+          "t_value": -0.7510128245663416,
+          "p_value": 0.4527352317525412,
+          "ci95_low": -0.14562575854276646,
+          "ci95_high": 0.06497740974413149
+        },
+        {
+          "term": "room_type_pooled=Private room",
+          "estimate": -0.06085282185257644,
+          "hc3_se": 0.03430716571221077,
+          "t_value": -1.7737641856819846,
+          "p_value": 0.07625763721347037,
+          "ci95_low": -0.1281352434285236,
+          "ci95_high": 0.006429599723370705
+        },
+        {
+          "term": "property_type_pooled=Entire home",
+          "estimate": 0.03972685044867192,
+          "hc3_se": 0.03785538820625597,
+          "t_value": 1.0494371430618872,
+          "p_value": 0.29410654899209276,
+          "ci95_low": -0.034514263188643514,
+          "ci95_high": 0.11396796408598736
+        },
+        {
+          "term": "property_type_pooled=Entire loft",
+          "estimate": 0.08334005087022418,
+          "hc3_se": 0.046600350442930594,
+          "t_value": 1.788399659618163,
+          "p_value": 0.07386619534360529,
+          "ci95_low": -0.008051480869518762,
+          "ci95_high": 0.17473158260996713
+        },
+        {
+          "term": "property_type_pooled=Entire rental unit",
+          "estimate": 0.0559600571944077,
+          "hc3_se": 0.0310486973213207,
+          "t_value": 1.8023318857883524,
+          "p_value": 0.07164701642126887,
+          "ci95_low": -0.004931931379674417,
+          "ci95_high": 0.11685204576848982
+        },
+        {
+          "term": "property_type_pooled=Entire serviced apartment",
+          "estimate": 0.012216749260887585,
+          "hc3_se": 0.03620073376221194,
+          "t_value": 0.33747242089440777,
+          "p_value": 0.7357969905839983,
+          "ci95_low": -0.05877929427064933,
+          "ci95_high": 0.08321279279242451
+        },
+        {
+          "term": "property_type_pooled=Other (<20)",
+          "estimate": 0.1087580251699711,
+          "hc3_se": 0.03856470191853063,
+          "t_value": 2.82014432264319,
+          "p_value": 0.004848575522415653,
+          "ci95_low": 0.03312582185129857,
+          "ci95_high": 0.18439022848864361
+        },
+        {
+          "term": "property_type_pooled=Private room in rental unit",
+          "estimate": 0.13224310802289746,
+          "hc3_se": 0.050546735004817954,
+          "t_value": 2.6162542053466455,
+          "p_value": 0.00895841400803979,
+          "ci95_low": 0.03311201796402445,
+          "ci95_high": 0.23137419808177045
+        },
+        {
+          "term": "property_type_pooled=Room in aparthotel",
+          "estimate": 0.021295743095647794,
+          "hc3_se": 0.04046644489626233,
+          "t_value": 0.5262568320553103,
+          "p_value": 0.5987694047303821,
+          "ci95_low": -0.058066114658200045,
+          "ci95_high": 0.10065760084949563
+        },
+        {
+          "term": "property_type_pooled=Room in boutique hotel",
+          "estimate": 0.06711561966741479,
+          "hc3_se": 0.05062332565383112,
+          "t_value": 1.3257844837449069,
+          "p_value": 0.18506582298136526,
+          "ci95_low": -0.032165678204569545,
+          "ci95_high": 0.16639691753939911
+        },
+        {
+          "term": "property_type_pooled=Room in hotel",
+          "estimate": 0.0331355263175731,
+          "hc3_se": 0.05017187567317318,
+          "t_value": 0.6604402540862272,
+          "p_value": 0.5090490749507666,
+          "ci95_low": -0.06526039827193489,
+          "ci95_high": 0.13153145090708107
+        },
+        {
+          "term": "neighbourhood_cleansed_pooled=Atasehir",
+          "estimate": -0.2298293847448813,
+          "hc3_se": 0.056646701813836325,
+          "t_value": -4.05724212329594,
+          "p_value": 5.160595105738054e-05,
+          "ci95_low": -0.34092358892068586,
+          "ci95_high": -0.11873518056907673
+        },
+        {
+          "term": "neighbourhood_cleansed_pooled=Besiktas",
+          "estimate": -0.06902966420901119,
+          "hc3_se": 0.033605672432882726,
+          "t_value": -2.0541075125598898,
+          "p_value": 0.04009785645612511,
+          "ci95_low": -0.13493633335619842,
+          "ci95_high": -0.003122995061823966
+        },
+        {
+          "term": "neighbourhood_cleansed_pooled=Beyoglu",
+          "estimate": -0.13045325678535533,
+          "hc3_se": 0.025466047525175006,
+          "t_value": -5.1226346238611615,
+          "p_value": 3.3090920658150386e-07,
+          "ci95_low": -0.18039668142833254,
+          "ci95_high": -0.08050983214237811
+        },
+        {
+          "term": "neighbourhood_cleansed_pooled=Esenyurt",
+          "estimate": -0.41850302529836053,
+          "hc3_se": 0.06444328377001224,
+          "t_value": -6.494129423819103,
+          "p_value": 1.0559163921554422e-10,
+          "ci95_low": -0.5448877060593568,
+          "ci95_high": -0.2921183445373643
+        },
+        {
+          "term": "neighbourhood_cleansed_pooled=Fatih",
+          "estimate": -0.12207501729352549,
+          "hc3_se": 0.026190399821049034,
+          "t_value": -4.661059706137617,
+          "p_value": 3.3580691187035956e-06,
+          "ci95_low": -0.1734390249409202,
+          "ci95_high": -0.07071100964613078
+        },
+        {
+          "term": "neighbourhood_cleansed_pooled=Kadikoy",
+          "estimate": -0.010274081232498697,
+          "hc3_se": 0.026413151822761525,
+          "t_value": -0.3889759655129461,
+          "p_value": 0.6973362428467453,
+          "ci95_low": -0.062074944964474355,
+          "ci95_high": 0.04152678249947696
+        },
+        {
+          "term": "neighbourhood_cleansed_pooled=Kagithane",
+          "estimate": -0.30582656288904086,
+          "hc3_se": 0.06607047927187872,
+          "t_value": -4.628792862703032,
+          "p_value": 3.9194421996870254e-06,
+          "ci95_low": -0.435402461912177,
+          "ci95_high": -0.17625066386590474
+        },
+        {
+          "term": "neighbourhood_cleansed_pooled=Other (<20)",
+          "estimate": -0.13482620613662297,
+          "hc3_se": 0.028450265335964196,
+          "t_value": -4.739014014262572,
+          "p_value": 2.3023002060951913e-06,
+          "ci95_low": -0.19062220987355033,
+          "ci95_high": -0.0790302023996956
+        },
+        {
+          "term": "neighbourhood_cleansed_pooled=Sile",
+          "estimate": -0.0753846025054937,
+          "hc3_se": 0.042099303925461955,
+          "t_value": -1.7906377416349766,
+          "p_value": 0.07350595968287106,
+          "ci95_low": -0.15794878570057136,
+          "ci95_high": 0.007179580689583978
+        },
+        {
+          "term": "neighbourhood_cleansed_pooled=Sisli",
+          "estimate": -0.10318398277613129,
+          "hc3_se": 0.028949392949189058,
+          "t_value": -3.564288306743984,
+          "p_value": 0.0003735901639093115,
+          "ci95_low": -0.15995886406811238,
+          "ci95_high": -0.046409101484150214
+        }
+      ],
+      "predictor": "negative_promise_share",
+      "formula": "review_scores_location ~ negative_promise_share + log1p(number_of_reviews) + room_type_pooled + property_type_pooled + neighbourhood_cleansed_pooled"
+    },
+    "review_scores_value": {
+      "n": 1981,
+      "df_resid": 1957,
+      "rank": 24,
+      "n_columns": 24,
+      "r_squared": 0.14865340781250158,
+      "max_leverage": 0.0803567041569113,
+      "coefficients": [
+        {
+          "term": "intercept",
+          "estimate": 4.637480024453428,
+          "hc3_se": 0.06272003652515036,
+          "t_value": 73.93937059640943,
+          "p_value": 0.0,
+          "ci95_low": 4.5144749364160335,
+          "ci95_high": 4.760485112490822
+        },
+        {
+          "term": "negative_promise_share",
+          "estimate": -0.3127482741150856,
+          "hc3_se": 0.031953445604537015,
+          "t_value": -9.787622843111448,
+          "p_value": 4.056112487245719e-22,
+          "ci95_low": -0.3754146341403718,
+          "ci95_high": -0.2500819140897994,
+          "p_holm_7_outcomes": 2.4336674923474315e-21
+        },
+        {
+          "term": "log1p(number_of_reviews)",
+          "estimate": 0.04130946751885104,
+          "hc3_se": 0.0056404423757844295,
+          "t_value": 7.323799228266389,
+          "p_value": 3.504972235695374e-13,
+          "ci95_low": 0.03024756211442731,
+          "ci95_high": 0.052371372923274775
+        },
+        {
+          "term": "room_type_pooled=Other (<20)",
+          "estimate": -0.10935059787145913,
+          "hc3_se": 0.04736111690695664,
+          "t_value": -2.3088686461149983,
+          "p_value": 0.021054599534366874,
+          "ci95_low": -0.20223412724175027,
+          "ci95_high": -0.016467068501167983
+        },
+        {
+          "term": "room_type_pooled=Private room",
+          "estimate": -0.07223466439410389,
+          "hc3_se": 0.03612781204399308,
+          "t_value": -1.9994198460217643,
+          "p_value": 0.045700978926354004,
+          "ci95_low": -0.14308769553492334,
+          "ci95_high": -0.0013816332532844422
+        },
+        {
+          "term": "property_type_pooled=Entire home",
+          "estimate": -0.07243269457810178,
+          "hc3_se": 0.0319046179101044,
+          "t_value": -2.270288733191877,
+          "p_value": 0.02329836662731416,
+          "ci95_low": -0.1350032948560234,
+          "ci95_high": -0.009862094300180174
+        },
+        {
+          "term": "property_type_pooled=Entire loft",
+          "estimate": -0.039695575591964606,
+          "hc3_se": 0.04635253040166886,
+          "t_value": -0.8563842199763796,
+          "p_value": 0.3918901360670025,
+          "ci95_low": -0.1306010883865399,
+          "ci95_high": 0.05120993720261068
+        },
+        {
+          "term": "property_type_pooled=Entire rental unit",
+          "estimate": -0.04877569138245704,
+          "hc3_se": 0.024658988345843232,
+          "t_value": -1.9780086148862293,
+          "p_value": 0.0480677976433333,
+          "ci95_low": -0.09713633019007709,
+          "ci95_high": -0.0004150525748370035
+        },
+        {
+          "term": "property_type_pooled=Entire serviced apartment",
+          "estimate": -0.11176348128597609,
+          "hc3_se": 0.029369978978174314,
+          "t_value": -3.8053647014535072,
+          "p_value": 0.0001459457459426325,
+          "ci95_low": -0.16936320619076156,
+          "ci95_high": -0.0541637563811906
+        },
+        {
+          "term": "property_type_pooled=Other (<20)",
+          "estimate": 0.040060506151499156,
+          "hc3_se": 0.03642648501624003,
+          "t_value": 1.0997631567701074,
+          "p_value": 0.2715705937480272,
+          "ci95_low": -0.03137827552903649,
+          "ci95_high": 0.1114992878320348
+        },
+        {
+          "term": "property_type_pooled=Private room in rental unit",
+          "estimate": 0.11152260123782291,
+          "hc3_se": 0.0489092977784546,
+          "t_value": 2.280192239581705,
+          "p_value": 0.02270341569261949,
+          "ci95_low": 0.01560281527479121,
+          "ci95_high": 0.20744238720085462
+        },
+        {
+          "term": "property_type_pooled=Room in aparthotel",
+          "estimate": -0.073252404638198,
+          "hc3_se": 0.03282876543663133,
+          "t_value": -2.2313481382537996,
+          "p_value": 0.025770948236079592,
+          "ci95_low": -0.1376354217155646,
+          "ci95_high": -0.008869387560831415
+        },
+        {
+          "term": "property_type_pooled=Room in boutique hotel",
+          "estimate": -0.0883902244310349,
+          "hc3_se": 0.04754652790565586,
+          "t_value": -1.8590258495094132,
+          "p_value": 0.06317347851043066,
+          "ci95_low": -0.181637377572638,
+          "ci95_high": 0.004856928710568198
+        },
+        {
+          "term": "property_type_pooled=Room in hotel",
+          "estimate": -0.06375246554098192,
+          "hc3_se": 0.04649566950075086,
+          "t_value": -1.3711484580290296,
+          "p_value": 0.17048588831114594,
+          "ci95_low": -0.15493869943298696,
+          "ci95_high": 0.027433768351023124
+        },
+        {
+          "term": "neighbourhood_cleansed_pooled=Atasehir",
+          "estimate": -0.009676462294579136,
+          "hc3_se": 0.0669723093609542,
+          "t_value": -0.1444845248269227,
+          "p_value": 0.8851327528627845,
+          "ci95_low": -0.1410210096739231,
+          "ci95_high": 0.12166808508476482
+        },
+        {
+          "term": "neighbourhood_cleansed_pooled=Besiktas",
+          "estimate": 0.004558659792739572,
+          "hc3_se": 0.05682811845591262,
+          "t_value": 0.08021838337435351,
+          "p_value": 0.93607177153333,
+          "ci95_low": -0.10689133451435892,
+          "ci95_high": 0.11600865409983807
+        },
+        {
+          "term": "neighbourhood_cleansed_pooled=Beyoglu",
+          "estimate": 0.005506719846306879,
+          "hc3_se": 0.051748359215237315,
+          "t_value": 0.10641341928161896,
+          "p_value": 0.9152652530737143,
+          "ci95_low": -0.0959809678802226,
+          "ci95_high": 0.10699440757283636
+        },
+        {
+          "term": "neighbourhood_cleansed_pooled=Esenyurt",
+          "estimate": -0.15747114267377482,
+          "hc3_se": 0.07911257555708784,
+          "t_value": -1.990469170860747,
+          "p_value": 0.04667816600194977,
+          "ci95_low": -0.31262489991628606,
+          "ci95_high": -0.0023173854312635855
+        },
+        {
+          "term": "neighbourhood_cleansed_pooled=Fatih",
+          "estimate": 0.02940732285663698,
+          "hc3_se": 0.05235021725367598,
+          "t_value": 0.5617421359330085,
+          "p_value": 0.5743560460753088,
+          "ci95_low": -0.073260714963829,
+          "ci95_high": 0.13207536067710296
+        },
+        {
+          "term": "neighbourhood_cleansed_pooled=Kadikoy",
+          "estimate": -0.013194631752137687,
+          "hc3_se": 0.05398622396155462,
+          "t_value": -0.24440738366020973,
+          "p_value": 0.8069409450830999,
+          "ci95_low": -0.1190711681686095,
+          "ci95_high": 0.09268190466433414
+        },
+        {
+          "term": "neighbourhood_cleansed_pooled=Kagithane",
+          "estimate": -0.12128688334323241,
+          "hc3_se": 0.07129843771850934,
+          "t_value": -1.7011155815514578,
+          "p_value": 0.08908014337435348,
+          "ci95_low": -0.26111573380917863,
+          "ci95_high": 0.01854196712271379
+        },
+        {
+          "term": "neighbourhood_cleansed_pooled=Other (<20)",
+          "estimate": -0.01159816532889162,
+          "hc3_se": 0.05399195097213194,
+          "t_value": -0.2148128585847553,
+          "p_value": 0.8299356088844755,
+          "ci95_low": -0.1174859334263267,
+          "ci95_high": 0.09428960276854347
+        },
+        {
+          "term": "neighbourhood_cleansed_pooled=Sile",
+          "estimate": -0.11179694737668729,
+          "hc3_se": 0.08405455403938988,
+          "t_value": -1.330052233984808,
+          "p_value": 0.1836560462167868,
+          "ci95_low": -0.2766427987564638,
+          "ci95_high": 0.05304890400308922
+        },
+        {
+          "term": "neighbourhood_cleansed_pooled=Sisli",
+          "estimate": -0.03574525566306197,
+          "hc3_se": 0.05362007002648579,
+          "t_value": -0.6666394811757146,
+          "p_value": 0.5050810267708443,
+          "ci95_low": -0.14090369943301057,
+          "ci95_high": 0.06941318810688661
+        }
+      ],
+      "predictor": "negative_promise_share",
+      "formula": "review_scores_value ~ negative_promise_share + log1p(number_of_reviews) + room_type_pooled + property_type_pooled + neighbourhood_cleansed_pooled"
+    }
+  },
+  "verified_negative_share": {
+    "review_scores_rating": {
+      "n": 1967,
+      "df_resid": 1943,
+      "rank": 24,
+      "n_columns": 24,
+      "r_squared": 0.15273125868173487,
+      "max_leverage": 0.08028049813448251,
+      "coefficients": [
+        {
+          "term": "intercept",
+          "estimate": 4.746152257957336,
+          "hc3_se": 0.05110206544343203,
+          "t_value": 92.87593792487975,
+          "p_value": 0.0,
+          "ci95_low": 4.645931619772943,
+          "ci95_high": 4.8463728961417285
+        },
+        {
+          "term": "verified_negative_share",
+          "estimate": -0.25428943561014644,
+          "hc3_se": 0.026401648718197036,
+          "t_value": -9.631574085556268,
+          "p_value": 1.760830594302462e-21,
+          "ci95_low": -0.30606797060080887,
+          "ci95_high": -0.202510900619484,
+          "p_holm_7_outcomes": 1.2325814160117235e-20
+        },
+        {
+          "term": "log1p(number_of_reviews)",
+          "estimate": 0.04436993999346543,
+          "hc3_se": 0.0058107650025067716,
+          "t_value": 7.6358173105131915,
+          "p_value": 3.496450715018566e-14,
+          "ci95_low": 0.03297395096958905,
+          "ci95_high": 0.055765929017341814
+        },
+        {
+          "term": "room_type_pooled=Other (<20)",
+          "estimate": -0.16343881875670954,
+          "hc3_se": 0.050677110262706285,
+          "t_value": -3.2251013901435015,
+          "p_value": 0.0012801921219665452,
+          "ci95_low": -0.2628260409325217,
+          "ci95_high": -0.06405159658089739
+        },
+        {
+          "term": "room_type_pooled=Private room",
+          "estimate": -0.08785212985037867,
+          "hc3_se": 0.03518141131756992,
+          "t_value": -2.4971178403665837,
+          "p_value": 0.012602924100492501,
+          "ci95_low": -0.15684940939043007,
+          "ci95_high": -0.018854850310327256
+        },
+        {
+          "term": "property_type_pooled=Entire home",
+          "estimate": -0.09408912463321392,
+          "hc3_se": 0.027377855989454105,
+          "t_value": -3.4366871046972,
+          "p_value": 0.0006012711386159656,
+          "ci95_low": -0.14778218333004492,
+          "ci95_high": -0.04039606593638293
+        },
+        {
+          "term": "property_type_pooled=Entire loft",
+          "estimate": -0.03833090779237655,
+          "hc3_se": 0.04142330971178306,
+          "t_value": -0.9253463342035447,
+          "p_value": 0.35490069581510675,
+          "ci95_low": -0.11956970898369383,
+          "ci95_high": 0.04290789339894073
+        },
+        {
+          "term": "property_type_pooled=Entire rental unit",
+          "estimate": -0.06930403430764046,
+          "hc3_se": 0.01847004171970249,
+          "t_value": -3.752240268830144,
+          "p_value": 0.00018040248481193734,
+          "ci95_low": -0.10552721535479437,
+          "ci95_high": -0.03308085326048655
+        },
+        {
+          "term": "property_type_pooled=Entire serviced apartment",
+          "estimate": -0.1326022079475221,
+          "hc3_se": 0.025277110643470886,
+          "t_value": -5.245940084602725,
+          "p_value": 1.7243707503880298e-07,
+          "ci95_low": -0.18217531498661843,
+          "ci95_high": -0.08302910090842573
+        },
+        {
+          "term": "property_type_pooled=Other (<20)",
+          "estimate": -0.0010426953541347091,
+          "hc3_se": 0.03262804149600955,
+          "t_value": -0.03195703163066751,
+          "p_value": 0.9745095993886229,
+          "ci95_low": -0.0650323426034557,
+          "ci95_high": 0.06294695189518629
+        },
+        {
+          "term": "property_type_pooled=Private room in rental unit",
+          "estimate": 0.054748684789419244,
+          "hc3_se": 0.04791943606826413,
+          "t_value": 1.1425152147330455,
+          "p_value": 0.2533806900828243,
+          "ci95_low": -0.03923022628833052,
+          "ci95_high": 0.148727595867169
+        },
+        {
+          "term": "property_type_pooled=Room in aparthotel",
+          "estimate": -0.11920244634950239,
+          "hc3_se": 0.03006438816645959,
+          "t_value": -3.964905112637114,
+          "p_value": 7.608406259307322e-05,
+          "ci95_low": -0.1781642934396409,
+          "ci95_high": -0.060240599259363876
+        },
+        {
+          "term": "property_type_pooled=Room in boutique hotel",
+          "estimate": -0.16139759743603901,
+          "hc3_se": 0.04667344253827387,
+          "t_value": -3.4580178503800587,
+          "p_value": 0.0005558889819578642,
+          "ci95_low": -0.2529328838644587,
+          "ci95_high": -0.06986231100761932
+        },
+        {
+          "term": "property_type_pooled=Room in hotel",
+          "estimate": -0.13292885909915605,
+          "hc3_se": 0.043714204761029926,
+          "t_value": -3.0408618851888316,
+          "p_value": 0.0023905434753292015,
+          "ci95_low": -0.21866053082039622,
+          "ci95_high": -0.04719718737791588
+        },
+        {
+          "term": "neighbourhood_cleansed_pooled=Atasehir",
+          "estimate": 0.006208721257677397,
+          "hc3_se": 0.055068903911772826,
+          "t_value": 0.11274459480117008,
+          "p_value": 0.9102446917144615,
+          "ci95_low": -0.10179162366501941,
+          "ci95_high": 0.1142090661803742
+        },
+        {
+          "term": "neighbourhood_cleansed_pooled=Besiktas",
+          "estimate": -0.03847489919590914,
+          "hc3_se": 0.050006054435318484,
+          "t_value": -0.7694048176841349,
+          "p_value": 0.44174655014704717,
+          "ci95_low": -0.13654605630283267,
+          "ci95_high": 0.05959625791101439
+        },
+        {
+          "term": "neighbourhood_cleansed_pooled=Beyoglu",
+          "estimate": -0.06507440258345117,
+          "hc3_se": 0.042521863460678044,
+          "t_value": -1.530375136160919,
+          "p_value": 0.12608668237222656,
+          "ci95_low": -0.14846767163900743,
+          "ci95_high": 0.018318866472105108
+        },
+        {
+          "term": "neighbourhood_cleansed_pooled=Esenyurt",
+          "estimate": -0.16499271063246415,
+          "hc3_se": 0.0712712009213901,
+          "t_value": -2.3149983232981572,
+          "p_value": 0.020716767114849096,
+          "ci95_low": -0.30476876818568877,
+          "ci95_high": -0.02521665307923951
+        },
+        {
+          "term": "neighbourhood_cleansed_pooled=Fatih",
+          "estimate": -0.04503716478394406,
+          "hc3_se": 0.04330288622647379,
+          "t_value": -1.040049952984658,
+          "p_value": 0.2984460933620894,
+          "ci95_low": -0.12996216449158593,
+          "ci95_high": 0.03988783492369782
+        },
+        {
+          "term": "neighbourhood_cleansed_pooled=Kadikoy",
+          "estimate": -0.06982819913399439,
+          "hc3_se": 0.045772715392764646,
+          "t_value": -1.525541985761942,
+          "p_value": 0.1272867182290599,
+          "ci95_low": -0.1595969923968322,
+          "ci95_high": 0.019940594128843414
+        },
+        {
+          "term": "neighbourhood_cleansed_pooled=Kagithane",
+          "estimate": -0.1547863168679264,
+          "hc3_se": 0.06838776366831732,
+          "t_value": -2.263362750369271,
+          "p_value": 0.023723237091612354,
+          "ci95_low": -0.2889074186153531,
+          "ci95_high": -0.020665215120499764
+        },
+        {
+          "term": "neighbourhood_cleansed_pooled=Other (<20)",
+          "estimate": -0.04396576536256183,
+          "hc3_se": 0.04470087062304156,
+          "t_value": -0.9835550124587326,
+          "p_value": 0.32545680856613585,
+          "ci95_low": -0.13163247202823142,
+          "ci95_high": 0.04370094130310777
+        },
+        {
+          "term": "neighbourhood_cleansed_pooled=Sile",
+          "estimate": -0.12788825358197253,
+          "hc3_se": 0.07469577660645238,
+          "t_value": -1.7121216137262207,
+          "p_value": 0.087033825819983,
+          "ci95_low": -0.27438053987643307,
+          "ci95_high": 0.018604032712488033
+        },
+        {
+          "term": "neighbourhood_cleansed_pooled=Sisli",
+          "estimate": -0.07949348865804458,
+          "hc3_se": 0.04462088349971846,
+          "t_value": -1.7815310326283913,
+          "p_value": 0.07498189599350578,
+          "ci95_low": -0.16700332572409204,
+          "ci95_high": 0.008016348408002902
+        }
+      ],
+      "predictor": "verified_negative_share",
+      "formula": "review_scores_rating ~ verified_negative_share + log1p(number_of_reviews) + room_type_pooled + property_type_pooled + neighbourhood_cleansed_pooled"
+    },
+    "review_scores_accuracy": {
+      "n": 1967,
+      "df_resid": 1943,
+      "rank": 24,
+      "n_columns": 24,
+      "r_squared": 0.13209517737579013,
+      "max_leverage": 0.08028049813448251,
+      "coefficients": [
+        {
+          "term": "intercept",
+          "estimate": 4.789589770112938,
+          "hc3_se": 0.040767938819431075,
+          "t_value": 117.48422679220891,
+          "p_value": 0.0,
+          "ci95_low": 4.709636272920766,
+          "ci95_high": 4.869543267305111
+        },
+        {
+          "term": "verified_negative_share",
+          "estimate": -0.22015868695773264,
+          "hc3_se": 0.025422981354928348,
+          "t_value": -8.659829619670235,
+          "p_value": 9.748724771019477e-18,
+          "ci95_low": -0.2700178735450395,
+          "ci95_high": -0.17029950037042582,
+          "p_holm_7_outcomes": 4.756121895608902e-17
+        },
+        {
+          "term": "log1p(number_of_reviews)",
+          "estimate": 0.04055244348875986,
+          "hc3_se": 0.0053551230060545525,
+          "t_value": 7.572644632608977,
+          "p_value": 5.6184015731880854e-14,
+          "ci95_low": 0.030050053016562394,
+          "ci95_high": 0.05105483396095732
+        },
+        {
+          "term": "room_type_pooled=Other (<20)",
+          "estimate": -0.12066789065341509,
+          "hc3_se": 0.045180411157202345,
+          "t_value": -2.6708010742434127,
+          "p_value": 0.007630165529872799,
+          "ci95_low": -0.20927506534032503,
+          "ci95_high": -0.03206071596650516
+        },
+        {
+          "term": "room_type_pooled=Private room",
+          "estimate": -0.06321511315022685,
+          "hc3_se": 0.03326221171155648,
+          "t_value": -1.900508411720068,
+          "p_value": 0.057514307998316604,
+          "ci95_low": -0.12844848593526031,
+          "ci95_high": 0.0020182596348066323
+        },
+        {
+          "term": "property_type_pooled=Entire home",
+          "estimate": -0.11564618832627999,
+          "hc3_se": 0.026155614556118596,
+          "t_value": -4.421467065059911,
+          "p_value": 1.0344762982541358e-05,
+          "ci95_low": -0.16694220464524687,
+          "ci95_high": -0.0643501720073131
+        },
+        {
+          "term": "property_type_pooled=Entire loft",
+          "estimate": -0.04445018932231563,
+          "hc3_se": 0.03697332221563461,
+          "t_value": -1.202223296653589,
+          "p_value": 0.22942351957769092,
+          "ci95_low": -0.11696173882807728,
+          "ci95_high": 0.028061360183446023
+        },
+        {
+          "term": "property_type_pooled=Entire rental unit",
+          "estimate": -0.07354664976230386,
+          "hc3_se": 0.017171759427966917,
+          "t_value": -4.283000240646369,
+          "p_value": 1.9338617103004737e-05,
+          "ci95_low": -0.10722365819016771,
+          "ci95_high": -0.039869641334440015
+        },
+        {
+          "term": "property_type_pooled=Entire serviced apartment",
+          "estimate": -0.134295722408751,
+          "hc3_se": 0.024489137943159545,
+          "t_value": -5.483889335772365,
+          "p_value": 4.704181056547165e-08,
+          "ci95_low": -0.18232346868381916,
+          "ci95_high": -0.08626797613368287
+        },
+        {
+          "term": "property_type_pooled=Other (<20)",
+          "estimate": -0.04214953373226274,
+          "hc3_se": 0.03123244255942601,
+          "t_value": -1.3495433042761469,
+          "p_value": 0.1773197373888632,
+          "ci95_low": -0.1034021523534808,
+          "ci95_high": 0.019103084888955325
+        },
+        {
+          "term": "property_type_pooled=Private room in rental unit",
+          "estimate": 0.01270567009884882,
+          "hc3_se": 0.04374185498181716,
+          "t_value": 0.29046939376783126,
+          "p_value": 0.7714881602433751,
+          "ci95_low": -0.07308022883902517,
+          "ci95_high": 0.0984915690367228
+        },
+        {
+          "term": "property_type_pooled=Room in aparthotel",
+          "estimate": -0.10408043798988363,
+          "hc3_se": 0.027792872795071935,
+          "t_value": -3.7448607330847263,
+          "p_value": 0.00018574897394958094,
+          "ci95_low": -0.1585874216965033,
+          "ci95_high": -0.049573454283263964
+        },
+        {
+          "term": "property_type_pooled=Room in boutique hotel",
+          "estimate": -0.14316592474081724,
+          "hc3_se": 0.04250094622057458,
+          "t_value": -3.3685349967928726,
+          "p_value": 0.0007704454660499805,
+          "ci95_low": -0.22651817120493745,
+          "ci95_high": -0.059813678276697035
+        },
+        {
+          "term": "property_type_pooled=Room in hotel",
+          "estimate": -0.12863392695993364,
+          "hc3_se": 0.041489027158930464,
+          "t_value": -3.1004324701849595,
+          "p_value": 0.001960116564176599,
+          "ci95_low": -0.2100016122665173,
+          "ci95_high": -0.04726624165334997
+        },
+        {
+          "term": "neighbourhood_cleansed_pooled=Atasehir",
+          "estimate": -0.004697230363881925,
+          "hc3_se": 0.04607634756404884,
+          "t_value": -0.10194450324762608,
+          "p_value": 0.9188112445114517,
+          "ci95_low": -0.09506150268838505,
+          "ci95_high": 0.0856670419606212
+        },
+        {
+          "term": "neighbourhood_cleansed_pooled=Besiktas",
+          "estimate": -0.045651371740109,
+          "hc3_se": 0.040848758828141915,
+          "t_value": -1.1175705957718947,
+          "p_value": 0.26388859741569504,
+          "ci95_low": -0.1257633719747866,
+          "ci95_high": 0.0344606284945686
+        },
+        {
+          "term": "neighbourhood_cleansed_pooled=Beyoglu",
+          "estimate": -0.0704149872105803,
+          "hc3_se": 0.03266298883527681,
+          "t_value": -2.1558035477307707,
+          "p_value": 0.031221437855503537,
+          "ci95_low": -0.13447317268069175,
+          "ci95_high": -0.006356801740468834
+        },
+        {
+          "term": "neighbourhood_cleansed_pooled=Esenyurt",
+          "estimate": -0.12874875485229428,
+          "hc3_se": 0.06168099684591326,
+          "t_value": -2.087332589223948,
+          "p_value": 0.036988089685216184,
+          "ci95_low": -0.24971664165111382,
+          "ci95_high": -0.007780868053474749
+        },
+        {
+          "term": "neighbourhood_cleansed_pooled=Fatih",
+          "estimate": -0.07007902916764565,
+          "hc3_se": 0.033574054502205984,
+          "t_value": -2.0872971765456896,
+          "p_value": 0.03699129249031112,
+          "ci95_low": -0.13592398356334204,
+          "ci95_high": -0.004234074771949259
+        },
+        {
+          "term": "neighbourhood_cleansed_pooled=Kadikoy",
+          "estimate": -0.035893919469244445,
+          "hc3_se": 0.035225323763779126,
+          "t_value": -1.0189805411001733,
+          "p_value": 0.3083390634932478,
+          "ci95_low": -0.10497731946930342,
+          "ci95_high": 0.033189480530814525
+        },
+        {
+          "term": "neighbourhood_cleansed_pooled=Kagithane",
+          "estimate": -0.12255811093281584,
+          "hc3_se": 0.05256351988357905,
+          "t_value": -2.3316191762702565,
+          "p_value": 0.019822489000374893,
+          "ci95_low": -0.2256449326148422,
+          "ci95_high": -0.019471289250789475
+        },
+        {
+          "term": "neighbourhood_cleansed_pooled=Other (<20)",
+          "estimate": -0.04283474056900581,
+          "hc3_se": 0.03512713753064035,
+          "t_value": -1.2194201856511182,
+          "p_value": 0.2228327582153281,
+          "ci95_low": -0.11172557913616178,
+          "ci95_high": 0.02605609799815016
+        },
+        {
+          "term": "neighbourhood_cleansed_pooled=Sile",
+          "estimate": -0.08625918587534459,
+          "hc3_se": 0.07094211585700626,
+          "t_value": -1.215909404918399,
+          "p_value": 0.2241671374762178,
+          "ci95_low": -0.22538984651783167,
+          "ci95_high": 0.05287147476714249
+        },
+        {
+          "term": "neighbourhood_cleansed_pooled=Sisli",
+          "estimate": -0.07779230404551496,
+          "hc3_se": 0.03486171992224098,
+          "t_value": -2.2314534170726685,
+          "p_value": 0.025764782187403367,
+          "ci95_low": -0.14616260940391823,
+          "ci95_high": -0.009421998687111688
+        }
+      ],
+      "predictor": "verified_negative_share",
+      "formula": "review_scores_accuracy ~ verified_negative_share + log1p(number_of_reviews) + room_type_pooled + property_type_pooled + neighbourhood_cleansed_pooled"
+    },
+    "review_scores_cleanliness": {
+      "n": 1967,
+      "df_resid": 1943,
+      "rank": 24,
+      "n_columns": 24,
+      "r_squared": 0.13027450427749387,
+      "max_leverage": 0.08028049813448251,
+      "coefficients": [
+        {
+          "term": "intercept",
+          "estimate": 4.707495740875537,
+          "hc3_se": 0.05166014925720732,
+          "t_value": 91.1243155229323,
+          "p_value": 0.0,
+          "ci95_low": 4.606180596715864,
+          "ci95_high": 4.808810885035209
+        },
+        {
+          "term": "verified_negative_share",
+          "estimate": -0.2711875618983518,
+          "hc3_se": 0.03130506852622668,
+          "t_value": -8.662736568398085,
+          "p_value": 9.512243791217804e-18,
+          "ci95_low": -0.33258261352454455,
+          "ci95_high": -0.20979251027215906,
+          "p_holm_7_outcomes": 4.756121895608902e-17
+        },
+        {
+          "term": "log1p(number_of_reviews)",
+          "estimate": 0.04579373614046347,
+          "hc3_se": 0.006505411779940766,
+          "t_value": 7.039329359851904,
+          "p_value": 2.668529440052148e-12,
+          "ci95_low": 0.03303541581465114,
+          "ci95_high": 0.0585520564662758
+        },
+        {
+          "term": "room_type_pooled=Other (<20)",
+          "estimate": -0.11641171224157998,
+          "hc3_se": 0.0632878881328995,
+          "t_value": -1.8393995387731172,
+          "p_value": 0.06600892924996869,
+          "ci95_low": -0.24053101119717368,
+          "ci95_high": 0.007707586714013739
+        },
+        {
+          "term": "room_type_pooled=Private room",
+          "estimate": -0.07357503363852896,
+          "hc3_se": 0.03746581023520357,
+          "t_value": -1.9637913387335877,
+          "p_value": 0.04969668775600792,
+          "ci95_low": -0.1470524435883074,
+          "ci95_high": -9.762368875051997e-05
+        },
+        {
+          "term": "property_type_pooled=Entire home",
+          "estimate": -0.11455430833428253,
+          "hc3_se": 0.03587314733234299,
+          "t_value": -3.1933163620411174,
+          "p_value": 0.0014290011960310536,
+          "ci95_low": -0.1849082106302659,
+          "ci95_high": -0.044200406038299125
+        },
+        {
+          "term": "property_type_pooled=Entire loft",
+          "estimate": -0.06709805135465428,
+          "hc3_se": 0.054078794649576684,
+          "t_value": -1.240746059327702,
+          "p_value": 0.21484936331514726,
+          "ci95_low": -0.17315660818584197,
+          "ci95_high": 0.0389605054765334
+        },
+        {
+          "term": "property_type_pooled=Entire rental unit",
+          "estimate": -0.06719687622251025,
+          "hc3_se": 0.025296207581278565,
+          "t_value": -2.6564012019035568,
+          "p_value": 0.007962572450604711,
+          "ci95_low": -0.11680743590227476,
+          "ci95_high": -0.017586316542745742
+        },
+        {
+          "term": "property_type_pooled=Entire serviced apartment",
+          "estimate": -0.12022857142123815,
+          "hc3_se": 0.031103876974348056,
+          "t_value": -3.8653885983536034,
+          "p_value": 0.00011455626155143439,
+          "ci95_low": -0.18122904906002713,
+          "ci95_high": -0.05922809378244917
+        },
+        {
+          "term": "property_type_pooled=Other (<20)",
+          "estimate": -0.014614317924456277,
+          "hc3_se": 0.040322108387756427,
+          "t_value": -0.36243932941001245,
+          "p_value": 0.7170631712518232,
+          "ci95_low": -0.09369345886514013,
+          "ci95_high": 0.06446482301622758
+        },
+        {
+          "term": "property_type_pooled=Private room in rental unit",
+          "estimate": -0.016184526351817496,
+          "hc3_se": 0.0553337548873589,
+          "t_value": -0.29248921177975007,
+          "p_value": 0.7699438363376813,
+          "ci95_low": -0.12470429321111641,
+          "ci95_high": 0.09233524050748142
+        },
+        {
+          "term": "property_type_pooled=Room in aparthotel",
+          "estimate": -0.12088175500832238,
+          "hc3_se": 0.03893430189208111,
+          "t_value": -3.1047623595097424,
+          "p_value": 0.0019317916758021883,
+          "ci95_low": -0.19723914974430556,
+          "ci95_high": -0.04452436027233919
+        },
+        {
+          "term": "property_type_pooled=Room in boutique hotel",
+          "estimate": -0.19786092556064627,
+          "hc3_se": 0.05446848925018058,
+          "t_value": -3.6325759771277353,
+          "p_value": 0.0002878846573584211,
+          "ci95_low": -0.30468374585615066,
+          "ci95_high": -0.09103810526514192
+        },
+        {
+          "term": "property_type_pooled=Room in hotel",
+          "estimate": -0.15042377044590802,
+          "hc3_se": 0.05092222535614469,
+          "t_value": -2.953990509917035,
+          "p_value": 0.003174629859120354,
+          "ci95_low": -0.250291708829174,
+          "ci95_high": -0.050555832062642025
+        },
+        {
+          "term": "neighbourhood_cleansed_pooled=Atasehir",
+          "estimate": 0.0373933428271255,
+          "hc3_se": 0.06229071643518072,
+          "t_value": 0.6003036241529948,
+          "p_value": 0.548373911139133,
+          "ci95_low": -0.08477031728965422,
+          "ci95_high": 0.15955700294390524
+        },
+        {
+          "term": "neighbourhood_cleansed_pooled=Besiktas",
+          "estimate": -0.023987487390731664,
+          "hc3_se": 0.046852762702453025,
+          "t_value": -0.5119759435119879,
+          "p_value": 0.60872603006755,
+          "ci95_low": -0.11587445395453178,
+          "ci95_high": 0.06789947917306846
+        },
+        {
+          "term": "neighbourhood_cleansed_pooled=Beyoglu",
+          "estimate": -0.06302088205636795,
+          "hc3_se": 0.03909127120607993,
+          "t_value": -1.6121471651340469,
+          "p_value": 0.10709232411272519,
+          "ci95_low": -0.13968612276076395,
+          "ci95_high": 0.013644358648028043
+        },
+        {
+          "term": "neighbourhood_cleansed_pooled=Esenyurt",
+          "estimate": -0.1372753259904018,
+          "hc3_se": 0.060810784835578106,
+          "t_value": -2.257417436094118,
+          "p_value": 0.024092608609424394,
+          "ci95_low": -0.2565365654692993,
+          "ci95_high": -0.018014086511504268
+        },
+        {
+          "term": "neighbourhood_cleansed_pooled=Fatih",
+          "estimate": -0.04686955942036701,
+          "hc3_se": 0.04002577759992614,
+          "t_value": -1.1709843563527296,
+          "p_value": 0.24174865192463943,
+          "ci95_low": -0.12536754066794786,
+          "ci95_high": 0.03162842182721384
+        },
+        {
+          "term": "neighbourhood_cleansed_pooled=Kadikoy",
+          "estimate": -0.07820131385786144,
+          "hc3_se": 0.04319566783970971,
+          "t_value": -1.8103971478818321,
+          "p_value": 0.07038863668654975,
+          "ci95_low": -0.162916038402389,
+          "ci95_high": 0.00651341068666611
+        },
+        {
+          "term": "neighbourhood_cleansed_pooled=Kagithane",
+          "estimate": -0.21525132990721724,
+          "hc3_se": 0.07503939493819273,
+          "t_value": -2.8685110012482387,
+          "p_value": 0.00416861163404337,
+          "ci95_low": -0.36241751554801627,
+          "ci95_high": -0.06808514426641821
+        },
+        {
+          "term": "neighbourhood_cleansed_pooled=Other (<20)",
+          "estimate": -0.04884760266000149,
+          "hc3_se": 0.041783012637834335,
+          "t_value": -1.169078043352245,
+          "p_value": 0.2425155920094341,
+          "ci95_low": -0.13079184807344238,
+          "ci95_high": 0.033096642753439404
+        },
+        {
+          "term": "neighbourhood_cleansed_pooled=Sile",
+          "estimate": -0.17723335942647309,
+          "hc3_se": 0.09010043844245327,
+          "t_value": -1.9670643394224014,
+          "p_value": 0.04931788531360393,
+          "ci95_low": -0.35393704768330186,
+          "ci95_high": -0.0005296711696443079
+        },
+        {
+          "term": "neighbourhood_cleansed_pooled=Sisli",
+          "estimate": -0.0732363055278158,
+          "hc3_se": 0.042111838648401,
+          "t_value": -1.7390906661492116,
+          "p_value": 0.08217719185514417,
+          "ci95_low": -0.15582543979936164,
+          "ci95_high": 0.00935282874373003
+        }
+      ],
+      "predictor": "verified_negative_share",
+      "formula": "review_scores_cleanliness ~ verified_negative_share + log1p(number_of_reviews) + room_type_pooled + property_type_pooled + neighbourhood_cleansed_pooled"
+    },
+    "review_scores_checkin": {
+      "n": 1967,
+      "df_resid": 1943,
+      "rank": 24,
+      "n_columns": 24,
+      "r_squared": 0.09281860748057791,
+      "max_leverage": 0.08028049813448251,
+      "coefficients": [
+        {
+          "term": "intercept",
+          "estimate": 4.807644050055414,
+          "hc3_se": 0.03577376779524558,
+          "t_value": 134.39020674513242,
+          "p_value": 0.0,
+          "ci95_low": 4.737485049482951,
+          "ci95_high": 4.877803050627877
+        },
+        {
+          "term": "verified_negative_share",
+          "estimate": -0.1447718712812131,
+          "hc3_se": 0.02198981829453631,
+          "t_value": -6.583586519092965,
+          "p_value": 5.891422306335377e-11,
+          "ci95_low": -0.18789798768988986,
+          "ci95_high": -0.10164575487253635,
+          "p_holm_7_outcomes": 1.1782844612670754e-10
+        },
+        {
+          "term": "log1p(number_of_reviews)",
+          "estimate": 0.027580371880875205,
+          "hc3_se": 0.004184956373950632,
+          "t_value": 6.590360667210281,
+          "p_value": 5.634383210933768e-11,
+          "ci95_low": 0.019372895432874186,
+          "ci95_high": 0.03578784832887623
+        },
+        {
+          "term": "room_type_pooled=Other (<20)",
+          "estimate": -0.07885990219210552,
+          "hc3_se": 0.03410085282784696,
+          "t_value": -2.3125492664426286,
+          "p_value": 0.02085146978330987,
+          "ci95_low": -0.14573800591223873,
+          "ci95_high": -0.01198179847197231
+        },
+        {
+          "term": "room_type_pooled=Private room",
+          "estimate": -0.04946492720447762,
+          "hc3_se": 0.023328628197706484,
+          "t_value": -2.1203530179858876,
+          "p_value": 0.03410268973731672,
+          "ci95_low": -0.09521669840301464,
+          "ci95_high": -0.0037131560059405974
+        },
+        {
+          "term": "property_type_pooled=Entire home",
+          "estimate": -0.047621984324786176,
+          "hc3_se": 0.021026724072945552,
+          "t_value": -2.2648313717142434,
+          "p_value": 0.02363275520630542,
+          "ci95_low": -0.08885929415232048,
+          "ci95_high": -0.0063846744972518715
+        },
+        {
+          "term": "property_type_pooled=Entire loft",
+          "estimate": -0.021413719698429066,
+          "hc3_se": 0.02309075654897638,
+          "t_value": -0.9273719400665693,
+          "p_value": 0.35384863373788217,
+          "ci95_low": -0.06669898042943725,
+          "ci95_high": 0.02387154103257912
+        },
+        {
+          "term": "property_type_pooled=Entire rental unit",
+          "estimate": -0.03802424061073053,
+          "hc3_se": 0.014364970030491598,
+          "t_value": -2.6470114820997828,
+          "p_value": 0.008186257632823215,
+          "ci95_low": -0.06619661390842434,
+          "ci95_high": -0.009851867313036718
+        },
+        {
+          "term": "property_type_pooled=Entire serviced apartment",
+          "estimate": -0.05720866830027233,
+          "hc3_se": 0.01760076576909131,
+          "t_value": -3.2503510955606507,
+          "p_value": 0.001172329108005113,
+          "ci95_low": -0.09172703781441618,
+          "ci95_high": -0.02269029878612848
+        },
+        {
+          "term": "property_type_pooled=Other (<20)",
+          "estimate": 0.010384763077699071,
+          "hc3_se": 0.02217004009053501,
+          "t_value": 0.46841426696980165,
+          "p_value": 0.6395409097217701,
+          "ci95_low": -0.03309480173375744,
+          "ci95_high": 0.05386432788915557
+        },
+        {
+          "term": "property_type_pooled=Private room in rental unit",
+          "estimate": 0.027822222333892976,
+          "hc3_se": 0.03190615975231729,
+          "t_value": 0.8720015993736852,
+          "p_value": 0.3833152423926661,
+          "ci95_low": -0.03475168078808767,
+          "ci95_high": 0.09039612545587362
+        },
+        {
+          "term": "property_type_pooled=Room in aparthotel",
+          "estimate": -0.031905524277548246,
+          "hc3_se": 0.020818702244527205,
+          "t_value": -1.5325414573300566,
+          "p_value": 0.12555167116428345,
+          "ci95_low": -0.0727348646772431,
+          "ci95_high": 0.008923816122146613
+        },
+        {
+          "term": "property_type_pooled=Room in boutique hotel",
+          "estimate": -0.05594208528457508,
+          "hc3_se": 0.030471319769223012,
+          "t_value": -1.8358930859659823,
+          "p_value": 0.06652620017028832,
+          "ci95_low": -0.11570200080056799,
+          "ci95_high": 0.0038178302314178236
+        },
+        {
+          "term": "property_type_pooled=Room in hotel",
+          "estimate": -0.05886329789147689,
+          "hc3_se": 0.031237043544023204,
+          "t_value": -1.8844068200154493,
+          "p_value": 0.059659127876416244,
+          "ci95_low": -0.12012493989773049,
+          "ci95_high": 0.0023983441147767126
+        },
+        {
+          "term": "neighbourhood_cleansed_pooled=Atasehir",
+          "estimate": 0.015417561471377236,
+          "hc3_se": 0.039530458123763844,
+          "t_value": 0.3900172728357258,
+          "p_value": 0.6965665232580126,
+          "ci95_low": -0.062109006320105714,
+          "ci95_high": 0.09294412926286019
+        },
+        {
+          "term": "neighbourhood_cleansed_pooled=Besiktas",
+          "estimate": 0.01031477605765145,
+          "hc3_se": 0.034873642883712384,
+          "t_value": 0.2957756977682688,
+          "p_value": 0.7674329891415633,
+          "ci95_low": -0.058078912441870356,
+          "ci95_high": 0.07870846455717326
+        },
+        {
+          "term": "neighbourhood_cleansed_pooled=Beyoglu",
+          "estimate": -0.0016637298069298902,
+          "hc3_se": 0.02947663600527431,
+          "t_value": -0.056442322883527005,
+          "p_value": 0.9549952451701218,
+          "ci95_low": -0.0594728857841534,
+          "ci95_high": 0.056145426170293625
+        },
+        {
+          "term": "neighbourhood_cleansed_pooled=Esenyurt",
+          "estimate": -0.07619152998222642,
+          "hc3_se": 0.05850103683741598,
+          "t_value": -1.30239623263388,
+          "p_value": 0.192935323354921,
+          "ci95_low": -0.19092292479805106,
+          "ci95_high": 0.038539864833598225
+        },
+        {
+          "term": "neighbourhood_cleansed_pooled=Fatih",
+          "estimate": 0.0025170389077806554,
+          "hc3_se": 0.03000809460691207,
+          "t_value": 0.08387866476536901,
+          "p_value": 0.933161543499075,
+          "ci95_low": -0.05633440606035814,
+          "ci95_high": 0.06136848387591945
+        },
+        {
+          "term": "neighbourhood_cleansed_pooled=Kadikoy",
+          "estimate": 0.026627192812880354,
+          "hc3_se": 0.03102924224806766,
+          "t_value": 0.8581322289473104,
+          "p_value": 0.39092529381920027,
+          "ci95_low": -0.03422691227063845,
+          "ci95_high": 0.08748129789639916
+        },
+        {
+          "term": "neighbourhood_cleansed_pooled=Kagithane",
+          "estimate": -0.04603108653277228,
+          "hc3_se": 0.049401578485101454,
+          "t_value": -0.9317735980167993,
+          "p_value": 0.3515693024347841,
+          "ci95_low": -0.14291675407147222,
+          "ci95_high": 0.05085458100592766
+        },
+        {
+          "term": "neighbourhood_cleansed_pooled=Other (<20)",
+          "estimate": -0.000986588455222228,
+          "hc3_se": 0.03115404934544608,
+          "t_value": -0.03166806485675808,
+          "p_value": 0.9747400151671789,
+          "ci95_low": -0.06208546342897284,
+          "ci95_high": 0.060112286518528374
+        },
+        {
+          "term": "neighbourhood_cleansed_pooled=Sile",
+          "estimate": -0.019625869280447357,
+          "hc3_se": 0.046033121292515994,
+          "t_value": -0.4263423537095258,
+          "p_value": 0.6699056275941868,
+          "ci95_low": -0.1099053668608817,
+          "ci95_high": 0.07065362829998698
+        },
+        {
+          "term": "neighbourhood_cleansed_pooled=Sisli",
+          "estimate": -9.335559403860286e-05,
+          "hc3_se": 0.03159127898651276,
+          "t_value": -0.002955106505135771,
+          "p_value": 0.9976424729329374,
+          "ci95_low": -0.06204971907203258,
+          "ci95_high": 0.06186300788395538
+        }
+      ],
+      "predictor": "verified_negative_share",
+      "formula": "review_scores_checkin ~ verified_negative_share + log1p(number_of_reviews) + room_type_pooled + property_type_pooled + neighbourhood_cleansed_pooled"
+    },
+    "review_scores_communication": {
+      "n": 1967,
+      "df_resid": 1943,
+      "rank": 24,
+      "n_columns": 24,
+      "r_squared": 0.11634718456265913,
+      "max_leverage": 0.08028049813448251,
+      "coefficients": [
+        {
+          "term": "intercept",
+          "estimate": 4.814885959967496,
+          "hc3_se": 0.03644057102533355,
+          "t_value": 132.12981642412186,
+          "p_value": 0.0,
+          "ci95_low": 4.743419234459006,
+          "ci95_high": 4.886352685475986
+        },
+        {
+          "term": "verified_negative_share",
+          "estimate": -0.14936695160718347,
+          "hc3_se": 0.022106386097014923,
+          "t_value": -6.756733142707248,
+          "p_value": 1.859139655439032e-11,
+          "ci95_low": -0.19272167911904725,
+          "ci95_high": -0.10601222409531968,
+          "p_holm_7_outcomes": 5.577418966317096e-11
+        },
+        {
+          "term": "log1p(number_of_reviews)",
+          "estimate": 0.027831275381565976,
+          "hc3_se": 0.004199224897178704,
+          "t_value": 6.627717272362508,
+          "p_value": 4.402311302606105e-11,
+          "ci95_low": 0.01959581571035357,
+          "ci95_high": 0.03606673505277838
+        },
+        {
+          "term": "room_type_pooled=Other (<20)",
+          "estimate": -0.11801422766121963,
+          "hc3_se": 0.0350755617692854,
+          "t_value": -3.364571277217892,
+          "p_value": 0.0007815321010628019,
+          "ci95_low": -0.1868039165845601,
+          "ci95_high": -0.04922453873787916
+        },
+        {
+          "term": "room_type_pooled=Private room",
+          "estimate": -0.0568946797661985,
+          "hc3_se": 0.02380507703358139,
+          "t_value": -2.390022921830423,
+          "p_value": 0.016942097369765857,
+          "ci95_low": -0.103580855591618,
+          "ci95_high": -0.01020850394077899
+        },
+        {
+          "term": "property_type_pooled=Entire home",
+          "estimate": -0.048880208492556504,
+          "hc3_se": 0.023329221179225187,
+          "t_value": -2.095235332420125,
+          "p_value": 0.03627923338230231,
+          "ci95_low": -0.09463314263794745,
+          "ci95_high": -0.0031272743471655595
+        },
+        {
+          "term": "property_type_pooled=Entire loft",
+          "estimate": -0.02139666207846223,
+          "hc3_se": 0.028233165675136684,
+          "t_value": -0.7578555775381941,
+          "p_value": 0.44862934969853907,
+          "ci95_low": -0.07676714186973585,
+          "ci95_high": 0.03397381771281138
+        },
+        {
+          "term": "property_type_pooled=Entire rental unit",
+          "estimate": -0.04046194081011532,
+          "hc3_se": 0.017754421404464888,
+          "t_value": -2.278978283118814,
+          "p_value": 0.022776399573325928,
+          "ci95_low": -0.07528165755365472,
+          "ci95_high": -0.005642224066575913
+        },
+        {
+          "term": "property_type_pooled=Entire serviced apartment",
+          "estimate": -0.06024162656302377,
+          "hc3_se": 0.020202879568716747,
+          "t_value": -2.9818336716863487,
+          "p_value": 0.0029009077250821496,
+          "ci95_low": -0.09986322435891988,
+          "ci95_high": -0.020620028767127666
+        },
+        {
+          "term": "property_type_pooled=Other (<20)",
+          "estimate": -0.0010838365089278282,
+          "hc3_se": 0.02396644621373557,
+          "t_value": -0.045223079770027125,
+          "p_value": 0.96393414517712,
+          "ci95_low": -0.04808648725719065,
+          "ci95_high": 0.04591881423933499
+        },
+        {
+          "term": "property_type_pooled=Private room in rental unit",
+          "estimate": 0.026507339069250554,
+          "hc3_se": 0.0324723605781702,
+          "t_value": 0.8163046540900486,
+          "p_value": 0.4144259781544929,
+          "ci95_low": -0.03717698899573603,
+          "ci95_high": 0.09019166713423714
+        },
+        {
+          "term": "property_type_pooled=Room in aparthotel",
+          "estimate": -0.04640268487237788,
+          "hc3_se": 0.024003785679397562,
+          "t_value": -1.9331402759609406,
+          "p_value": 0.053364051860448285,
+          "ci95_low": -0.09347856524542468,
+          "ci95_high": 0.0006731955006689244
+        },
+        {
+          "term": "property_type_pooled=Room in boutique hotel",
+          "estimate": -0.06721189683250627,
+          "hc3_se": 0.03304277920740375,
+          "t_value": -2.0340872785133763,
+          "p_value": 0.042078379400538955,
+          "ci95_low": -0.13201492173602544,
+          "ci95_high": -0.0024088719289870886
+        },
+        {
+          "term": "property_type_pooled=Room in hotel",
+          "estimate": -0.07810551844421133,
+          "hc3_se": 0.03337768861620313,
+          "t_value": -2.3400517436157986,
+          "p_value": 0.01938181422486153,
+          "ci95_low": -0.14356536287924215,
+          "ci95_high": -0.012645674009180527
+        },
+        {
+          "term": "neighbourhood_cleansed_pooled=Atasehir",
+          "estimate": -0.0306917593316007,
+          "hc3_se": 0.05010878182808272,
+          "t_value": -0.6125026035735709,
+          "p_value": 0.5402769504733353,
+          "ci95_low": -0.1289643839285858,
+          "ci95_high": 0.0675808652653844
+        },
+        {
+          "term": "neighbourhood_cleansed_pooled=Besiktas",
+          "estimate": 0.005045480136428338,
+          "hc3_se": 0.03385998183142257,
+          "t_value": 0.14901012533166977,
+          "p_value": 0.8815611069114483,
+          "ci95_low": -0.061360230838474535,
+          "ci95_high": 0.0714511911113312
+        },
+        {
+          "term": "neighbourhood_cleansed_pooled=Beyoglu",
+          "estimate": 0.014791641379677305,
+          "hc3_se": 0.02799952254976825,
+          "t_value": 0.528281914571423,
+          "p_value": 0.5973640123279822,
+          "ci95_low": -0.040120620863467245,
+          "ci95_high": 0.06970390362282186
+        },
+        {
+          "term": "neighbourhood_cleansed_pooled=Esenyurt",
+          "estimate": -0.06183450187414473,
+          "hc3_se": 0.04606125192841507,
+          "t_value": -1.3424407562834648,
+          "p_value": 0.17960994864991758,
+          "ci95_low": -0.15216916885444332,
+          "ci95_high": 0.02850016510615387
+        },
+        {
+          "term": "neighbourhood_cleansed_pooled=Fatih",
+          "estimate": 0.03415420023129914,
+          "hc3_se": 0.02835874894054259,
+          "t_value": 1.2043620225598592,
+          "p_value": 0.22859636948824089,
+          "ci95_low": -0.02146257165981518,
+          "ci95_high": 0.08977097212241347
+        },
+        {
+          "term": "neighbourhood_cleansed_pooled=Kadikoy",
+          "estimate": 0.012195635655842908,
+          "hc3_se": 0.029966847080225508,
+          "t_value": 0.4069709310156473,
+          "p_value": 0.6840741646722044,
+          "ci95_low": -0.046574915254253724,
+          "ci95_high": 0.07096618656593955
+        },
+        {
+          "term": "neighbourhood_cleansed_pooled=Kagithane",
+          "estimate": -0.07610065086137117,
+          "hc3_se": 0.050003304524514874,
+          "t_value": -1.5219124332885177,
+          "p_value": 0.12819374226970118,
+          "ci95_low": -0.17416641488264745,
+          "ci95_high": 0.02196511315990511
+        },
+        {
+          "term": "neighbourhood_cleansed_pooled=Other (<20)",
+          "estimate": 0.017927138527437447,
+          "hc3_se": 0.02961092481553254,
+          "t_value": 0.6054231213350583,
+          "p_value": 0.5449685981156398,
+          "ci95_low": -0.04014538273939458,
+          "ci95_high": 0.07599965979426947
+        },
+        {
+          "term": "neighbourhood_cleansed_pooled=Sile",
+          "estimate": -0.0037602487638332214,
+          "hc3_se": 0.048106016582744104,
+          "t_value": -0.07816587260692134,
+          "p_value": 0.9377041571463192,
+          "ci95_low": -0.0981050788718941,
+          "ci95_high": 0.09058458134422764
+        },
+        {
+          "term": "neighbourhood_cleansed_pooled=Sisli",
+          "estimate": -0.00619102179869273,
+          "hc3_se": 0.030153188894966824,
+          "t_value": -0.20531897373302815,
+          "p_value": 0.8373444282509507,
+          "ci95_low": -0.06532702360459484,
+          "ci95_high": 0.05294498000720939
+        }
+      ],
+      "predictor": "verified_negative_share",
+      "formula": "review_scores_communication ~ verified_negative_share + log1p(number_of_reviews) + room_type_pooled + property_type_pooled + neighbourhood_cleansed_pooled"
+    },
+    "review_scores_location": {
+      "n": 1967,
+      "df_resid": 1943,
+      "rank": 24,
+      "n_columns": 24,
+      "r_squared": 0.12313417370383828,
+      "max_leverage": 0.08028049813448251,
+      "coefficients": [
+        {
+          "term": "intercept",
+          "estimate": 4.713220660582717,
+          "hc3_se": 0.04569458449181817,
+          "t_value": 103.1461542543765,
+          "p_value": 0.0,
+          "ci95_low": 4.623605096522786,
+          "ci95_high": 4.802836224642649
+        },
+        {
+          "term": "verified_negative_share",
+          "estimate": -0.13255409116375305,
+          "hc3_se": 0.026747050627319816,
+          "t_value": -4.95583954323399,
+          "p_value": 7.826294234607627e-07,
+          "ci95_low": -0.18501002342714826,
+          "ci95_high": -0.08009815890035785,
+          "p_holm_7_outcomes": 7.826294234607627e-07
+        },
+        {
+          "term": "log1p(number_of_reviews)",
+          "estimate": 0.03572891641485212,
+          "hc3_se": 0.005858774822207445,
+          "t_value": 6.098359725214754,
+          "p_value": 1.2895188313142286e-09,
+          "ci95_low": 0.024238771220813776,
+          "ci95_high": 0.04721906160889046
+        },
+        {
+          "term": "room_type_pooled=Other (<20)",
+          "estimate": -0.03967189221605731,
+          "hc3_se": 0.05439459186077919,
+          "t_value": -0.729335230928765,
+          "p_value": 0.4658845332936412,
+          "ci95_low": -0.14634978601080867,
+          "ci95_high": 0.06700600157869405
+        },
+        {
+          "term": "room_type_pooled=Private room",
+          "estimate": -0.059470960117109235,
+          "hc3_se": 0.03479406526658352,
+          "t_value": -1.7092271242655164,
+          "p_value": 0.08756857058558304,
+          "ci95_low": -0.12770858213468667,
+          "ci95_high": 0.008766661900468188
+        },
+        {
+          "term": "property_type_pooled=Entire home",
+          "estimate": 0.02860370390451019,
+          "hc3_se": 0.037559413404245116,
+          "t_value": 0.7615588560091112,
+          "p_value": 0.44641576095584423,
+          "ci95_low": -0.04505727923856335,
+          "ci95_high": 0.10226468704758374
+        },
+        {
+          "term": "property_type_pooled=Entire loft",
+          "estimate": 0.07470525990019851,
+          "hc3_se": 0.045903671273489856,
+          "t_value": 1.627435406094459,
+          "p_value": 0.10380679381698016,
+          "ci95_low": -0.015320362158626186,
+          "ci95_high": 0.1647308819590232
+        },
+        {
+          "term": "property_type_pooled=Entire rental unit",
+          "estimate": 0.045800867917675014,
+          "hc3_se": 0.030593722061515942,
+          "t_value": 1.4970675299194225,
+          "p_value": 0.13453810706406938,
+          "ci95_low": -0.01419910121928962,
+          "ci95_high": 0.10580083705463965
+        },
+        {
+          "term": "property_type_pooled=Entire serviced apartment",
+          "estimate": 0.006668563766295762,
+          "hc3_se": 0.0358258406396036,
+          "t_value": 0.18613837518508952,
+          "p_value": 0.8523556791771839,
+          "ci95_low": -0.06359256132204262,
+          "ci95_high": 0.07692968885463415
+        },
+        {
+          "term": "property_type_pooled=Other (<20)",
+          "estimate": 0.09753564920062678,
+          "hc3_se": 0.03838591156001403,
+          "t_value": 2.540923094873903,
+          "p_value": 0.011133212427610907,
+          "ci95_low": 0.022253749722555477,
+          "ci95_high": 0.17281754867869809
+        },
+        {
+          "term": "property_type_pooled=Private room in rental unit",
+          "estimate": 0.12247114906729425,
+          "hc3_se": 0.05057667426370218,
+          "t_value": 2.421494707792387,
+          "p_value": 0.015547863961550041,
+          "ci95_low": 0.02328090053294911,
+          "ci95_high": 0.2216613976016394
+        },
+        {
+          "term": "property_type_pooled=Room in aparthotel",
+          "estimate": 0.010986438844748848,
+          "hc3_se": 0.040550005092317806,
+          "t_value": 0.2709355725045329,
+          "p_value": 0.7864693634711739,
+          "ci95_low": -0.06853964984595393,
+          "ci95_high": 0.09051252753545164
+        },
+        {
+          "term": "property_type_pooled=Room in boutique hotel",
+          "estimate": 0.054136251862718476,
+          "hc3_se": 0.05060651720146519,
+          "t_value": 1.069748618487247,
+          "p_value": 0.2848653478682993,
+          "ci95_low": -0.04511252421336011,
+          "ci95_high": 0.15338502793879705
+        },
+        {
+          "term": "property_type_pooled=Room in hotel",
+          "estimate": 0.02143764207205872,
+          "hc3_se": 0.05030402375301293,
+          "t_value": 0.42616157660299936,
+          "p_value": 0.6700373184166685,
+          "ci95_low": -0.0772178881892486,
+          "ci95_high": 0.12009317233336606
+        },
+        {
+          "term": "neighbourhood_cleansed_pooled=Atasehir",
+          "estimate": -0.22839038294405764,
+          "hc3_se": 0.056933822607603865,
+          "t_value": -4.01150620990544,
+          "p_value": 6.261770272367614e-05,
+          "ci95_low": -0.3400481796788556,
+          "ci95_high": -0.11673258620925968
+        },
+        {
+          "term": "neighbourhood_cleansed_pooled=Besiktas",
+          "estimate": -0.06542639253951306,
+          "hc3_se": 0.03442568863106436,
+          "t_value": -1.9005107854393042,
+          "p_value": 0.057513996600008076,
+          "ci95_low": -0.13294155958029863,
+          "ci95_high": 0.002088774501272525
+        },
+        {
+          "term": "neighbourhood_cleansed_pooled=Beyoglu",
+          "estimate": -0.12599423571137688,
+          "hc3_se": 0.02623177567690122,
+          "t_value": -4.8031150183372056,
+          "p_value": 1.681722681657742e-06,
+          "ci95_low": -0.17743961812863038,
+          "ci95_high": -0.07454885329412339
+        },
+        {
+          "term": "neighbourhood_cleansed_pooled=Esenyurt",
+          "estimate": -0.41591284667593037,
+          "hc3_se": 0.06517171988153525,
+          "t_value": -6.381799458905621,
+          "p_value": 2.1825099293879855e-10,
+          "ci95_low": -0.5437266894516617,
+          "ci95_high": -0.2880990039001991
+        },
+        {
+          "term": "neighbourhood_cleansed_pooled=Fatih",
+          "estimate": -0.11832400522548847,
+          "hc3_se": 0.026956108958879097,
+          "t_value": -4.389506119224734,
+          "p_value": 1.1970790124268763e-05,
+          "ci95_low": -0.17118993969182453,
+          "ci95_high": -0.06545807075915241
+        },
+        {
+          "term": "neighbourhood_cleansed_pooled=Kadikoy",
+          "estimate": -0.007896018493060816,
+          "hc3_se": 0.02714930961463744,
+          "t_value": -0.29083680598654005,
+          "p_value": 0.7712071744890319,
+          "ci95_low": -0.06114085531588144,
+          "ci95_high": 0.0453488183297598
+        },
+        {
+          "term": "neighbourhood_cleansed_pooled=Kagithane",
+          "estimate": -0.3097967450893335,
+          "hc3_se": 0.06805524143651681,
+          "t_value": -4.552136449009848,
+          "p_value": 5.639168103952673e-06,
+          "ci95_low": -0.4432657090025578,
+          "ci95_high": -0.17632778117610923
+        },
+        {
+          "term": "neighbourhood_cleansed_pooled=Other (<20)",
+          "estimate": -0.13176068424515483,
+          "hc3_se": 0.02921560511008516,
+          "t_value": -4.509941989860458,
+          "p_value": 6.871593719268244e-06,
+          "ci95_low": -0.1890579101726887,
+          "ci95_high": -0.07446345831762097
+        },
+        {
+          "term": "neighbourhood_cleansed_pooled=Sile",
+          "estimate": -0.07080208228762162,
+          "hc3_se": 0.04303595834865486,
+          "t_value": -1.6451842831991825,
+          "p_value": 0.10009356307092936,
+          "ci95_low": -0.15520358686777533,
+          "ci95_high": 0.013599422292532082
+        },
+        {
+          "term": "neighbourhood_cleansed_pooled=Sisli",
+          "estimate": -0.10067547789962673,
+          "hc3_se": 0.029664780762754115,
+          "t_value": -3.393771176156162,
+          "p_value": 0.0007032163084280235,
+          "ci95_low": -0.15885362067810874,
+          "ci95_high": -0.04249733512114474
+        }
+      ],
+      "predictor": "verified_negative_share",
+      "formula": "review_scores_location ~ verified_negative_share + log1p(number_of_reviews) + room_type_pooled + property_type_pooled + neighbourhood_cleansed_pooled"
+    },
+    "review_scores_value": {
+      "n": 1967,
+      "df_resid": 1943,
+      "rank": 24,
+      "n_columns": 24,
+      "r_squared": 0.1407863875017219,
+      "max_leverage": 0.08028049813448251,
+      "coefficients": [
+        {
+          "term": "intercept",
+          "estimate": 4.634470386250429,
+          "hc3_se": 0.06578012179535814,
+          "t_value": 70.45396481125802,
+          "p_value": 0.0,
+          "ci95_low": 4.505463354362931,
+          "ci95_high": 4.763477418137928
+        },
+        {
+          "term": "verified_negative_share",
+          "estimate": -0.25907138495522447,
+          "hc3_se": 0.027493345770720573,
+          "t_value": -9.42305775061856,
+          "p_value": 1.1991108897780052e-20,
+          "ci95_low": -0.312990940555495,
+          "ci95_high": -0.20515182935495396,
+          "p_holm_7_outcomes": 7.194665338668031e-20
+        },
+        {
+          "term": "log1p(number_of_reviews)",
+          "estimate": 0.04110137882415465,
+          "hc3_se": 0.005696630590242564,
+          "t_value": 7.2150331977914925,
+          "p_value": 7.695296421037384e-13,
+          "ci95_low": 0.02992922857346017,
+          "ci95_high": 0.052273529074849126
+        },
+        {
+          "term": "room_type_pooled=Other (<20)",
+          "estimate": -0.10838514055918513,
+          "hc3_se": 0.047744035795659584,
+          "t_value": -2.27012942565359,
+          "p_value": 0.023308827638209233,
+          "ci95_low": -0.20202005913671778,
+          "ci95_high": -0.014750221981652475
+        },
+        {
+          "term": "room_type_pooled=Private room",
+          "estimate": -0.07059682873519707,
+          "hc3_se": 0.03650691741880078,
+          "t_value": -1.9337932021299682,
+          "p_value": 0.053283634345193585,
+          "ci95_low": -0.1421936718394593,
+          "ci95_high": 0.0010000143690651747
+        },
+        {
+          "term": "property_type_pooled=Entire home",
+          "estimate": -0.0816031017779605,
+          "hc3_se": 0.03202377121995681,
+          "t_value": -2.5482039956339206,
+          "p_value": 0.010904281849118633,
+          "ci95_low": -0.1444076628242805,
+          "ci95_high": -0.0187985407316405
+        },
+        {
+          "term": "property_type_pooled=Entire loft",
+          "estimate": -0.04424646281192755,
+          "hc3_se": 0.04606087455356536,
+          "t_value": -0.9606083957540194,
+          "p_value": 0.3368686281578502,
+          "ci95_low": -0.13458038969008068,
+          "ci95_high": 0.046087464066225575
+        },
+        {
+          "term": "property_type_pooled=Entire rental unit",
+          "estimate": -0.055518453441634745,
+          "hc3_se": 0.024740889730766456,
+          "t_value": -2.243995832235368,
+          "p_value": 0.024944863174718775,
+          "ci95_low": -0.10403993171362101,
+          "ci95_high": -0.006996975169648478
+        },
+        {
+          "term": "property_type_pooled=Entire serviced apartment",
+          "estimate": -0.11644525284127695,
+          "hc3_se": 0.02967193494365968,
+          "t_value": -3.9244239737779236,
+          "p_value": 8.996424286211587e-05,
+          "ci95_low": -0.17463742629679363,
+          "ci95_high": -0.05825307938576026
+        },
+        {
+          "term": "property_type_pooled=Other (<20)",
+          "estimate": 0.02989988058346804,
+          "hc3_se": 0.03657961608965037,
+          "t_value": 0.8173918640968937,
+          "p_value": 0.41380473964074876,
+          "ci95_low": -0.04183953811190741,
+          "ci95_high": 0.10163929927884349
+        },
+        {
+          "term": "property_type_pooled=Private room in rental unit",
+          "estimate": 0.1050064635791797,
+          "hc3_se": 0.049209364150522204,
+          "t_value": 2.1338715789536447,
+          "p_value": 0.032978194765086254,
+          "ci95_low": 0.008497764038007088,
+          "ci95_high": 0.2015151631203523
+        },
+        {
+          "term": "property_type_pooled=Room in aparthotel",
+          "estimate": -0.0814326287231389,
+          "hc3_se": 0.033094815417843315,
+          "t_value": -2.4605856746744053,
+          "p_value": 0.013957480474535721,
+          "ci95_low": -0.14633770629661763,
+          "ci95_high": -0.01652755114966016
+        },
+        {
+          "term": "property_type_pooled=Room in boutique hotel",
+          "estimate": -0.09996527165077305,
+          "hc3_se": 0.047733850068814615,
+          "t_value": -2.0942218469002603,
+          "p_value": 0.036369487801861076,
+          "ci95_low": -0.19358021412683277,
+          "ci95_high": -0.006350329174713343
+        },
+        {
+          "term": "property_type_pooled=Room in hotel",
+          "estimate": -0.07294579018200364,
+          "hc3_se": 0.04708439491584114,
+          "t_value": -1.549256188008517,
+          "p_value": 0.12148300205276936,
+          "ci95_low": -0.16528703052218405,
+          "ci95_high": 0.019395450158176758
+        },
+        {
+          "term": "neighbourhood_cleansed_pooled=Atasehir",
+          "estimate": -0.004720541698779001,
+          "hc3_se": 0.06965093551953914,
+          "t_value": -0.06777427558679021,
+          "p_value": 0.9459722950507898,
+          "ci95_low": -0.14131895797287872,
+          "ci95_high": 0.1318778745753207
+        },
+        {
+          "term": "neighbourhood_cleansed_pooled=Besiktas",
+          "estimate": 0.009915887913981937,
+          "hc3_se": 0.05978954331296424,
+          "t_value": 0.1658465237320497,
+          "p_value": 0.8682949866863175,
+          "ci95_low": -0.10734250733056541,
+          "ci95_high": 0.1271742831585293
+        },
+        {
+          "term": "neighbourhood_cleansed_pooled=Beyoglu",
+          "estimate": 0.013339070502554135,
+          "hc3_se": 0.05486640856196673,
+          "t_value": 0.24311907508013472,
+          "p_value": 0.8079388173611199,
+          "ci95_low": -0.09426414344293386,
+          "ci95_high": 0.12094228444804213
+        },
+        {
+          "term": "neighbourhood_cleansed_pooled=Esenyurt",
+          "estimate": -0.15199670849100702,
+          "hc3_se": 0.08166115830353354,
+          "t_value": -1.8613097297253254,
+          "p_value": 0.06285136678516992,
+          "ci95_low": -0.31214940151897047,
+          "ci95_high": 0.008155984536956429
+        },
+        {
+          "term": "neighbourhood_cleansed_pooled=Fatih",
+          "estimate": 0.0358902926840204,
+          "hc3_se": 0.05552188567556662,
+          "t_value": 0.6464170344238606,
+          "p_value": 0.5180856556241621,
+          "ci95_low": -0.07299843358020086,
+          "ci95_high": 0.14477901894824166
+        },
+        {
+          "term": "neighbourhood_cleansed_pooled=Kadikoy",
+          "estimate": -0.008621785053457343,
+          "hc3_se": 0.05691903636452994,
+          "t_value": -0.15147454356465798,
+          "p_value": 0.8796171153233935,
+          "ci95_low": -0.12025058322030391,
+          "ci95_high": 0.10300701311338922
+        },
+        {
+          "term": "neighbourhood_cleansed_pooled=Kagithane",
+          "estimate": -0.11961132790164207,
+          "hc3_se": 0.07460243914098398,
+          "t_value": -1.6033165842687813,
+          "p_value": 0.10902730839832606,
+          "ci95_low": -0.2659205620968463,
+          "ci95_high": 0.026697906293562126
+        },
+        {
+          "term": "neighbourhood_cleansed_pooled=Other (<20)",
+          "estimate": -0.006232824531089977,
+          "hc3_se": 0.05717579871813998,
+          "t_value": -0.10901158655983077,
+          "p_value": 0.9132045568190008,
+          "ci95_low": -0.11836518134507204,
+          "ci95_high": 0.10589953228289209
+        },
+        {
+          "term": "neighbourhood_cleansed_pooled=Sile",
+          "estimate": -0.10284119972101399,
+          "hc3_se": 0.0861595803564475,
+          "t_value": -1.193613052611835,
+          "p_value": 0.2327750788756844,
+          "ci95_low": -0.2718161335929379,
+          "ci95_high": 0.06613373415090987
+        },
+        {
+          "term": "neighbourhood_cleansed_pooled=Sisli",
+          "estimate": -0.03113126710536608,
+          "hc3_se": 0.056681754033951474,
+          "t_value": -0.5492290709055854,
+          "p_value": 0.582911369110876,
+          "ci95_low": -0.14229471056699475,
+          "ci95_high": 0.08003217635626259
+        }
+      ],
+      "predictor": "verified_negative_share",
+      "formula": "review_scores_value ~ verified_negative_share + log1p(number_of_reviews) + room_type_pooled + property_type_pooled + neighbourhood_cleansed_pooled"
+    }
+  }
+}

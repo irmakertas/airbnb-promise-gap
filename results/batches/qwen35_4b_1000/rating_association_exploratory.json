@@ -1,0 +1,14 @@
+{
+  "listings": 1000,
+  "rating_present": 1000,
+  "rated_listings_with_promises": 1000,
+  "spearman_rating_vs_negative_promise_share": {
+    "rho": -0.22480965191897612,
+    "n": 1000
+  },
+  "platform_rating_mean_has_negative_promise": 4.673539603960395,
+  "platform_rating_mean_no_negative_promise": 4.7597651006711414,
+  "n_has_negative_promise": 404,
+  "n_no_negative_promise": 596,
+  "interpretation": "Exploratory association in model-generated labels; not causal and not validated until human audit."
+}

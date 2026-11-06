@@ -1,0 +1,63 @@
+{
+  "listings": 400,
+  "unique_listings": 400,
+  "calls": 400,
+  "json_valid": 400,
+  "schema_valid": 400,
+  "model_seconds": 4164.656,
+  "mean_seconds_per_listing": 10.412,
+  "max_seconds": 27.615,
+  "calls_over_20_seconds": 1,
+  "promise_rows": 1595,
+  "labels": {
+    "positive": 1245,
+    "negative": 217,
+    "mixed": 125,
+    "insufficient_evidence": 8
+  },
+  "evidence_quotes": 1710,
+  "source_matched_quotes": 1529,
+  "quote_source_match_rate": 0.8942,
+  "raw_exact_quote_rate": 0.7836,
+  "quote_repair_rate": 0.1105,
+  "valid_review_id_rate": 0.9837,
+  "citation_alignment_rate": 0.8645,
+  "combined_evidence_validation_rate": 0.8878,
+  "part_metrics": {
+    "part_001_schema_v2": {
+      "calls": 50,
+      "schema_valid": 50,
+      "mean_seconds": 10.228,
+      "max_seconds": 15.365,
+      "over_20_seconds": 0
+    },
+    "part_002": {
+      "calls": 50,
+      "schema_valid": 50,
+      "mean_seconds": 10.325,
+      "max_seconds": 13.745,
+      "over_20_seconds": 0
+    },
+    "part_003_004": {
+      "calls": 100,
+      "schema_valid": 100,
+      "mean_seconds": 10.561,
+      "max_seconds": 27.615,
+      "over_20_seconds": 1
+    },
+    "part_005_006": {
+      "calls": 100,
+      "schema_valid": 100,
+      "mean_seconds": 10.558,
+      "max_seconds": 15.822,
+      "over_20_seconds": 0
+    },
+    "part_007_008": {
+      "calls": 100,
+      "schema_valid": 100,
+      "mean_seconds": 10.251,
+      "max_seconds": 14.122,
+      "over_20_seconds": 0
+    }
+  }
+}

@@ -1,0 +1,68 @@
+{
+  "dataset": "qwen35_4b_1000_hybrid_fast_corrected",
+  "unique_listings": 1000,
+  "selected_reviews_per_listing": 5,
+  "initial_batch_attempts": 1000,
+  "initial_batch_schema_valid": 999,
+  "targeted_retries": 1,
+  "total_attempts_including_retry": 1001,
+  "final_listing_records": 1000,
+  "final_schema_valid_records": 1000,
+  "initial_json_and_schema_valid_rate": 0.999,
+  "final_json_and_schema_valid_rate": 1.0,
+  "total_model_seconds_including_retry": 10392.995,
+  "mean_compute_seconds_per_unique_listing": 10.393,
+  "max_single_attempt_seconds": 30.642,
+  "attempts_over_20_seconds": 2,
+  "promise_count": 3995,
+  "labels": {
+    "positive": 3163,
+    "negative": 520,
+    "mixed": 291,
+    "insufficient_evidence": 21
+  },
+  "quote_validation_rate_by_promise": 0.8881101376720901,
+  "quote_source_match_rate": 0.8937660518328274,
+  "raw_exact_quote_rate": 0.7793602614989493,
+  "quote_repair_rate": 0.11440579033387813,
+  "id_validation_rate_by_promise": 0.9829787234042553,
+  "citation_alignment_rate_by_promise": 0.8590738423028786,
+  "combined_evidence_validation_rate_by_promise": 0.8871088861076345,
+  "evidence_quote_count": 4283,
+  "verified_quote_count": 3828,
+  "failed_initial_listing_id": "1402838197531909461",
+  "corrected_listing_id": "1402838197531909461",
+  "retry_settings": {
+    "model": "qwen3.5-4b",
+    "max_reviews": 5,
+    "max_promises": 4,
+    "max_tokens": 1600,
+    "same_selected_reviews": true
+  },
+  "part_directories": [
+    "part_001_schema_v2",
+    "part_002",
+    "part_003_004",
+    "part_005_006",
+    "part_007_008",
+    "part_009_010",
+    "part_011_012",
+    "part_013_014",
+    "part_015_016",
+    "part_017_018",
+    "part_019_020"
+  ],
+  "max_successful_attempt_seconds": 27.615,
+  "attempts_over_20_seconds_detail": [
+    {
+      "listing_id": "1014590985459250029",
+      "seconds": 27.615,
+      "schema_valid": true
+    },
+    {
+      "listing_id": "1402838197531909461",
+      "seconds": 30.642,
+      "schema_valid": false
+    }
+  ]
+}

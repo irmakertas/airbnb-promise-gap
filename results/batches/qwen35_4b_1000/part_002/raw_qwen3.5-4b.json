@@ -1,0 +1,3059 @@
+[
+  {
+    "model": "qwen3.5-4b",
+    "listing_id": "1034860112009719874",
+    "elapsed_seconds": 10.947,
+    "raw": "{\"promises\":[{\"promise\":\"cleanliness\",\"label\":\"positive\",\"evidence_for\":[\"everywhere was so clean\"],\"evidence_against\":[],\"evidence_review_ids\":[\"1185346922402498171\"]},{\"promise\":\"location\",\"label\":\"positive\",\"evidence_for\":[\"literally two steps away from Kadikoy's main Bahariye Street\"],\"evidence_against\":[],\"evidence_review_ids\":[\"1185346922402498171\"]},{\"promise\":\"host_responsiveness\",\"label\":\"positive\",\"evidence_for\":[\"very responsive at all times\"],\"evidence_against\":[],\"evidence_review_ids\":[\"1523094063777456793\"]},{\"promise\":\"mattress_comfort\",\"label\":\"negative\",\"evidence_for\":[\"it's quite uncomfortable\"],\"evidence_against\":[],\"evidence_review_ids\":[\"1523094063777456793\"]}]}",
+    "parsed": {
+      "promises": [
+        {
+          "promise": "cleanliness",
+          "label": "positive",
+          "evidence_for": [
+            "everywhere was so clean"
+          ],
+          "evidence_against": [],
+          "evidence_review_ids": [
+            "1185346922402498171"
+          ]
+        },
+        {
+          "promise": "location",
+          "label": "positive",
+          "evidence_for": [
+            "literally two steps away from Kadikoy's main Bahariye Street"
+          ],
+          "evidence_against": [],
+          "evidence_review_ids": [
+            "1185346922402498171"
+          ]
+        },
+        {
+          "promise": "host_responsiveness",
+          "label": "positive",
+          "evidence_for": [
+            "very responsive at all times"
+          ],
+          "evidence_against": [],
+          "evidence_review_ids": [
+            "1523094063777456793"
+          ]
+        },
+        {
+          "promise": "mattress_comfort",
+          "label": "negative",
+          "evidence_for": [
+            "it's quite uncomfortable"
+          ],
+          "evidence_against": [],
+          "evidence_review_ids": [
+            "1523094063777456793"
+          ]
+        }
+      ]
+    },
+    "json_valid": true,
+    "schema_valid": true,
+    "parse_error": null,
+    "api_error": null,
+    "finish_reason": "stop",
+    "prompt_tokens": 883,
+    "completion_tokens": 222
+  },
+  {
+    "model": "qwen3.5-4b",
+    "listing_id": "1048700088453100763",
+    "elapsed_seconds": 10.58,
+    "raw": "{\"promises\":[{\"promise\":\"cleanliness\",\"label\":\"positive\",\"evidence_for\":[\"All was clean and ready\"],\"evidence_against\":[],\"evidence_review_ids\":[\"1104162422410605467\"]},{\"promise\":\"host communication\",\"label\":\"positive\",\"evidence_for\":[\"Communication with the host was quick and very smooth\"],\"evidence_against\":[],\"evidence_review_ids\":[\"1104162422410605467\"]},{\"promise\":\"kitchen amenities\",\"label\":\"positive\",\"evidence_for\":[\"mutfak gereçlerinin bu kadar eksiksiz ve temiz olduğunu bilseydik daha çok mutfak alışverişi yapardık\"],\"evidence_against\":[],\"evidence_review_ids\":[\"1144748207786827679\"]},{\"promise\":\"location value\",\"label\":\"mixed\",\"evidence_for\":[\"Manzara gayet güzeldi, havası da son derece temiz ve iç açıcıydı\"],\"evidence_against\":[\"konum ve ortam imkanı olarak fiyat fazla olmuş\"],\"evidence_review_ids\":[\"1622384127225574765\"]}]}",
+    "parsed": {
+      "promises": [
+        {
+          "promise": "cleanliness",
+          "label": "positive",
+          "evidence_for": [
+            "All was clean and ready"
+          ],
+          "evidence_against": [],
+          "evidence_review_ids": [
+            "1104162422410605467"
+          ]
+        },
+        {
+          "promise": "host communication",
+          "label": "positive",
+          "evidence_for": [
+            "Communication with the host was quick and very smooth"
+          ],
+          "evidence_against": [],
+          "evidence_review_ids": [
+            "1104162422410605467"
+          ]
+        },
+        {
+          "promise": "kitchen amenities",
+          "label": "positive",
+          "evidence_for": [
+            "mutfak gereçlerinin bu kadar eksiksiz ve temiz olduğunu bilseydik daha çok mutfak alışverişi yapardık"
+          ],
+          "evidence_against": [],
+          "evidence_review_ids": [
+            "1144748207786827679"
+          ]
+        },
+        {
+          "promise": "location value",
+          "label": "mixed",
+          "evidence_for": [
+            "Manzara gayet güzeldi, havası da son derece temiz ve iç açıcıydı"
+          ],
+          "evidence_against": [
+            "konum ve ortam imkanı olarak fiyat fazla olmuş"
+          ],
+          "evidence_review_ids": [
+            "1622384127225574765"
+          ]
+        }
+      ]
+    },
+    "json_valid": true,
+    "schema_valid": true,
+    "parse_error": null,
+    "api_error": null,
+    "finish_reason": "stop",
+    "prompt_tokens": 947,
+    "completion_tokens": 265
+  },
+  {
+    "model": "qwen3.5-4b",
+    "listing_id": "1076821470542523076",
+    "elapsed_seconds": 9.491,
+    "raw": "{\"promises\":[{\"promise\":\"location is perfect near Taksim Square\",\"label\":\"positive\",\"evidence_for\":[\"The location is perfect, and it is near Taksim Square.\"],\"evidence_against\":[],\"evidence_review_ids\":[\"1262236617233251369\"]},{\"promise\":\"apartment has free parking\",\"label\":\"positive\",\"evidence_for\":[\"the apartment has free parking,\"],\"evidence_against\":[],\"evidence_review_ids\":[\"1262236617233251369\"]},{\"promise\":\"host is very friendly and responsive\",\"label\":\"positive\",\"evidence_for\":[\"she explained to me everything.\"],\"evidence_against\":[],\"evidence_review_ids\":[\"1262236617233251369\"]},{\"promise\":\"apartment is clean with all amenities\",\"label\":\"positive\",\"evidence_for\":[\"Property is Specious, clean with all the eminities.\"],\"evidence_against\":[],\"evidence_review_ids\":[\"1391922368465234195\"]}]}",
+    "parsed": {
+      "promises": [
+        {
+          "promise": "location is perfect near Taksim Square",
+          "label": "positive",
+          "evidence_for": [
+            "The location is perfect, and it is near Taksim Square."
+          ],
+          "evidence_against": [],
+          "evidence_review_ids": [
+            "1262236617233251369"
+          ]
+        },
+        {
+          "promise": "apartment has free parking",
+          "label": "positive",
+          "evidence_for": [
+            "the apartment has free parking,"
+          ],
+          "evidence_against": [],
+          "evidence_review_ids": [
+            "1262236617233251369"
+          ]
+        },
+        {
+          "promise": "host is very friendly and responsive",
+          "label": "positive",
+          "evidence_for": [
+            "she explained to me everything."
+          ],
+          "evidence_against": [],
+          "evidence_review_ids": [
+            "1262236617233251369"
+          ]
+        },
+        {
+          "promise": "apartment is clean with all amenities",
+          "label": "positive",
+          "evidence_for": [
+            "Property is Specious, clean with all the eminities."
+          ],
+          "evidence_against": [],
+          "evidence_review_ids": [
+            "1391922368465234195"
+          ]
+        }
+      ]
+    },
+    "json_valid": true,
+    "schema_valid": true,
+    "parse_error": null,
+    "api_error": null,
+    "finish_reason": "stop",
+    "prompt_tokens": 809,
+    "completion_tokens": 243
+  },
+  {
+    "model": "qwen3.5-4b",
+    "listing_id": "1111498252429361031",
+    "elapsed_seconds": 11.438,
+    "raw": "{\"promises\":[{\"promise\":\"The property was newly renovated, clean and affordable.\",\"label\":\"positive\",\"evidence_for\":[\"This property was newly renovated, clean and affordable.\"],\"evidence_against\":[],\"evidence_review_ids\":[\"1135401131393525608\"]},{\"promise\":\"The apartment is just steps away from the main tourist area.\",\"label\":\"positive\",\"evidence_for\":[\"The apartment is just steps away from the main tourist area.\"],\"evidence_against\":[],\"evidence_review_ids\":[\"1454232797535923939\"]},{\"promise\":\"Living space was big enough for three of us to cook in the evenings.\",\"label\":\"positive\",\"evidence_for\":[\"Living space was big enough for three of us to cook in the evenings.\"],\"evidence_against\":[],\"evidence_review_ids\":[\"1294769825074160471\"]},{\"promise\":\"The place is noisy until mid-night due to cafe/restaurant next door.\",\"label\":\"negative\",\"evidence_for\":[\"The place is noisy until mid-night due to cafe/restaurant next door.\"],\"evidence_against\":[],\"evidence_review_ids\":[\"1135401131393525608\"]}]\n}",
+    "parsed": {
+      "promises": [
+        {
+          "promise": "The property was newly renovated, clean and affordable.",
+          "label": "positive",
+          "evidence_for": [
+            "This property was newly renovated, clean and affordable."
+          ],
+          "evidence_against": [],
+          "evidence_review_ids": [
+            "1135401131393525608"
+          ]
+        },
+        {
+          "promise": "The apartment is just steps away from the main tourist area.",
+          "label": "positive",
+          "evidence_for": [
+            "The apartment is just steps away from the main tourist area."
+          ],
+          "evidence_against": [],
+          "evidence_review_ids": [
+            "1454232797535923939"
+          ]
+        },
+        {
+          "promise": "Living space was big enough for three of us to cook in the evenings.",
+          "label": "positive",
+          "evidence_for": [
+            "Living space was big enough for three of us to cook in the evenings."
+          ],
+          "evidence_against": [],
+          "evidence_review_ids": [
+            "1294769825074160471"
+          ]
+        },
+        {
+          "promise": "The place is noisy until mid-night due to cafe/restaurant next door.",
+          "label": "negative",
+          "evidence_for": [
+            "The place is noisy until mid-night due to cafe/restaurant next door."
+          ],
+          "evidence_against": [],
+          "evidence_review_ids": [
+            "1135401131393525608"
+          ]
+        }
+      ]
+    },
+    "json_valid": true,
+    "schema_valid": true,
+    "parse_error": null,
+    "api_error": null,
+    "finish_reason": "stop",
+    "prompt_tokens": 1129,
+    "completion_tokens": 283
+  },
+  {
+    "model": "qwen3.5-4b",
+    "listing_id": "1147918447917942794",
+    "elapsed_seconds": 10.349,
+    "raw": "{\"promises\":[{\"promise\":\"easy access to public transit\",\"label\":\"positive\",\"evidence_for\":[\"Metro was 5 or so minute walk\"],\"evidence_against\":[],\"evidence_review_ids\":[\"1265778870688588994\"]},{\"promise\":\"secure and safe location at night\",\"label\":\"positive\",\"evidence_for\":[\"faced 0 issues - the apartment is located in a very secure and safe area!\"],\"evidence_against\":[],\"evidence_review_ids\":[\"1210750148720890004\"]},{\"promise\":\"responsive host who helps with problems\",\"label\":\"positive\",\"evidence_for\":[\"host was very responsive and tried to fix it\"],\"evidence_against\":[],\"evidence_review_ids\":[\"1204267219123507888\"]},{\"promise\":\"spotless unit upon arrival\",\"label\":\"positive\",\"evidence_for\":[\"Spotless unit, comfortable bed, great shower\"],\"evidence_against\":[],\"evidence_review_ids\":[\"1533242790275038956\"]}]}",
+    "parsed": {
+      "promises": [
+        {
+          "promise": "easy access to public transit",
+          "label": "positive",
+          "evidence_for": [
+            "Metro was 5 or so minute walk"
+          ],
+          "evidence_against": [],
+          "evidence_review_ids": [
+            "1265778870688588994"
+          ]
+        },
+        {
+          "promise": "secure and safe location at night",
+          "label": "positive",
+          "evidence_for": [
+            "faced 0 issues - the apartment is located in a very secure and safe area!"
+          ],
+          "evidence_against": [],
+          "evidence_review_ids": [
+            "1210750148720890004"
+          ]
+        },
+        {
+          "promise": "responsive host who helps with problems",
+          "label": "positive",
+          "evidence_for": [
+            "host was very responsive and tried to fix it"
+          ],
+          "evidence_against": [],
+          "evidence_review_ids": [
+            "1204267219123507888"
+          ]
+        },
+        {
+          "promise": "spotless unit upon arrival",
+          "label": "positive",
+          "evidence_for": [
+            "Spotless unit, comfortable bed, great shower"
+          ],
+          "evidence_against": [],
+          "evidence_review_ids": [
+            "1533242790275038956"
+          ]
+        }
+      ]
+    },
+    "json_valid": true,
+    "schema_valid": true,
+    "parse_error": null,
+    "api_error": null,
+    "finish_reason": "stop",
+    "prompt_tokens": 1072,
+    "completion_tokens": 249
+  },
+  {
+    "model": "qwen3.5-4b",
+    "listing_id": "11508576",
+    "elapsed_seconds": 9.94,
+    "raw": "{\"promises\":[{\"promise\":\"24 hours door man service\",\"label\":\"positive\",\"evidence_for\":[\"reception was helpful\"],\"evidence_against\":[],\"evidence_review_ids\":[\"1642650691250673114\"]},{\"promise\":\"Room service available\",\"label\":\"mixed\",\"evidence_for\":[\"We even had room service everyday\"],\"evidence_against\":[\"There is 24 hours door man and once every 2 days room service\"],\"evidence_review_ids\":[\"190807424\"]},{\"promise\":\"Free Turkish bath entrance\",\"label\":\"positive\",\"evidence_for\":[\"Turkish bath need to be booked upon arrival for free entrance\"],\"evidence_against\":[],\"evidence_review_ids\":[\"Listing description\"]},{\"promise\":\"Tea and biscuits offered on check-in\",\"label\":\"positive\",\"evidence_for\":[\"recommended places over complimentary tea and biscuits\"],\"evidence_against\":[],\"evidence_review_ids\":[\"1642650691250673114\"]}]}",
+    "parsed": {
+      "promises": [
+        {
+          "promise": "24 hours door man service",
+          "label": "positive",
+          "evidence_for": [
+            "reception was helpful"
+          ],
+          "evidence_against": [],
+          "evidence_review_ids": [
+            "1642650691250673114"
+          ]
+        },
+        {
+          "promise": "Room service available",
+          "label": "mixed",
+          "evidence_for": [
+            "We even had room service everyday"
+          ],
+          "evidence_against": [
+            "There is 24 hours door man and once every 2 days room service"
+          ],
+          "evidence_review_ids": [
+            "190807424"
+          ]
+        },
+        {
+          "promise": "Free Turkish bath entrance",
+          "label": "positive",
+          "evidence_for": [
+            "Turkish bath need to be booked upon arrival for free entrance"
+          ],
+          "evidence_against": [],
+          "evidence_review_ids": [
+            "Listing description"
+          ]
+        },
+        {
+          "promise": "Tea and biscuits offered on check-in",
+          "label": "positive",
+          "evidence_for": [
+            "recommended places over complimentary tea and biscuits"
+          ],
+          "evidence_against": [],
+          "evidence_review_ids": [
+            "1642650691250673114"
+          ]
+        }
+      ]
+    },
+    "json_valid": true,
+    "schema_valid": true,
+    "parse_error": null,
+    "api_error": null,
+    "finish_reason": "stop",
+    "prompt_tokens": 1292,
+    "completion_tokens": 222
+  },
+  {
+    "model": "qwen3.5-4b",
+    "listing_id": "1172613065331884750",
+    "elapsed_seconds": 9.853,
+    "raw": "{\"promises\":[{\"promise\":\"The hotel is perfect with everything you might need.\",\"label\":\"positive\",\"evidence_for\":[\"It has everything you might need\"],\"evidence_against\":[],\"evidence_review_ids\":[\"1327379040930447262\"]},{\"promise\":\"The location is in a quiet area and everything is close by.\",\"label\":\"positive\",\"evidence_for\":[\"the location is in a quiet area and everything is close by\"],\"evidence_against\":[],\"evidence_review_ids\":[\"1327379040930447262\"]},{\"promise\":\"The staff are very kind, polite and responsive.\",\"label\":\"positive\",\"evidence_for\":[\"The staff is very kind, polite and responsive\"],\"evidence_against\":[],\"evidence_review_ids\":[\"1327379040930447262\"]},{\"promise\":\"It is very central and very clean with a great metro connection.\",\"label\":\"positive\",\"evidence_for\":[\"çok merkezi ve çok temiz bir yer\"],\"evidence_against\":[],\"evidence_review_ids\":[\"1434671238254911988\"]}]\n}",
+    "parsed": {
+      "promises": [
+        {
+          "promise": "The hotel is perfect with everything you might need.",
+          "label": "positive",
+          "evidence_for": [
+            "It has everything you might need"
+          ],
+          "evidence_against": [],
+          "evidence_review_ids": [
+            "1327379040930447262"
+          ]
+        },
+        {
+          "promise": "The location is in a quiet area and everything is close by.",
+          "label": "positive",
+          "evidence_for": [
+            "the location is in a quiet area and everything is close by"
+          ],
+          "evidence_against": [],
+          "evidence_review_ids": [
+            "1327379040930447262"
+          ]
+        },
+        {
+          "promise": "The staff are very kind, polite and responsive.",
+          "label": "positive",
+          "evidence_for": [
+            "The staff is very kind, polite and responsive"
+          ],
+          "evidence_against": [],
+          "evidence_review_ids": [
+            "1327379040930447262"
+          ]
+        },
+        {
+          "promise": "It is very central and very clean with a great metro connection.",
+          "label": "positive",
+          "evidence_for": [
+            "çok merkezi ve çok temiz bir yer"
+          ],
+          "evidence_against": [],
+          "evidence_review_ids": [
+            "1434671238254911988"
+          ]
+        }
+      ]
+    },
+    "json_valid": true,
+    "schema_valid": true,
+    "parse_error": null,
+    "api_error": null,
+    "finish_reason": "stop",
+    "prompt_tokens": 558,
+    "completion_tokens": 264
+  },
+  {
+    "model": "qwen3.5-4b",
+    "listing_id": "1207291410276881907",
+    "elapsed_seconds": 9.985,
+    "raw": "{\"promises\":[{\"promise\":\"cleanliness\",\"label\":\"positive\",\"evidence_for\":[\"The room was exactly as described—clean, comfortable, and well-maintained.\"],\"evidence_against\":[],\"evidence_review_ids\":[\"1230303563081674704\"]},{\"promise\":\"location\",\"label\":\"positive\",\"evidence_for\":[\"The location of the hotel is very central, with everything within walking distance.\"],\"evidence_against\":[],\"evidence_review_ids\":[\"1230303563081674704\"]},{\"promise\":\"sound insulation\",\"label\":\"negative\",\"evidence_for\":[\"Sound insulation is minimal. You can clearly hear the upstairs neighbors, even normal walking echoes through the room.\"],\"evidence_against\":[],\"evidence_review_ids\":[\"1630437515309093558\"]},{\"promise\":\"bathroom privacy\",\"label\":\"negative\",\"evidence_for\":[\"the bathroom is positioned on the side of the room, with clear glass with limited privacy.\"],\"evidence_against\":[],\"evidence_review_ids\":[\"1630437515309093558\"]}]}",
+    "parsed": {
+      "promises": [
+        {
+          "promise": "cleanliness",
+          "label": "positive",
+          "evidence_for": [
+            "The room was exactly as described—clean, comfortable, and well-maintained."
+          ],
+          "evidence_against": [],
+          "evidence_review_ids": [
+            "1230303563081674704"
+          ]
+        },
+        {
+          "promise": "location",
+          "label": "positive",
+          "evidence_for": [
+            "The location of the hotel is very central, with everything within walking distance."
+          ],
+          "evidence_against": [],
+          "evidence_review_ids": [
+            "1230303563081674704"
+          ]
+        },
+        {
+          "promise": "sound insulation",
+          "label": "negative",
+          "evidence_for": [
+            "Sound insulation is minimal. You can clearly hear the upstairs neighbors, even normal walking echoes through the room."
+          ],
+          "evidence_against": [],
+          "evidence_review_ids": [
+            "1630437515309093558"
+          ]
+        },
+        {
+          "promise": "bathroom privacy",
+          "label": "negative",
+          "evidence_for": [
+            "the bathroom is positioned on the side of the room, with clear glass with limited privacy."
+          ],
+          "evidence_against": [],
+          "evidence_review_ids": [
+            "1630437515309093558"
+          ]
+        }
+      ]
+    },
+    "json_valid": true,
+    "schema_valid": true,
+    "parse_error": null,
+    "api_error": null,
+    "finish_reason": "stop",
+    "prompt_tokens": 689,
+    "completion_tokens": 260
+  },
+  {
+    "model": "qwen3.5-4b",
+    "listing_id": "1252317525535065076",
+    "elapsed_seconds": 9.844,
+    "raw": "{\"promises\":[{\"promise\":\"Air conditioning coverage\",\"label\":\"negative\",\"evidence_for\":[],\"evidence_against\":[\"Only one AC unit located in the kitchen/living area, which is definitely not sufficient during some hot summer days in Istanbul.\"],\"evidence_review_ids\":[\"1743242890859083778\"]},{\"promise\":\"Cleaning supplies provision\",\"label\":\"negative\",\"evidence_for\":[],\"evidence_against\":[\"there were no cleaning materials or basic cleaning supplies provided at all\"],\"evidence_review_ids\":[\"1743242890859083778\"]},{\"promise\":\"Noise levels from neighbors\",\"label\":\"negative\",\"evidence_for\":[],\"evidence_against\":[\"noise from the next-door neighbor, which was quite disturbing\"],\"evidence_review_ids\":[\"1743242890859083778\"]},{\"promise\":\"Apartment organization and cleanliness\",\"label\":\"positive\",\"evidence_for\":[\"Evin düzeni ve temizliği gayet iyi\"],\"evidence_against\":[],\"evidence_review_ids\":[\"1688380976842941549\"]}]}",
+    "parsed": {
+      "promises": [
+        {
+          "promise": "Air conditioning coverage",
+          "label": "negative",
+          "evidence_for": [],
+          "evidence_against": [
+            "Only one AC unit located in the kitchen/living area, which is definitely not sufficient during some hot summer days in Istanbul."
+          ],
+          "evidence_review_ids": [
+            "1743242890859083778"
+          ]
+        },
+        {
+          "promise": "Cleaning supplies provision",
+          "label": "negative",
+          "evidence_for": [],
+          "evidence_against": [
+            "there were no cleaning materials or basic cleaning supplies provided at all"
+          ],
+          "evidence_review_ids": [
+            "1743242890859083778"
+          ]
+        },
+        {
+          "promise": "Noise levels from neighbors",
+          "label": "negative",
+          "evidence_for": [],
+          "evidence_against": [
+            "noise from the next-door neighbor, which was quite disturbing"
+          ],
+          "evidence_review_ids": [
+            "1743242890859083778"
+          ]
+        },
+        {
+          "promise": "Apartment organization and cleanliness",
+          "label": "positive",
+          "evidence_for": [
+            "Evin düzeni ve temizliği gayet iyi"
+          ],
+          "evidence_against": [],
+          "evidence_review_ids": [
+            "1688380976842941549"
+          ]
+        }
+      ]
+    },
+    "json_valid": true,
+    "schema_valid": true,
+    "parse_error": null,
+    "api_error": null,
+    "finish_reason": "stop",
+    "prompt_tokens": 689,
+    "completion_tokens": 255
+  },
+  {
+    "model": "qwen3.5-4b",
+    "listing_id": "1261590252759179670",
+    "elapsed_seconds": 10.201,
+    "raw": "{\"promises\":[{\"promise\":\"The apartment is tidy, clean, and cozy.\",\"label\":\"positive\",\"evidence_for\":[\"The apartment was very tidy, clean, and cozy\"],\"evidence_against\":[],\"evidence_review_ids\":[\"1678193172717701558\"]},{\"promise\":\"The view from the windows is breathtaking.\",\"label\":\"positive\",\"evidence_for\":[\"the view from the windows is simply breathtaking\"],\"evidence_against\":[],\"evidence_review_ids\":[\"1678193172717701558\"]},{\"promise\":\"The host was extremely kind, caring, and helpful.\",\"label\":\"positive\",\"evidence_for\":[\"The host was extremely kind, caring, and helpful\"],\"evidence_against\":[],\"evidence_review_ids\":[\"1678193172717701558\"]},{\"promise\":\"There are a lot of stairs to get to the apartment.\",\"label\":\"negative\",\"evidence_for\":[\"there are a lot of stairs to get to the apartment\"],\"evidence_against\":[],\"evidence_review_ids\":[\"1366527218782161729\"]}]\n}",
+    "parsed": {
+      "promises": [
+        {
+          "promise": "The apartment is tidy, clean, and cozy.",
+          "label": "positive",
+          "evidence_for": [
+            "The apartment was very tidy, clean, and cozy"
+          ],
+          "evidence_against": [],
+          "evidence_review_ids": [
+            "1678193172717701558"
+          ]
+        },
+        {
+          "promise": "The view from the windows is breathtaking.",
+          "label": "positive",
+          "evidence_for": [
+            "the view from the windows is simply breathtaking"
+          ],
+          "evidence_against": [],
+          "evidence_review_ids": [
+            "1678193172717701558"
+          ]
+        },
+        {
+          "promise": "The host was extremely kind, caring, and helpful.",
+          "label": "positive",
+          "evidence_for": [
+            "The host was extremely kind, caring, and helpful"
+          ],
+          "evidence_against": [],
+          "evidence_review_ids": [
+            "1678193172717701558"
+          ]
+        },
+        {
+          "promise": "There are a lot of stairs to get to the apartment.",
+          "label": "negative",
+          "evidence_for": [
+            "there are a lot of stairs to get to the apartment"
+          ],
+          "evidence_against": [],
+          "evidence_review_ids": [
+            "1366527218782161729"
+          ]
+        }
+      ]
+    },
+    "json_valid": true,
+    "schema_valid": true,
+    "parse_error": null,
+    "api_error": null,
+    "finish_reason": "stop",
+    "prompt_tokens": 855,
+    "completion_tokens": 259
+  },
+  {
+    "model": "qwen3.5-4b",
+    "listing_id": "1285407068536766723",
+    "elapsed_seconds": 8.706,
+    "raw": "{\"promises\":[{\"promise\":\"host responsiveness\",\"label\":\"positive\",\"evidence_for\":[\"he responded very quick\"],\"evidence_against\":[],\"evidence_review_ids\":[\"1534748490602469003\"]},{\"promise\":\"apartment cleanliness\",\"label\":\"positive\",\"evidence_for\":[\"The place also was clean\"],\"evidence_against\":[],\"evidence_review_ids\":[\"1734015837498042426\"]},{\"promise\":\"location convenience\",\"label\":\"positive\",\"evidence_for\":[\"close to all the main attractions and hotspots\"],\"evidence_against\":[],\"evidence_review_ids\":[\"1617282991856242172\"]},{\"promise\":\"apartment comfort\",\"label\":\"positive\",\"evidence_for\":[\"The flat is cozy and lives up to the description\"],\"evidence_against\":[],\"evidence_review_ids\":[\"1549237209449542354\"]}]}",
+    "parsed": {
+      "promises": [
+        {
+          "promise": "host responsiveness",
+          "label": "positive",
+          "evidence_for": [
+            "he responded very quick"
+          ],
+          "evidence_against": [],
+          "evidence_review_ids": [
+            "1534748490602469003"
+          ]
+        },
+        {
+          "promise": "apartment cleanliness",
+          "label": "positive",
+          "evidence_for": [
+            "The place also was clean"
+          ],
+          "evidence_against": [],
+          "evidence_review_ids": [
+            "1734015837498042426"
+          ]
+        },
+        {
+          "promise": "location convenience",
+          "label": "positive",
+          "evidence_for": [
+            "close to all the main attractions and hotspots"
+          ],
+          "evidence_against": [],
+          "evidence_review_ids": [
+            "1617282991856242172"
+          ]
+        },
+        {
+          "promise": "apartment comfort",
+          "label": "positive",
+          "evidence_for": [
+            "The flat is cozy and lives up to the description"
+          ],
+          "evidence_against": [],
+          "evidence_review_ids": [
+            "1549237209449542354"
+          ]
+        }
+      ]
+    },
+    "json_valid": true,
+    "schema_valid": true,
+    "parse_error": null,
+    "api_error": null,
+    "finish_reason": "stop",
+    "prompt_tokens": 805,
+    "completion_tokens": 220
+  },
+  {
+    "model": "qwen3.5-4b",
+    "listing_id": "1313886370367951369",
+    "elapsed_seconds": 11.09,
+    "raw": "{\"promises\":[{\"promise\":\"cleanliness\",\"label\":\"mixed\",\"evidence_for\":[\"temizdi\"],\"evidence_against\":[\"temizlenmemiş olduğunu gördük...çok ağır bir sigara kokusu vardı\"],\"evidence_review_ids\":[\"1469478126531386087\",\"1715161261249186857\"]},{\"promise\":\"location\",\"label\":\"positive\",\"evidence_for\":[\"tam olması gerektiği yerde cadde kalabalık geceleri ses oluyor\"],\"evidence_against\":[],\"evidence_review_ids\":[\"1469478126531386087\"]},{\"promise\":\"communication\",\"label\":\"positive\",\"evidence_for\":[\"mesajlarimiza hemen cevap verdi\"],\"evidence_against\":[],\"evidence_review_ids\":[\"1469478126531386087\"]},{\"promise\":\"noise level\",\"label\":\"mixed\",\"evidence_for\":[\"uyumaya engel olduğunu düşünmüyorum\"],\"evidence_against\":[\"çok ses gelecekti diye tahmin ediyorum\"],\"evidence_review_ids\":[\"1469478126531386087\",\"1715161261249186857\"]}]}",
+    "parsed": {
+      "promises": [
+        {
+          "promise": "cleanliness",
+          "label": "mixed",
+          "evidence_for": [
+            "temizdi"
+          ],
+          "evidence_against": [
+            "temizlenmemiş olduğunu gördük...çok ağır bir sigara kokusu vardı"
+          ],
+          "evidence_review_ids": [
+            "1469478126531386087",
+            "1715161261249186857"
+          ]
+        },
+        {
+          "promise": "location",
+          "label": "positive",
+          "evidence_for": [
+            "tam olması gerektiği yerde cadde kalabalık geceleri ses oluyor"
+          ],
+          "evidence_against": [],
+          "evidence_review_ids": [
+            "1469478126531386087"
+          ]
+        },
+        {
+          "promise": "communication",
+          "label": "positive",
+          "evidence_for": [
+            "mesajlarimiza hemen cevap verdi"
+          ],
+          "evidence_against": [],
+          "evidence_review_ids": [
+            "1469478126531386087"
+          ]
+        },
+        {
+          "promise": "noise level",
+          "label": "mixed",
+          "evidence_for": [
+            "uyumaya engel olduğunu düşünmüyorum"
+          ],
+          "evidence_against": [
+            "çok ses gelecekti diye tahmin ediyorum"
+          ],
+          "evidence_review_ids": [
+            "1469478126531386087",
+            "1715161261249186857"
+          ]
+        }
+      ]
+    },
+    "json_valid": true,
+    "schema_valid": true,
+    "parse_error": null,
+    "api_error": null,
+    "finish_reason": "stop",
+    "prompt_tokens": 808,
+    "completion_tokens": 290
+  },
+  {
+    "model": "qwen3.5-4b",
+    "listing_id": "1315942421000037613",
+    "elapsed_seconds": 8.838,
+    "raw": "{\"promises\":[{\"promise\":\"friendly host\",\"label\":\"positive\",\"evidence_for\":[\"Selma was also very kind and helpful\"],\"evidence_against\":[],\"evidence_review_ids\":[\"1783861669816221888\"]},{\"promise\":\"good location\",\"label\":\"positive\",\"evidence_for\":[\"location of the accommodation was very convenient\"],\"evidence_against\":[],\"evidence_review_ids\":[\"1783861669816221888\"]},{\"promise\":\"comfortable room\",\"label\":\"mixed\",\"evidence_for\":[\"The room is quite big\"],\"evidence_against\":[\"the mattress was uneven and not very comfortable\"],\"evidence_review_ids\":[\"1489808251942285515\"]},{\"promise\":\"clean bathroom\",\"label\":\"insufficient_evidence\",\"evidence_for\":[],\"evidence_against\":[\"the bathroom is a little bit smelly\"],\"evidence_review_ids\":[\"1489808251942285515\"]}]}",
+    "parsed": {
+      "promises": [
+        {
+          "promise": "friendly host",
+          "label": "positive",
+          "evidence_for": [
+            "Selma was also very kind and helpful"
+          ],
+          "evidence_against": [],
+          "evidence_review_ids": [
+            "1783861669816221888"
+          ]
+        },
+        {
+          "promise": "good location",
+          "label": "positive",
+          "evidence_for": [
+            "location of the accommodation was very convenient"
+          ],
+          "evidence_against": [],
+          "evidence_review_ids": [
+            "1783861669816221888"
+          ]
+        },
+        {
+          "promise": "comfortable room",
+          "label": "mixed",
+          "evidence_for": [
+            "The room is quite big"
+          ],
+          "evidence_against": [
+            "the mattress was uneven and not very comfortable"
+          ],
+          "evidence_review_ids": [
+            "1489808251942285515"
+          ]
+        },
+        {
+          "promise": "clean bathroom",
+          "label": "insufficient_evidence",
+          "evidence_for": [],
+          "evidence_against": [
+            "the bathroom is a little bit smelly"
+          ],
+          "evidence_review_ids": [
+            "1489808251942285515"
+          ]
+        }
+      ]
+    },
+    "json_valid": true,
+    "schema_valid": true,
+    "parse_error": null,
+    "api_error": null,
+    "finish_reason": "stop",
+    "prompt_tokens": 647,
+    "completion_tokens": 231
+  },
+  {
+    "model": "qwen3.5-4b",
+    "listing_id": "1319518516489422304",
+    "elapsed_seconds": 8.977,
+    "raw": "{\"promises\":[{\"promise\":\"cleanliness\",\"label\":\"positive\",\"evidence_for\":[\"The place was spotless\"],\"evidence_against\":[],\"evidence_review_ids\":[\"1746205989015692828\"]},{\"promise\":\"staff service speed\",\"label\":\"positive\",\"evidence_for\":[\"requests were handled in under 5 minutes\"],\"evidence_against\":[],\"evidence_review_ids\":[\"1746205989015692828\"]},{\"promise\":\"location convenience\",\"label\":\"positive\",\"evidence_for\":[\"within walking distance to public transportation\"],\"evidence_against\":[],\"evidence_review_ids\":[\"1746205989015692828\"]},{\"promise\":\"room comfort and amenities\",\"label\":\"positive\",\"evidence_for\":[\"The beds were very comfortable, the fridge was surprisingly large\"],\"evidence_against\":[],\"evidence_review_ids\":[\"1767901917737108407\"]}]}",
+    "parsed": {
+      "promises": [
+        {
+          "promise": "cleanliness",
+          "label": "positive",
+          "evidence_for": [
+            "The place was spotless"
+          ],
+          "evidence_against": [],
+          "evidence_review_ids": [
+            "1746205989015692828"
+          ]
+        },
+        {
+          "promise": "staff service speed",
+          "label": "positive",
+          "evidence_for": [
+            "requests were handled in under 5 minutes"
+          ],
+          "evidence_against": [],
+          "evidence_review_ids": [
+            "1746205989015692828"
+          ]
+        },
+        {
+          "promise": "location convenience",
+          "label": "positive",
+          "evidence_for": [
+            "within walking distance to public transportation"
+          ],
+          "evidence_against": [],
+          "evidence_review_ids": [
+            "1746205989015692828"
+          ]
+        },
+        {
+          "promise": "room comfort and amenities",
+          "label": "positive",
+          "evidence_for": [
+            "The beds were very comfortable, the fridge was surprisingly large"
+          ],
+          "evidence_against": [],
+          "evidence_review_ids": [
+            "1767901917737108407"
+          ]
+        }
+      ]
+    },
+    "json_valid": true,
+    "schema_valid": true,
+    "parse_error": null,
+    "api_error": null,
+    "finish_reason": "stop",
+    "prompt_tokens": 753,
+    "completion_tokens": 222
+  },
+  {
+    "model": "qwen3.5-4b",
+    "listing_id": "1353599009934473203",
+    "elapsed_seconds": 10.91,
+    "raw": "{\"promises\":[{\"promise\":\"The property was cleaner and more beautiful than shown in photos.\",\"label\":\"positive\",\"evidence_for\":[\"Ev gerçekten fotoğraflarda göründüğünden bile daha güzeldi.\"],\"evidence_against\":[],\"evidence_review_ids\":[\"1647098919746807386\"]},{\"promise\":\"The host was very helpful and responded quickly.\",\"label\":\"positive\",\"evidence_for\":[\"Ev sahibi çok ilgili ve hızlı dönüş yaptı.\"],\"evidence_against\":[],\"evidence_review_ids\":[\"1647098919746807386\"]},{\"promise\":\"There was unfinished cleaning work requiring a 45-minute wait.\",\"label\":\"negative\",\"evidence_for\":[\"temizlik bitmemiş olsa ve bi 45dk beklemek zorunda kalsak da\"],\"evidence_against\":[],\"evidence_review_ids\":[\"1753484605955668964\"]},{\"promise\":\"The internet service was extremely slow and unreliable.\",\"label\":\"negative\",\"evidence_for\":[\"1mbps bile olmayan bir internet hizmeti mevcut ki telefonların zaman zaman çekmediği\"],\"evidence_against\":[],\"evidence_review_ids\":[\"1753484605955668964\"]}]}",
+    "parsed": {
+      "promises": [
+        {
+          "promise": "The property was cleaner and more beautiful than shown in photos.",
+          "label": "positive",
+          "evidence_for": [
+            "Ev gerçekten fotoğraflarda göründüğünden bile daha güzeldi."
+          ],
+          "evidence_against": [],
+          "evidence_review_ids": [
+            "1647098919746807386"
+          ]
+        },
+        {
+          "promise": "The host was very helpful and responded quickly.",
+          "label": "positive",
+          "evidence_for": [
+            "Ev sahibi çok ilgili ve hızlı dönüş yaptı."
+          ],
+          "evidence_against": [],
+          "evidence_review_ids": [
+            "1647098919746807386"
+          ]
+        },
+        {
+          "promise": "There was unfinished cleaning work requiring a 45-minute wait.",
+          "label": "negative",
+          "evidence_for": [
+            "temizlik bitmemiş olsa ve bi 45dk beklemek zorunda kalsak da"
+          ],
+          "evidence_against": [],
+          "evidence_review_ids": [
+            "1753484605955668964"
+          ]
+        },
+        {
+          "promise": "The internet service was extremely slow and unreliable.",
+          "label": "negative",
+          "evidence_for": [
+            "1mbps bile olmayan bir internet hizmeti mevcut ki telefonların zaman zaman çekmediği"
+          ],
+          "evidence_against": [],
+          "evidence_review_ids": [
+            "1753484605955668964"
+          ]
+        }
+      ]
+    },
+    "json_valid": true,
+    "schema_valid": true,
+    "parse_error": null,
+    "api_error": null,
+    "finish_reason": "stop",
+    "prompt_tokens": 695,
+    "completion_tokens": 285
+  },
+  {
+    "model": "qwen3.5-4b",
+    "listing_id": "1436494893616892369",
+    "elapsed_seconds": 9.704,
+    "raw": "{\"promises\":[{\"promise\":\"cleanliness\",\"label\":\"positive\",\"evidence_for\":[\"Very clean place, both bedroom and bathroom\"],\"evidence_against\":[],\"evidence_review_ids\":[\"1602139039763776849\"]},{\"promise\":\"location proximity to Taksim Square\",\"label\":\"positive\",\"evidence_for\":[\"quite close (10 - 15 min walk) both to Taksim square\"],\"evidence_against\":[],\"evidence_review_ids\":[\"1602139039763776849\"]},{\"promise\":\"central heating comfort in winter\",\"label\":\"positive\",\"evidence_for\":[\"warm room in the cold winter of Istanbul\"],\"evidence_against\":[],\"evidence_review_ids\":[\"1595654147204957738\"]},{\"promise\":\"host responsiveness to water leak\",\"label\":\"positive\",\"evidence_for\":[\"hosts responded fast and handled it well\"],\"evidence_against\":[],\"evidence_review_ids\":[\"1485399112881182984\"]}]}",
+    "parsed": {
+      "promises": [
+        {
+          "promise": "cleanliness",
+          "label": "positive",
+          "evidence_for": [
+            "Very clean place, both bedroom and bathroom"
+          ],
+          "evidence_against": [],
+          "evidence_review_ids": [
+            "1602139039763776849"
+          ]
+        },
+        {
+          "promise": "location proximity to Taksim Square",
+          "label": "positive",
+          "evidence_for": [
+            "quite close (10 - 15 min walk) both to Taksim square"
+          ],
+          "evidence_against": [],
+          "evidence_review_ids": [
+            "1602139039763776849"
+          ]
+        },
+        {
+          "promise": "central heating comfort in winter",
+          "label": "positive",
+          "evidence_for": [
+            "warm room in the cold winter of Istanbul"
+          ],
+          "evidence_against": [],
+          "evidence_review_ids": [
+            "1595654147204957738"
+          ]
+        },
+        {
+          "promise": "host responsiveness to water leak",
+          "label": "positive",
+          "evidence_for": [
+            "hosts responded fast and handled it well"
+          ],
+          "evidence_against": [],
+          "evidence_review_ids": [
+            "1485399112881182984"
+          ]
+        }
+      ]
+    },
+    "json_valid": true,
+    "schema_valid": true,
+    "parse_error": null,
+    "api_error": null,
+    "finish_reason": "stop",
+    "prompt_tokens": 820,
+    "completion_tokens": 239
+  },
+  {
+    "model": "qwen3.5-4b",
+    "listing_id": "1498376133248353088",
+    "elapsed_seconds": 12.593,
+    "raw": "{\"promises\":[{\"promise\":\"The apartment was clean but had stains on beds and towels.\",\"label\":\"mixed\",\"evidence_for\":[\"Apartment was clean\"],\"evidence_against\":[\"there were some stains on the beds and towels\"],\"evidence_review_ids\":[\"1622451478338505487\"]},{\"promise\":\"The location is great but price-performance for single occupancy was insufficient.\",\"label\":\"mixed\",\"evidence_for\":[\"The location is great\"],\"evidence_against\":[\"didn't find the interior of the house sufficient in terms of price–performance for single occupancy\"],\"evidence_review_ids\":[\"1514387843428647719\"]},{\"promise\":\"Photos showed a perfect apartment but actual cleanliness was superficial with stains.\",\"label\":\"mixed\",\"evidence_for\":[\"Ev fotoğraflarda mükemem görünüyordu\"],\"evidence_against\":[\"evin temizliği yüzeysel yapılmıştı, çarşaf ve yastıklarda lekeler vardı\"],\"evidence_review_ids\":[\"1530388550914143864\"]},{\"promise\":\"The apartment was spacious with outstanding interior design and perfect air conditioning.\",\"label\":\"positive\",\"evidence_for\":[\"apartment was very spacious and located in a calm, safe, and perfect area. The interior design is outstanding... The air conditioning worked perfectly\"],\"evidence_against\":[],\"evidence_review_ids\":[\"1504315091663716517\"]}]\n}",
+    "parsed": {
+      "promises": [
+        {
+          "promise": "The apartment was clean but had stains on beds and towels.",
+          "label": "mixed",
+          "evidence_for": [
+            "Apartment was clean"
+          ],
+          "evidence_against": [
+            "there were some stains on the beds and towels"
+          ],
+          "evidence_review_ids": [
+            "1622451478338505487"
+          ]
+        },
+        {
+          "promise": "The location is great but price-performance for single occupancy was insufficient.",
+          "label": "mixed",
+          "evidence_for": [
+            "The location is great"
+          ],
+          "evidence_against": [
+            "didn't find the interior of the house sufficient in terms of price–performance for single occupancy"
+          ],
+          "evidence_review_ids": [
+            "1514387843428647719"
+          ]
+        },
+        {
+          "promise": "Photos showed a perfect apartment but actual cleanliness was superficial with stains.",
+          "label": "mixed",
+          "evidence_for": [
+            "Ev fotoğraflarda mükemem görünüyordu"
+          ],
+          "evidence_against": [
+            "evin temizliği yüzeysel yapılmıştı, çarşaf ve yastıklarda lekeler vardı"
+          ],
+          "evidence_review_ids": [
+            "1530388550914143864"
+          ]
+        },
+        {
+          "promise": "The apartment was spacious with outstanding interior design and perfect air conditioning.",
+          "label": "positive",
+          "evidence_for": [
+            "apartment was very spacious and located in a calm, safe, and perfect area. The interior design is outstanding... The air conditioning worked perfectly"
+          ],
+          "evidence_against": [],
+          "evidence_review_ids": [
+            "1504315091663716517"
+          ]
+        }
+      ]
+    },
+    "json_valid": true,
+    "schema_valid": true,
+    "parse_error": null,
+    "api_error": null,
+    "finish_reason": "stop",
+    "prompt_tokens": 798,
+    "completion_tokens": 329
+  },
+  {
+    "model": "qwen3.5-4b",
+    "listing_id": "1540518279662936296",
+    "elapsed_seconds": 9.98,
+    "raw": "{\"promises\":[{\"promise\":\"Responsive host\",\"label\":\"positive\",\"evidence_for\":[\"host was super responsive\"],\"evidence_against\":[],\"evidence_review_ids\":[\"1713714614488069257\"]},{\"promise\":\"Nice and quite place\",\"label\":\"positive\",\"evidence_for\":[\"Nice and quite place\"],\"evidence_against\":[],\"evidence_review_ids\":[\"1666609305718602239\"]},{\"promise\":\"Well equiped kitchen\",\"label\":\"positive\",\"evidence_for\":[\"Well equiped kitchen\"],\"evidence_against\":[],\"evidence_review_ids\":[\"1689866333307471596\"]},{\"promise\":\"Wi-Fi worked ONLY in one room\",\"label\":\"negative\",\"evidence_for\":[\"Wi-Fi worked ONLY in one room (living room)\"],\"evidence_against\":[\"wifi was down the entire trip which was a big problem for us\"],\"evidence_review_ids\":[\"1666609305718602239\",\"1713714614488069257\"]}]}",
+    "parsed": {
+      "promises": [
+        {
+          "promise": "Responsive host",
+          "label": "positive",
+          "evidence_for": [
+            "host was super responsive"
+          ],
+          "evidence_against": [],
+          "evidence_review_ids": [
+            "1713714614488069257"
+          ]
+        },
+        {
+          "promise": "Nice and quite place",
+          "label": "positive",
+          "evidence_for": [
+            "Nice and quite place"
+          ],
+          "evidence_against": [],
+          "evidence_review_ids": [
+            "1666609305718602239"
+          ]
+        },
+        {
+          "promise": "Well equiped kitchen",
+          "label": "positive",
+          "evidence_for": [
+            "Well equiped kitchen"
+          ],
+          "evidence_against": [],
+          "evidence_review_ids": [
+            "1689866333307471596"
+          ]
+        },
+        {
+          "promise": "Wi-Fi worked ONLY in one room",
+          "label": "negative",
+          "evidence_for": [
+            "Wi-Fi worked ONLY in one room (living room)"
+          ],
+          "evidence_against": [
+            "wifi was down the entire trip which was a big problem for us"
+          ],
+          "evidence_review_ids": [
+            "1666609305718602239",
+            "1713714614488069257"
+          ]
+        }
+      ]
+    },
+    "json_valid": true,
+    "schema_valid": true,
+    "parse_error": null,
+    "api_error": null,
+    "finish_reason": "stop",
+    "prompt_tokens": 830,
+    "completion_tokens": 256
+  },
+  {
+    "model": "qwen3.5-4b",
+    "listing_id": "1564383591816176152",
+    "elapsed_seconds": 10.442,
+    "raw": "{\"promises\":[{\"promise\":\"The apartment is located in a vibrant neighborhood with excellent access to public transport.\",\"label\":\"positive\",\"evidence_for\":[\"location, location, location (could not have asked for better)\"],\"evidence_against\":[],\"evidence_review_ids\":[\"1698474275260846763\"]},{\"promise\":\"The apartment is well decorated and modern.\",\"label\":\"positive\",\"evidence_for\":[\"well decorated and modern place\"],\"evidence_against\":[],\"evidence_review_ids\":[\"1698474275260846763\"]},{\"promise\":\"The host was responsive and friendly.\",\"label\":\"positive\",\"evidence_for\":[\"responsive and friendly host\"],\"evidence_against\":[],\"evidence_review_ids\":[\"1698474275260846763\"]},{\"promise\":\"The apartment is big, spacious, and very clean.\",\"label\":\"positive\",\"evidence_for\":[\"apartment itself is big and spacious, and very clean\"],\"evidence_against\":[],\"evidence_review_ids\":[\"1693425031057254461\"]}]\n}",
+    "parsed": {
+      "promises": [
+        {
+          "promise": "The apartment is located in a vibrant neighborhood with excellent access to public transport.",
+          "label": "positive",
+          "evidence_for": [
+            "location, location, location (could not have asked for better)"
+          ],
+          "evidence_against": [],
+          "evidence_review_ids": [
+            "1698474275260846763"
+          ]
+        },
+        {
+          "promise": "The apartment is well decorated and modern.",
+          "label": "positive",
+          "evidence_for": [
+            "well decorated and modern place"
+          ],
+          "evidence_against": [],
+          "evidence_review_ids": [
+            "1698474275260846763"
+          ]
+        },
+        {
+          "promise": "The host was responsive and friendly.",
+          "label": "positive",
+          "evidence_for": [
+            "responsive and friendly host"
+          ],
+          "evidence_against": [],
+          "evidence_review_ids": [
+            "1698474275260846763"
+          ]
+        },
+        {
+          "promise": "The apartment is big, spacious, and very clean.",
+          "label": "positive",
+          "evidence_for": [
+            "apartment itself is big and spacious, and very clean"
+          ],
+          "evidence_against": [],
+          "evidence_review_ids": [
+            "1693425031057254461"
+          ]
+        }
+      ]
+    },
+    "json_valid": true,
+    "schema_valid": true,
+    "parse_error": null,
+    "api_error": null,
+    "finish_reason": "stop",
+    "prompt_tokens": 1011,
+    "completion_tokens": 253
+  },
+  {
+    "model": "qwen3.5-4b",
+    "listing_id": "1592215873800837148",
+    "elapsed_seconds": 9.301,
+    "raw": "{\"promises\":[{\"promise\":\"clean room\",\"label\":\"positive\",\"evidence_for\":[\"The room's were clean\"],\"evidence_against\":[],\"evidence_review_ids\":[\"1749798701049503589\"]},{\"promise\":\"comfortable bed\",\"label\":\"positive\",\"evidence_for\":[\"very comfortable bed\"],\"evidence_against\":[],\"evidence_review_ids\":[\"1656458050350939830\"]},{\"promise\":\"friendly staff\",\"label\":\"positive\",\"evidence_for\":[\"staff are super nice\"],\"evidence_against\":[],\"evidence_review_ids\":[\"1749798701049503589\"]},{\"promise\":\"good location\",\"label\":\"positive\",\"evidence_for\":[\"fantastic location making it easy to access all of İstanbul\"],\"evidence_against\":[],\"evidence_review_ids\":[\"1749798701049503589\"]}]}",
+    "parsed": {
+      "promises": [
+        {
+          "promise": "clean room",
+          "label": "positive",
+          "evidence_for": [
+            "The room's were clean"
+          ],
+          "evidence_against": [],
+          "evidence_review_ids": [
+            "1749798701049503589"
+          ]
+        },
+        {
+          "promise": "comfortable bed",
+          "label": "positive",
+          "evidence_for": [
+            "very comfortable bed"
+          ],
+          "evidence_against": [],
+          "evidence_review_ids": [
+            "1656458050350939830"
+          ]
+        },
+        {
+          "promise": "friendly staff",
+          "label": "positive",
+          "evidence_for": [
+            "staff are super nice"
+          ],
+          "evidence_against": [],
+          "evidence_review_ids": [
+            "1749798701049503589"
+          ]
+        },
+        {
+          "promise": "good location",
+          "label": "positive",
+          "evidence_for": [
+            "fantastic location making it easy to access all of İstanbul"
+          ],
+          "evidence_against": [],
+          "evidence_review_ids": [
+            "1749798701049503589"
+          ]
+        }
+      ]
+    },
+    "json_valid": true,
+    "schema_valid": true,
+    "parse_error": null,
+    "api_error": null,
+    "finish_reason": "stop",
+    "prompt_tokens": 1137,
+    "completion_tokens": 214
+  },
+  {
+    "model": "qwen3.5-4b",
+    "listing_id": "1602878333552179381",
+    "elapsed_seconds": 10.538,
+    "raw": "{\"promises\":[{\"promise\":\"The host is responsive and helpful.\",\"label\":\"positive\",\"evidence_for\":[\"Emin is a really good host who responds almost immediately every time\"],\"evidence_against\":[],\"evidence_review_ids\":[\"1623122543357788093\"]},{\"promise\":\"The home was very clean and comfortable.\",\"label\":\"positive\",\"evidence_for\":[\"The home was very clean and comfortable\"],\"evidence_against\":[],\"evidence_review_ids\":[\"1641936550938778912\"]},{\"promise\":\"The apartment is located in a perfect location with access to public transport.\",\"label\":\"positive\",\"evidence_for\":[\"perfect location with access to the tram and bus\"],\"evidence_against\":[],\"evidence_review_ids\":[\"1744203403840801418\"]},{\"promise\":\"The local neighborhood is wonderful, but the street corner is very loud.\",\"label\":\"mixed\",\"evidence_for\":[\"The local neighborhood is wonderful, but the street corner is very loud\"],\"evidence_against\":[],\"evidence_review_ids\":[\"1761602068346401565\"]}]\n}",
+    "parsed": {
+      "promises": [
+        {
+          "promise": "The host is responsive and helpful.",
+          "label": "positive",
+          "evidence_for": [
+            "Emin is a really good host who responds almost immediately every time"
+          ],
+          "evidence_against": [],
+          "evidence_review_ids": [
+            "1623122543357788093"
+          ]
+        },
+        {
+          "promise": "The home was very clean and comfortable.",
+          "label": "positive",
+          "evidence_for": [
+            "The home was very clean and comfortable"
+          ],
+          "evidence_against": [],
+          "evidence_review_ids": [
+            "1641936550938778912"
+          ]
+        },
+        {
+          "promise": "The apartment is located in a perfect location with access to public transport.",
+          "label": "positive",
+          "evidence_for": [
+            "perfect location with access to the tram and bus"
+          ],
+          "evidence_against": [],
+          "evidence_review_ids": [
+            "1744203403840801418"
+          ]
+        },
+        {
+          "promise": "The local neighborhood is wonderful, but the street corner is very loud.",
+          "label": "mixed",
+          "evidence_for": [
+            "The local neighborhood is wonderful, but the street corner is very loud"
+          ],
+          "evidence_against": [],
+          "evidence_review_ids": [
+            "1761602068346401565"
+          ]
+        }
+      ]
+    },
+    "json_valid": true,
+    "schema_valid": true,
+    "parse_error": null,
+    "api_error": null,
+    "finish_reason": "stop",
+    "prompt_tokens": 852,
+    "completion_tokens": 265
+  },
+  {
+    "model": "qwen3.5-4b",
+    "listing_id": "1619449318391509060",
+    "elapsed_seconds": 10.347,
+    "raw": "{\"promises\":[{\"promise\":\"The apartment is located on a pedestrian-only street with no elevator access.\",\"label\":\"negative\",\"evidence_for\":[\"apartment is on the 4th floor with no elevator\"],\"evidence_against\":[],\"evidence_review_ids\":[\"1684765211573030858\"]},{\"promise\":\"The building entrance is through a bar, raising security concerns.\",\"label\":\"negative\",\"evidence_for\":[\"building entrance is through a bar\"],\"evidence_against\":[],\"evidence_review_ids\":[\"1684765211573030858\"]},{\"promise\":\"Kitchen appliances were greasy and inadequately equipped.\",\"label\":\"negative\",\"evidence_for\":[\"kitchen appliances were greasy\"],\"evidence_against\":[],\"evidence_review_ids\":[\"1684765211573030858\"]},{\"promise\":\"The apartment was clean and the host was open to communication.\",\"label\":\"positive\",\"evidence_for\":[\"Ev temizdi ve konaklamamız genel olarak sorunsuz geçti\"],\"evidence_against\":[],\"evidence_review_ids\":[\"1660052853755832150\"]}]\n}",
+    "parsed": {
+      "promises": [
+        {
+          "promise": "The apartment is located on a pedestrian-only street with no elevator access.",
+          "label": "negative",
+          "evidence_for": [
+            "apartment is on the 4th floor with no elevator"
+          ],
+          "evidence_against": [],
+          "evidence_review_ids": [
+            "1684765211573030858"
+          ]
+        },
+        {
+          "promise": "The building entrance is through a bar, raising security concerns.",
+          "label": "negative",
+          "evidence_for": [
+            "building entrance is through a bar"
+          ],
+          "evidence_against": [],
+          "evidence_review_ids": [
+            "1684765211573030858"
+          ]
+        },
+        {
+          "promise": "Kitchen appliances were greasy and inadequately equipped.",
+          "label": "negative",
+          "evidence_for": [
+            "kitchen appliances were greasy"
+          ],
+          "evidence_against": [],
+          "evidence_review_ids": [
+            "1684765211573030858"
+          ]
+        },
+        {
+          "promise": "The apartment was clean and the host was open to communication.",
+          "label": "positive",
+          "evidence_for": [
+            "Ev temizdi ve konaklamamız genel olarak sorunsuz geçti"
+          ],
+          "evidence_against": [],
+          "evidence_review_ids": [
+            "1660052853755832150"
+          ]
+        }
+      ]
+    },
+    "json_valid": true,
+    "schema_valid": true,
+    "parse_error": null,
+    "api_error": null,
+    "finish_reason": "stop",
+    "prompt_tokens": 727,
+    "completion_tokens": 267
+  },
+  {
+    "model": "qwen3.5-4b",
+    "listing_id": "1676187876600592221",
+    "elapsed_seconds": 11.383,
+    "raw": "{\"promises\":[{\"promise\":\"The apartment is exceptionally clean and spotless.\",\"label\":\"positive\",\"evidence_for\":[\"The house was exceptionally clean, spotless, fresh, and very well maintained.\"],\"evidence_against\":[],\"evidence_review_ids\":[\"1748418710773063013\"]},{\"promise\":\"The apartment offers breathtaking views of the Bosphorus.\",\"label\":\"positive\",\"evidence_for\":[\"even more beautiful than the photos.\"],\"evidence_against\":[],\"evidence_review_ids\":[\"1748418710773063013\"]},{\"promise\":\"The host is extremely kind, welcoming, and responsive.\",\"label\":\"positive\",\"evidence_for\":[\"The host was extremely kind, welcoming, respectful, and always available whenever we needed anything.\"],\"evidence_against\":[],\"evidence_review_ids\":[\"1748418710773063013\"]},{\"promise\":\"The apartment is perfectly located in the heart of Cihangir.\",\"label\":\"positive\",\"evidence_for\":[\"perfectly located in the center of Cihangir,\"],\"evidence_against\":[],\"evidence_review_ids\":[\"1678963198346379879\"]}]\n}",
+    "parsed": {
+      "promises": [
+        {
+          "promise": "The apartment is exceptionally clean and spotless.",
+          "label": "positive",
+          "evidence_for": [
+            "The house was exceptionally clean, spotless, fresh, and very well maintained."
+          ],
+          "evidence_against": [],
+          "evidence_review_ids": [
+            "1748418710773063013"
+          ]
+        },
+        {
+          "promise": "The apartment offers breathtaking views of the Bosphorus.",
+          "label": "positive",
+          "evidence_for": [
+            "even more beautiful than the photos."
+          ],
+          "evidence_against": [],
+          "evidence_review_ids": [
+            "1748418710773063013"
+          ]
+        },
+        {
+          "promise": "The host is extremely kind, welcoming, and responsive.",
+          "label": "positive",
+          "evidence_for": [
+            "The host was extremely kind, welcoming, respectful, and always available whenever we needed anything."
+          ],
+          "evidence_against": [],
+          "evidence_review_ids": [
+            "1748418710773063013"
+          ]
+        },
+        {
+          "promise": "The apartment is perfectly located in the heart of Cihangir.",
+          "label": "positive",
+          "evidence_for": [
+            "perfectly located in the center of Cihangir,"
+          ],
+          "evidence_against": [],
+          "evidence_review_ids": [
+            "1678963198346379879"
+          ]
+        }
+      ]
+    },
+    "json_valid": true,
+    "schema_valid": true,
+    "parse_error": null,
+    "api_error": null,
+    "finish_reason": "stop",
+    "prompt_tokens": 1080,
+    "completion_tokens": 277
+  },
+  {
+    "model": "qwen3.5-4b",
+    "listing_id": "1688583932840777718",
+    "elapsed_seconds": 10.223,
+    "raw": "{\"promises\":[{\"promise\":\"The apartment was very comfortable and had everything I needed for my stay.\",\"label\":\"positive\",\"evidence_for\":[\"very comfortable\"],\"evidence_against\":[],\"evidence_review_ids\":[\"1741864920041663497\"]},{\"promise\":\"It was clean, well-equipped, and even had a kitchen where I could prepare simple meals.\",\"label\":\"positive\",\"evidence_for\":[\"clean, well-equipped\"],\"evidence_against\":[],\"evidence_review_ids\":[\"1741864920041663497\"]},{\"promise\":\"The apartment was clean, cozy, great location, and an amazing host.\",\"label\":\"positive\",\"evidence_for\":[\"Clean, cozy, great location\"],\"evidence_against\":[],\"evidence_review_ids\":[\"1708532095258366587\"]},{\"promise\":\"The apartment was clean, cozy, great location, and an amazing host.\",\"label\":\"positive\",\"evidence_for\":[\"Everything was perfect\"],\"evidence_against\":[],\"evidence_review_ids\":[\"1708532095258366587\"]}]}",
+    "parsed": {
+      "promises": [
+        {
+          "promise": "The apartment was very comfortable and had everything I needed for my stay.",
+          "label": "positive",
+          "evidence_for": [
+            "very comfortable"
+          ],
+          "evidence_against": [],
+          "evidence_review_ids": [
+            "1741864920041663497"
+          ]
+        },
+        {
+          "promise": "It was clean, well-equipped, and even had a kitchen where I could prepare simple meals.",
+          "label": "positive",
+          "evidence_for": [
+            "clean, well-equipped"
+          ],
+          "evidence_against": [],
+          "evidence_review_ids": [
+            "1741864920041663497"
+          ]
+        },
+        {
+          "promise": "The apartment was clean, cozy, great location, and an amazing host.",
+          "label": "positive",
+          "evidence_for": [
+            "Clean, cozy, great location"
+          ],
+          "evidence_against": [],
+          "evidence_review_ids": [
+            "1708532095258366587"
+          ]
+        },
+        {
+          "promise": "The apartment was clean, cozy, great location, and an amazing host.",
+          "label": "positive",
+          "evidence_for": [
+            "Everything was perfect"
+          ],
+          "evidence_against": [],
+          "evidence_review_ids": [
+            "1708532095258366587"
+          ]
+        }
+      ]
+    },
+    "json_valid": true,
+    "schema_valid": true,
+    "parse_error": null,
+    "api_error": null,
+    "finish_reason": "stop",
+    "prompt_tokens": 676,
+    "completion_tokens": 259
+  },
+  {
+    "model": "qwen3.5-4b",
+    "listing_id": "1692814857151423620",
+    "elapsed_seconds": 10.46,
+    "raw": "{\"promises\":[{\"promise\":\"The apartment is very clean and comfortable with a great location.\",\"label\":\"positive\",\"evidence_for\":[\"very clean and comfortable\"],\"evidence_against\":[],\"evidence_review_ids\":[\"1717218435842328066\"]},{\"promise\":\"The host was nice, proactive, and helpful for guests.\",\"label\":\"positive\",\"evidence_for\":[\"host was very nice and proactive, always helped\"],\"evidence_against\":[],\"evidence_review_ids\":[\"1717218435842328066\"]},{\"promise\":\"The location is central and close to tourist attractions.\",\"label\":\"positive\",\"evidence_for\":[\"in the very heart of Istanbul and very close to all the tourist attractions\"],\"evidence_against\":[],\"evidence_review_ids\":[\"1717218435842328066\"]},{\"promise\":\"The walls are super thin, leading to noise from neighbors.\",\"label\":\"negative\",\"evidence_for\":[\"walls are super thin! ... loud neighbors and you could hear just about everything\"],\"evidence_against\":[],\"evidence_review_ids\":[\"1774474490802335480\"]}]\n}",
+    "parsed": {
+      "promises": [
+        {
+          "promise": "The apartment is very clean and comfortable with a great location.",
+          "label": "positive",
+          "evidence_for": [
+            "very clean and comfortable"
+          ],
+          "evidence_against": [],
+          "evidence_review_ids": [
+            "1717218435842328066"
+          ]
+        },
+        {
+          "promise": "The host was nice, proactive, and helpful for guests.",
+          "label": "positive",
+          "evidence_for": [
+            "host was very nice and proactive, always helped"
+          ],
+          "evidence_against": [],
+          "evidence_review_ids": [
+            "1717218435842328066"
+          ]
+        },
+        {
+          "promise": "The location is central and close to tourist attractions.",
+          "label": "positive",
+          "evidence_for": [
+            "in the very heart of Istanbul and very close to all the tourist attractions"
+          ],
+          "evidence_against": [],
+          "evidence_review_ids": [
+            "1717218435842328066"
+          ]
+        },
+        {
+          "promise": "The walls are super thin, leading to noise from neighbors.",
+          "label": "negative",
+          "evidence_for": [
+            "walls are super thin! ... loud neighbors and you could hear just about everything"
+          ],
+          "evidence_against": [],
+          "evidence_review_ids": [
+            "1774474490802335480"
+          ]
+        }
+      ]
+    },
+    "json_valid": true,
+    "schema_valid": true,
+    "parse_error": null,
+    "api_error": null,
+    "finish_reason": "stop",
+    "prompt_tokens": 736,
+    "completion_tokens": 267
+  },
+  {
+    "model": "qwen3.5-4b",
+    "listing_id": "1698382863471660651",
+    "elapsed_seconds": 12.296,
+    "raw": "{\"promises\":[{\"promise\":\"The apartment is exactly like the pictures and description.\",\"label\":\"mixed\",\"evidence_for\":[\"It was clean and had everything I needed\"],\"evidence_against\":[\"It was not as it's described fully\"],\"evidence_review_ids\":[ \"1749117395468612089\", \"1780315891330946532\"]},{\"promise\":\"The location is close to Taksim but involves climbing a deep hill.\",\"label\":\"mixed\",\"evidence_for\":[\"about a 10-minute walk from Taksim Square\"],\"evidence_against\":[\"you have to climb a really deep hill\"],\"evidence_review_ids\":[ \"1749117395468612089\", \"1780315891330946532\"]},{\"promise\":\"The owner is friendly and responsive.\",\"label\":\"positive\",\"evidence_for\":[\"Owner is very friendly and responsive\"],\"evidence_against\":[],\"evidence_review_ids\":[ \"1724431404690076579\"]},{\"promise\":\"Guests experienced issues with utilities including no water, electricity, or internet.\",\"label\":\"negative\",\"evidence_for\":[\"woke up to no water... second day no electricity... internet did not work\"],\"evidence_against\":[],\"evidence_review_ids\":[ \"1780315891330946532\"]}]}",
+    "parsed": {
+      "promises": [
+        {
+          "promise": "The apartment is exactly like the pictures and description.",
+          "label": "mixed",
+          "evidence_for": [
+            "It was clean and had everything I needed"
+          ],
+          "evidence_against": [
+            "It was not as it's described fully"
+          ],
+          "evidence_review_ids": [
+            "1749117395468612089",
+            "1780315891330946532"
+          ]
+        },
+        {
+          "promise": "The location is close to Taksim but involves climbing a deep hill.",
+          "label": "mixed",
+          "evidence_for": [
+            "about a 10-minute walk from Taksim Square"
+          ],
+          "evidence_against": [
+            "you have to climb a really deep hill"
+          ],
+          "evidence_review_ids": [
+            "1749117395468612089",
+            "1780315891330946532"
+          ]
+        },
+        {
+          "promise": "The owner is friendly and responsive.",
+          "label": "positive",
+          "evidence_for": [
+            "Owner is very friendly and responsive"
+          ],
+          "evidence_against": [],
+          "evidence_review_ids": [
+            "1724431404690076579"
+          ]
+        },
+        {
+          "promise": "Guests experienced issues with utilities including no water, electricity, or internet.",
+          "label": "negative",
+          "evidence_for": [
+            "woke up to no water... second day no electricity... internet did not work"
+          ],
+          "evidence_against": [],
+          "evidence_review_ids": [
+            "1780315891330946532"
+          ]
+        }
+      ]
+    },
+    "json_valid": true,
+    "schema_valid": true,
+    "parse_error": null,
+    "api_error": null,
+    "finish_reason": "stop",
+    "prompt_tokens": 791,
+    "completion_tokens": 327
+  },
+  {
+    "model": "qwen3.5-4b",
+    "listing_id": "1714232530102257322",
+    "elapsed_seconds": 8.222,
+    "raw": "{\"promises\":[{\"promise\":\"cleanliness\",\"label\":\"positive\",\"evidence_for\":[\"The place is super clean\"],\"evidence_against\":[],\"evidence_review_ids\":[\"1781704225677907677\"]},{\"promise\":\"host responsiveness\",\"label\":\"positive\",\"evidence_for\":[\"Host is proactive and responsive\"],\"evidence_against\":[],\"evidence_review_ids\":[\"1781704225677907677\"]},{\"promise\":\"location\",\"label\":\"positive\",\"evidence_for\":[\"Great location near Taksim\"],\"evidence_against\":[],\"evidence_review_ids\":[\"1781704225677907677\"]},{\"promise\":\"bed configuration\",\"label\":\"negative\",\"evidence_for\":[\"double bed with two twins put together\"],\"evidence_against\":[],\"evidence_review_ids\":[\"1781704225677907677\"]}]}",
+    "parsed": {
+      "promises": [
+        {
+          "promise": "cleanliness",
+          "label": "positive",
+          "evidence_for": [
+            "The place is super clean"
+          ],
+          "evidence_against": [],
+          "evidence_review_ids": [
+            "1781704225677907677"
+          ]
+        },
+        {
+          "promise": "host responsiveness",
+          "label": "positive",
+          "evidence_for": [
+            "Host is proactive and responsive"
+          ],
+          "evidence_against": [],
+          "evidence_review_ids": [
+            "1781704225677907677"
+          ]
+        },
+        {
+          "promise": "location",
+          "label": "positive",
+          "evidence_for": [
+            "Great location near Taksim"
+          ],
+          "evidence_against": [],
+          "evidence_review_ids": [
+            "1781704225677907677"
+          ]
+        },
+        {
+          "promise": "bed configuration",
+          "label": "negative",
+          "evidence_for": [
+            "double bed with two twins put together"
+          ],
+          "evidence_against": [],
+          "evidence_review_ids": [
+            "1781704225677907677"
+          ]
+        }
+      ]
+    },
+    "json_valid": true,
+    "schema_valid": true,
+    "parse_error": null,
+    "api_error": null,
+    "finish_reason": "stop",
+    "prompt_tokens": 639,
+    "completion_tokens": 210
+  },
+  {
+    "model": "qwen3.5-4b",
+    "listing_id": "22365188",
+    "elapsed_seconds": 9.417,
+    "raw": "{\"promises\":[{\"promise\":\"The apartment is large and comfortable with a proper kitchen.\",\"label\":\"positive\",\"evidence_for\":[\"It is quite large, it has a proper kitchen\"],\"evidence_against\":[],\"evidence_review_ids\":[\"245626602\"]},{\"promise\":\"The location is convenient with metro access within 10 minutes on foot.\",\"label\":\"positive\",\"evidence_for\":[\"less than 10 minutes on foot from the metro\"],\"evidence_against\":[],\"evidence_review_ids\":[\"245626602\"]},{\"promise\":\"The apartment is clean and requires no maintenance.\",\"label\":\"positive\",\"evidence_for\":[\"We found it very clean, with nothing needed to be addressed\"],\"evidence_against\":[],\"evidence_review_ids\":[\"245626602\"]},{\"promise\":\"The host Ilkin was friendly and helpful throughout the stay.\",\"label\":\"positive\",\"evidence_for\":[\"Ilkin was friendly, always replied very quickly, and made sure we had no issues\"],\"evidence_against\":[],\"evidence_review_ids\":[\"245626602\"]}]}",
+    "parsed": {
+      "promises": [
+        {
+          "promise": "The apartment is large and comfortable with a proper kitchen.",
+          "label": "positive",
+          "evidence_for": [
+            "It is quite large, it has a proper kitchen"
+          ],
+          "evidence_against": [],
+          "evidence_review_ids": [
+            "245626602"
+          ]
+        },
+        {
+          "promise": "The location is convenient with metro access within 10 minutes on foot.",
+          "label": "positive",
+          "evidence_for": [
+            "less than 10 minutes on foot from the metro"
+          ],
+          "evidence_against": [],
+          "evidence_review_ids": [
+            "245626602"
+          ]
+        },
+        {
+          "promise": "The apartment is clean and requires no maintenance.",
+          "label": "positive",
+          "evidence_for": [
+            "We found it very clean, with nothing needed to be addressed"
+          ],
+          "evidence_against": [],
+          "evidence_review_ids": [
+            "245626602"
+          ]
+        },
+        {
+          "promise": "The host Ilkin was friendly and helpful throughout the stay.",
+          "label": "positive",
+          "evidence_for": [
+            "Ilkin was friendly, always replied very quickly, and made sure we had no issues"
+          ],
+          "evidence_against": [],
+          "evidence_review_ids": [
+            "245626602"
+          ]
+        }
+      ]
+    },
+    "json_valid": true,
+    "schema_valid": true,
+    "parse_error": null,
+    "api_error": null,
+    "finish_reason": "stop",
+    "prompt_tokens": 792,
+    "completion_tokens": 235
+  },
+  {
+    "model": "qwen3.5-4b",
+    "listing_id": "27308249",
+    "elapsed_seconds": 10.184,
+    "raw": "{\"promises\":[{\"promise\":\"The host refused to respond when notified about noise issues\",\"label\":\"negative\",\"evidence_for\":[],\"evidence_against\":[\"the host refused to respond to me\"],\"evidence_review_ids\":[\"775197181933266699\"]},{\"promise\":\"Horns were blowing until after 2:00 in the morning\",\"label\":\"negative\",\"evidence_for\":[\"horns were blowing until after 2:00 in the morning\"],\"evidence_against\":[],\"evidence_review_ids\":[\"775197181933266699\"]},{\"promise\":\"The room is spacious, clean and the host super nice\",\"label\":\"positive\",\"evidence_for\":[\"the room is spacious, clean and the host super nice\"],\"evidence_against\":[],\"evidence_review_ids\":[\"597525408287145215\"]},{\"promise\":\"The apartment is clean, the hosts are friendly\",\"label\":\"positive\",\"evidence_for\":[\"The apartment is clean, the hosts are friendly\"],\"evidence_against\":[],\"evidence_review_ids\":[\"752623326927319508\"]}]}",
+    "parsed": {
+      "promises": [
+        {
+          "promise": "The host refused to respond when notified about noise issues",
+          "label": "negative",
+          "evidence_for": [],
+          "evidence_against": [
+            "the host refused to respond to me"
+          ],
+          "evidence_review_ids": [
+            "775197181933266699"
+          ]
+        },
+        {
+          "promise": "Horns were blowing until after 2:00 in the morning",
+          "label": "negative",
+          "evidence_for": [
+            "horns were blowing until after 2:00 in the morning"
+          ],
+          "evidence_against": [],
+          "evidence_review_ids": [
+            "775197181933266699"
+          ]
+        },
+        {
+          "promise": "The room is spacious, clean and the host super nice",
+          "label": "positive",
+          "evidence_for": [
+            "the room is spacious, clean and the host super nice"
+          ],
+          "evidence_against": [],
+          "evidence_review_ids": [
+            "597525408287145215"
+          ]
+        },
+        {
+          "promise": "The apartment is clean, the hosts are friendly",
+          "label": "positive",
+          "evidence_for": [
+            "The apartment is clean, the hosts are friendly"
+          ],
+          "evidence_against": [],
+          "evidence_review_ids": [
+            "752623326927319508"
+          ]
+        }
+      ]
+    },
+    "json_valid": true,
+    "schema_valid": true,
+    "parse_error": null,
+    "api_error": null,
+    "finish_reason": "stop",
+    "prompt_tokens": 757,
+    "completion_tokens": 262
+  },
+  {
+    "model": "qwen3.5-4b",
+    "listing_id": "36518136",
+    "elapsed_seconds": 7.856,
+    "raw": "{\"promises\":[{\"promise\":\"clean apartment\",\"label\":\"positive\",\"evidence_for\":[\"so clean\"],\"evidence_against\":[],\"evidence_review_ids\":[\"520197540\"]},{\"promise\":\"close to metro station\",\"label\":\"positive\",\"evidence_for\":[\"Really near to metro station\"],\"evidence_against\":[],\"evidence_review_ids\":[\"564595791\"]},{\"promise\":\"safe and comfortable for a family\",\"label\":\"positive\",\"evidence_for\":[\"his flat was a safe and comfortable for a family\"],\"evidence_against\":[],\"evidence_review_ids\":[\"553035897\"]},{\"promise\":\"well equipped apartment\",\"label\":\"positive\",\"evidence_for\":[\"apartment was well equipped\"],\"evidence_against\":[],\"evidence_review_ids\":[\"586746373\"]}]}",
+    "parsed": {
+      "promises": [
+        {
+          "promise": "clean apartment",
+          "label": "positive",
+          "evidence_for": [
+            "so clean"
+          ],
+          "evidence_against": [],
+          "evidence_review_ids": [
+            "520197540"
+          ]
+        },
+        {
+          "promise": "close to metro station",
+          "label": "positive",
+          "evidence_for": [
+            "Really near to metro station"
+          ],
+          "evidence_against": [],
+          "evidence_review_ids": [
+            "564595791"
+          ]
+        },
+        {
+          "promise": "safe and comfortable for a family",
+          "label": "positive",
+          "evidence_for": [
+            "his flat was a safe and comfortable for a family"
+          ],
+          "evidence_against": [],
+          "evidence_review_ids": [
+            "553035897"
+          ]
+        },
+        {
+          "promise": "well equipped apartment",
+          "label": "positive",
+          "evidence_for": [
+            "apartment was well equipped"
+          ],
+          "evidence_against": [],
+          "evidence_review_ids": [
+            "586746373"
+          ]
+        }
+      ]
+    },
+    "json_valid": true,
+    "schema_valid": true,
+    "parse_error": null,
+    "api_error": null,
+    "finish_reason": "stop",
+    "prompt_tokens": 1007,
+    "completion_tokens": 178
+  },
+  {
+    "model": "qwen3.5-4b",
+    "listing_id": "36714192",
+    "elapsed_seconds": 10.828,
+    "raw": "{\"promises\":[{\"promise\":\"The apartment is recently renovated with new furniture.\",\"label\":\"positive\",\"evidence_for\":[\"It is recently renovated. All the furniture are new and high quality.\"],\"evidence_against\":[],\"evidence_review_ids\":[\"726736484\"]},{\"promise\":\"The location is very central, close to İstiklal Street.\",\"label\":\"positive\",\"evidence_for\":[\"İstiklal street is just 25 meter away.\"],\"evidence_against\":[],\"evidence_review_ids\":[\"726736484\"]},{\"promise\":\"Host Erol is extremely helpful and reachable 24/7.\",\"label\":\"positive\",\"evidence_for\":[\"He is extremely helpful and reachable 7/24. He texted us regularly to check if all is good.\"],\"evidence_against\":[],\"evidence_review_ids\":[\"726736484\"]},{\"promise\":\"The apartment had a huge leak in the bathroom upon arrival.\",\"label\":\"negative\",\"evidence_for\":[\"When we arrived there was a huge leak in the bathroom.\"],\"evidence_against\":[],\"evidence_review_ids\":[\"714017716\"]}]}",
+    "parsed": {
+      "promises": [
+        {
+          "promise": "The apartment is recently renovated with new furniture.",
+          "label": "positive",
+          "evidence_for": [
+            "It is recently renovated. All the furniture are new and high quality."
+          ],
+          "evidence_against": [],
+          "evidence_review_ids": [
+            "726736484"
+          ]
+        },
+        {
+          "promise": "The location is very central, close to İstiklal Street.",
+          "label": "positive",
+          "evidence_for": [
+            "İstiklal street is just 25 meter away."
+          ],
+          "evidence_against": [],
+          "evidence_review_ids": [
+            "726736484"
+          ]
+        },
+        {
+          "promise": "Host Erol is extremely helpful and reachable 24/7.",
+          "label": "positive",
+          "evidence_for": [
+            "He is extremely helpful and reachable 7/24. He texted us regularly to check if all is good."
+          ],
+          "evidence_against": [],
+          "evidence_review_ids": [
+            "726736484"
+          ]
+        },
+        {
+          "promise": "The apartment had a huge leak in the bathroom upon arrival.",
+          "label": "negative",
+          "evidence_for": [
+            "When we arrived there was a huge leak in the bathroom."
+          ],
+          "evidence_against": [],
+          "evidence_review_ids": [
+            "714017716"
+          ]
+        }
+      ]
+    },
+    "json_valid": true,
+    "schema_valid": true,
+    "parse_error": null,
+    "api_error": null,
+    "finish_reason": "stop",
+    "prompt_tokens": 1381,
+    "completion_tokens": 249
+  },
+  {
+    "model": "qwen3.5-4b",
+    "listing_id": "38033251",
+    "elapsed_seconds": 9.468,
+    "raw": "{\"promises\":[{\"promise\":\"room cleanliness matches photos\",\"label\":\"positive\",\"evidence_for\":[\"İçerisi gayet temiz ve fotoğraflardaki gibi güzeldi\"],\"evidence_against\":[],\"evidence_review_ids\":[\"1399886921067477032\"]},{\"promise\":\"room size matches photos\",\"label\":\"negative\",\"evidence_for\":[\"bize verilen oda fotoğraftaki değildi\"],\"evidence_against\":[],\"evidence_review_ids\":[\"1499176180290821593\"]},{\"promise\":\"staff friendliness and helpfulness\",\"label\":\"positive\",\"evidence_for\":[\"resepsiyondaki hanımefendi güler yüzlü ve yardımseverdi\"],\"evidence_against\":[],\"evidence_review_ids\":[\"1499176180290821593\"]},{\"promise\":\"bathroom cleanliness and towel quality\",\"label\":\"negative\",\"evidence_for\":[\"banyodaki havlular temiz değildi\"],\"evidence_against\":[],\"evidence_review_ids\":[\"606251548\"]}]}",
+    "parsed": {
+      "promises": [
+        {
+          "promise": "room cleanliness matches photos",
+          "label": "positive",
+          "evidence_for": [
+            "İçerisi gayet temiz ve fotoğraflardaki gibi güzeldi"
+          ],
+          "evidence_against": [],
+          "evidence_review_ids": [
+            "1399886921067477032"
+          ]
+        },
+        {
+          "promise": "room size matches photos",
+          "label": "negative",
+          "evidence_for": [
+            "bize verilen oda fotoğraftaki değildi"
+          ],
+          "evidence_against": [],
+          "evidence_review_ids": [
+            "1499176180290821593"
+          ]
+        },
+        {
+          "promise": "staff friendliness and helpfulness",
+          "label": "positive",
+          "evidence_for": [
+            "resepsiyondaki hanımefendi güler yüzlü ve yardımseverdi"
+          ],
+          "evidence_against": [],
+          "evidence_review_ids": [
+            "1499176180290821593"
+          ]
+        },
+        {
+          "promise": "bathroom cleanliness and towel quality",
+          "label": "negative",
+          "evidence_for": [
+            "banyodaki havlular temiz değildi"
+          ],
+          "evidence_against": [],
+          "evidence_review_ids": [
+            "606251548"
+          ]
+        }
+      ]
+    },
+    "json_valid": true,
+    "schema_valid": true,
+    "parse_error": null,
+    "api_error": null,
+    "finish_reason": "stop",
+    "prompt_tokens": 642,
+    "completion_tokens": 248
+  },
+  {
+    "model": "qwen3.5-4b",
+    "listing_id": "38062129",
+    "elapsed_seconds": 11.959,
+    "raw": "{\"promises\":[{\"promise\":\"Great location near Galata Tower with easy access to metro and bus stations\",\"label\":\"positive\",\"evidence_for\":[\"5 minutes away from metro and bus stations\"],\"evidence_against\":[],\"evidence_review_ids\":[\"659873088944531025\"]},{\"promise\":\"Comfortable stay with a great private balcony and large shared rooftop\",\"label\":\"positive\",\"evidence_for\":[\"great private balcony and a large shared rooftop that has some of the best views of Istanbul\"],\"evidence_against\":[],\"evidence_review_ids\":[\"659873088944531025\"]},{\"promise\":\"Host Akif is kind, responsive, and highly recommended\",\"label\":\"positive\",\"evidence_for\":[\"Akif was a kind host\"],\"evidence_against\":[],\"evidence_review_ids\":[\"659873088944531025\"]},{\"promise\":\"Clean, cozy apartment with self check-in process\",\"label\":\"positive\",\"evidence_for\":[\"The place was clean, cozy, and very comfortable. The self check-in and check-out process was smooth and hassle-free.\"],\"evidence_against\":[],\"evidence_review_ids\":[\"1703562048300759085\"]}]\n}",
+    "parsed": {
+      "promises": [
+        {
+          "promise": "Great location near Galata Tower with easy access to metro and bus stations",
+          "label": "positive",
+          "evidence_for": [
+            "5 minutes away from metro and bus stations"
+          ],
+          "evidence_against": [],
+          "evidence_review_ids": [
+            "659873088944531025"
+          ]
+        },
+        {
+          "promise": "Comfortable stay with a great private balcony and large shared rooftop",
+          "label": "positive",
+          "evidence_for": [
+            "great private balcony and a large shared rooftop that has some of the best views of Istanbul"
+          ],
+          "evidence_against": [],
+          "evidence_review_ids": [
+            "659873088944531025"
+          ]
+        },
+        {
+          "promise": "Host Akif is kind, responsive, and highly recommended",
+          "label": "positive",
+          "evidence_for": [
+            "Akif was a kind host"
+          ],
+          "evidence_against": [],
+          "evidence_review_ids": [
+            "659873088944531025"
+          ]
+        },
+        {
+          "promise": "Clean, cozy apartment with self check-in process",
+          "label": "positive",
+          "evidence_for": [
+            "The place was clean, cozy, and very comfortable. The self check-in and check-out process was smooth and hassle-free."
+          ],
+          "evidence_against": [],
+          "evidence_review_ids": [
+            "1703562048300759085"
+          ]
+        }
+      ]
+    },
+    "json_valid": true,
+    "schema_valid": true,
+    "parse_error": null,
+    "api_error": null,
+    "finish_reason": "stop",
+    "prompt_tokens": 1283,
+    "completion_tokens": 284
+  },
+  {
+    "model": "qwen3.5-4b",
+    "listing_id": "39387407",
+    "elapsed_seconds": 11.563,
+    "raw": "{\"promises\":[{\"promise\":\"The apartment is spacious, clean, and decorated like in the photos.\",\"label\":\"positive\",\"evidence_for\":[\"It's spacious, clean, and decorated like in the photos.\"],\"evidence_against\":[],\"evidence_review_ids\":[\"1775905865063905809\"]},{\"promise\":\"The apartment is at a very convenient location near the tram station.\",\"label\":\"positive\",\"evidence_for\":[\"the Sultanahmet tram station and the Hagia Sofia are only a few minutes walking distance away.\"],\"evidence_against\":[],\"evidence_review_ids\":[\"1775905865063905809\"]},{\"promise\":\"The host is friendly, responsive, and helpful.\",\"label\":\"positive\",\"evidence_for\":[\"Erdal, the host's communication is excellent as well, he is friendly and responsive.\"],\"evidence_against\":[],\"evidence_review_ids\":[\"1775905865063905809\"]},{\"promise\":\"The place was cleaned daily.\",\"label\":\"positive\",\"evidence_for\":[\"Place was cleaned daily\"],\"evidence_against\":[],\"evidence_review_ids\":[\"1754849404016324030\"]}]}",
+    "parsed": {
+      "promises": [
+        {
+          "promise": "The apartment is spacious, clean, and decorated like in the photos.",
+          "label": "positive",
+          "evidence_for": [
+            "It's spacious, clean, and decorated like in the photos."
+          ],
+          "evidence_against": [],
+          "evidence_review_ids": [
+            "1775905865063905809"
+          ]
+        },
+        {
+          "promise": "The apartment is at a very convenient location near the tram station.",
+          "label": "positive",
+          "evidence_for": [
+            "the Sultanahmet tram station and the Hagia Sofia are only a few minutes walking distance away."
+          ],
+          "evidence_against": [],
+          "evidence_review_ids": [
+            "1775905865063905809"
+          ]
+        },
+        {
+          "promise": "The host is friendly, responsive, and helpful.",
+          "label": "positive",
+          "evidence_for": [
+            "Erdal, the host's communication is excellent as well, he is friendly and responsive."
+          ],
+          "evidence_against": [],
+          "evidence_review_ids": [
+            "1775905865063905809"
+          ]
+        },
+        {
+          "promise": "The place was cleaned daily.",
+          "label": "positive",
+          "evidence_for": [
+            "Place was cleaned daily"
+          ],
+          "evidence_against": [],
+          "evidence_review_ids": [
+            "1754849404016324030"
+          ]
+        }
+      ]
+    },
+    "json_valid": true,
+    "schema_valid": true,
+    "parse_error": null,
+    "api_error": null,
+    "finish_reason": "stop",
+    "prompt_tokens": 1249,
+    "completion_tokens": 276
+  },
+  {
+    "model": "qwen3.5-4b",
+    "listing_id": "41453791",
+    "elapsed_seconds": 5.049,
+    "raw": "{\"promises\":[{\"promise\":\"cleanliness\",\"label\":\"mixed\",\"evidence_for\":[\"Fulya told me I could cancel with a full refund as she thought I might not be satisfied\"],\"evidence_against\":[\"The apartment is in a lovely old building... it felt far from comfortable due to several maintenance issues.\"],\"evidence_review_ids\":[\"]},{\"]}\n]\n}",
+    "parsed": {
+      "promises": [
+        {
+          "promise": "cleanliness",
+          "label": "mixed",
+          "evidence_for": [
+            "Fulya told me I could cancel with a full refund as she thought I might not be satisfied"
+          ],
+          "evidence_against": [
+            "The apartment is in a lovely old building... it felt far from comfortable due to several maintenance issues."
+          ],
+          "evidence_review_ids": [
+            "]},{"
+          ]
+        }
+      ]
+    },
+    "json_valid": true,
+    "schema_valid": true,
+    "parse_error": null,
+    "api_error": null,
+    "finish_reason": "stop",
+    "prompt_tokens": 1147,
+    "completion_tokens": 78
+  },
+  {
+    "model": "qwen3.5-4b",
+    "listing_id": "42367552",
+    "elapsed_seconds": 10.611,
+    "raw": "{\"promises\":[{\"promise\":\"The property is clean and as shown in photos\",\"label\":\"positive\",\"evidence_for\":[\"unit is clean and as what you seen in photos\"],\"evidence_against\":[],\"evidence_review_ids\":[\"666405099619540259\"]},{\"promise\":\"The flat is exactly as depicted in the photos\",\"label\":\"positive\",\"evidence_for\":[\"apartment was exactly as depicted in the photos\"],\"evidence_against\":[],\"evidence_review_ids\":[\"1400620866348124000\"]},{\"promise\":\"Insulated windows keep noise out\",\"label\":\"positive\",\"evidence_for\":[\"insulated windows keeps the noise out\"],\"evidence_against\":[],\"evidence_review_ids\":[\"1057135498798795566\"]},{\"promise\":\"Host Naz is helpful and provides great recommendations\",\"label\":\"positive\",\"evidence_for\":[\"Naz was a wonderful host. She greeted us and provided us with so many great recommendations.\"],\"evidence_against\":[],\"evidence_review_ids\":[\"878805319116433268\"]}] }",
+    "parsed": {
+      "promises": [
+        {
+          "promise": "The property is clean and as shown in photos",
+          "label": "positive",
+          "evidence_for": [
+            "unit is clean and as what you seen in photos"
+          ],
+          "evidence_against": [],
+          "evidence_review_ids": [
+            "666405099619540259"
+          ]
+        },
+        {
+          "promise": "The flat is exactly as depicted in the photos",
+          "label": "positive",
+          "evidence_for": [
+            "apartment was exactly as depicted in the photos"
+          ],
+          "evidence_against": [],
+          "evidence_review_ids": [
+            "1400620866348124000"
+          ]
+        },
+        {
+          "promise": "Insulated windows keep noise out",
+          "label": "positive",
+          "evidence_for": [
+            "insulated windows keeps the noise out"
+          ],
+          "evidence_against": [],
+          "evidence_review_ids": [
+            "1057135498798795566"
+          ]
+        },
+        {
+          "promise": "Host Naz is helpful and provides great recommendations",
+          "label": "positive",
+          "evidence_for": [
+            "Naz was a wonderful host. She greeted us and provided us with so many great recommendations."
+          ],
+          "evidence_against": [],
+          "evidence_review_ids": [
+            "878805319116433268"
+          ]
+        }
+      ]
+    },
+    "json_valid": true,
+    "schema_valid": true,
+    "parse_error": null,
+    "api_error": null,
+    "finish_reason": "stop",
+    "prompt_tokens": 1195,
+    "completion_tokens": 256
+  },
+  {
+    "model": "qwen3.5-4b",
+    "listing_id": "49945654",
+    "elapsed_seconds": 8.793,
+    "raw": "{\"promises\":[{\"promise\":\"comfortable beds\",\"label\":\"positive\",\"evidence_for\":[\"Comfortable beds\"],\"evidence_against\":[],\"evidence_review_ids\":[\"1299117028940859368\"]},{\"promise\":\"fabulous location\",\"label\":\"positive\",\"evidence_for\":[\"fabulous location\"],\"evidence_against\":[],\"evidence_review_ids\":[\"1362271741446308792\"]},{\"promise\":\"super comfortable bedrooms\",\"label\":\"positive\",\"evidence_for\":[\"Both king beds were comfortable\"],\"evidence_against\":[],\"evidence_review_ids\":[\"1419453353786766762\"]},{\"promise\":\"helpful host\",\"label\":\"positive\",\"evidence_for\":[\"Ercan was so helpful to organise an additional night stay\"],\"evidence_against\":[],\"evidence_review_ids\":[\"1299117028940859368\"]}]}",
+    "parsed": {
+      "promises": [
+        {
+          "promise": "comfortable beds",
+          "label": "positive",
+          "evidence_for": [
+            "Comfortable beds"
+          ],
+          "evidence_against": [],
+          "evidence_review_ids": [
+            "1299117028940859368"
+          ]
+        },
+        {
+          "promise": "fabulous location",
+          "label": "positive",
+          "evidence_for": [
+            "fabulous location"
+          ],
+          "evidence_against": [],
+          "evidence_review_ids": [
+            "1362271741446308792"
+          ]
+        },
+        {
+          "promise": "super comfortable bedrooms",
+          "label": "positive",
+          "evidence_for": [
+            "Both king beds were comfortable"
+          ],
+          "evidence_against": [],
+          "evidence_review_ids": [
+            "1419453353786766762"
+          ]
+        },
+        {
+          "promise": "helpful host",
+          "label": "positive",
+          "evidence_for": [
+            "Ercan was so helpful to organise an additional night stay"
+          ],
+          "evidence_against": [],
+          "evidence_review_ids": [
+            "1299117028940859368"
+          ]
+        }
+      ]
+    },
+    "json_valid": true,
+    "schema_valid": true,
+    "parse_error": null,
+    "api_error": null,
+    "finish_reason": "stop",
+    "prompt_tokens": 916,
+    "completion_tokens": 217
+  },
+  {
+    "model": "qwen3.5-4b",
+    "listing_id": "52851508",
+    "elapsed_seconds": 10.36,
+    "raw": "{\"promises\":[{\"promise\":\"Hosts are friendly and helpful\",\"label\":\"positive\",\"evidence_for\":[\"Ali and Eyp are super friendly and helpful!\"],\"evidence_against\":[],\"evidence_review_ids\":[\"759250007327337842\"]},{\"promise\":\"Apartment is nicely decorated with a view\",\"label\":\"positive\",\"evidence_for\":[\"very nice decorated... amazing view of the city\"],\"evidence_against\":[],\"evidence_review_ids\":[\"759250007327337842\"]},{\"promise\":\"Location is close to attractions and shops\",\"label\":\"positive\",\"evidence_for\":[\"5min walk to Taksim where the shopping street is\"],\"evidence_against\":[],\"evidence_review_ids\":[\"759250007327337842\"]},{\"promise\":\"Hosts are responsive to queries\",\"label\":\"positive\",\"evidence_for\":[\"they were always quick to respond with any queries or issues\"],\"evidence_against\":[],\"evidence_review_ids\":[\"1420881378837887039\"]}]}",
+    "parsed": {
+      "promises": [
+        {
+          "promise": "Hosts are friendly and helpful",
+          "label": "positive",
+          "evidence_for": [
+            "Ali and Eyp are super friendly and helpful!"
+          ],
+          "evidence_against": [],
+          "evidence_review_ids": [
+            "759250007327337842"
+          ]
+        },
+        {
+          "promise": "Apartment is nicely decorated with a view",
+          "label": "positive",
+          "evidence_for": [
+            "very nice decorated... amazing view of the city"
+          ],
+          "evidence_against": [],
+          "evidence_review_ids": [
+            "759250007327337842"
+          ]
+        },
+        {
+          "promise": "Location is close to attractions and shops",
+          "label": "positive",
+          "evidence_for": [
+            "5min walk to Taksim where the shopping street is"
+          ],
+          "evidence_against": [],
+          "evidence_review_ids": [
+            "759250007327337842"
+          ]
+        },
+        {
+          "promise": "Hosts are responsive to queries",
+          "label": "positive",
+          "evidence_for": [
+            "they were always quick to respond with any queries or issues"
+          ],
+          "evidence_against": [],
+          "evidence_review_ids": [
+            "1420881378837887039"
+          ]
+        }
+      ]
+    },
+    "json_valid": true,
+    "schema_valid": true,
+    "parse_error": null,
+    "api_error": null,
+    "finish_reason": "stop",
+    "prompt_tokens": 1208,
+    "completion_tokens": 247
+  },
+  {
+    "model": "qwen3.5-4b",
+    "listing_id": "54244532",
+    "elapsed_seconds": 11.099,
+    "raw": "{\"promises\":[{\"promise\":\"The apartment is spacious with a well-equipped kitchen.\",\"label\":\"positive\",\"evidence_for\":[\"Spacious apartment with nice kitchen and main foyer\"],\"evidence_against\":[],\"evidence_review_ids\":[\"1159982484841401383\"]},{\"promise\":\"Plui provided helpful communication and video instructions for appliances.\",\"label\":\"positive\",\"evidence_for\":[\"Plui sent us all explanations and instructions in video format\"],\"evidence_against\":[],\"evidence_review_ids\":[\"651943636081115242\"]},{\"promise\":\"The apartment is located in a quiet area close to public transport.\",\"label\":\"positive\",\"evidence_for\":[\"quiet residential area... close, but not next to, public transport such as the Marmaray and metro\"],\"evidence_against\":[],\"evidence_review_ids\":[\"691096673193015057\"]},{\"promise\":\"The apartment features a projector for entertainment.\",\"label\":\"positive\",\"evidence_for\":[\"Projector... are a great bonus\"],\"evidence_against\":[],\"evidence_review_ids\":[\"691096673193015057\"]}]}",
+    "parsed": {
+      "promises": [
+        {
+          "promise": "The apartment is spacious with a well-equipped kitchen.",
+          "label": "positive",
+          "evidence_for": [
+            "Spacious apartment with nice kitchen and main foyer"
+          ],
+          "evidence_against": [],
+          "evidence_review_ids": [
+            "1159982484841401383"
+          ]
+        },
+        {
+          "promise": "Plui provided helpful communication and video instructions for appliances.",
+          "label": "positive",
+          "evidence_for": [
+            "Plui sent us all explanations and instructions in video format"
+          ],
+          "evidence_against": [],
+          "evidence_review_ids": [
+            "651943636081115242"
+          ]
+        },
+        {
+          "promise": "The apartment is located in a quiet area close to public transport.",
+          "label": "positive",
+          "evidence_for": [
+            "quiet residential area... close, but not next to, public transport such as the Marmaray and metro"
+          ],
+          "evidence_against": [],
+          "evidence_review_ids": [
+            "691096673193015057"
+          ]
+        },
+        {
+          "promise": "The apartment features a projector for entertainment.",
+          "label": "positive",
+          "evidence_for": [
+            "Projector... are a great bonus"
+          ],
+          "evidence_against": [],
+          "evidence_review_ids": [
+            "691096673193015057"
+          ]
+        }
+      ]
+    },
+    "json_valid": true,
+    "schema_valid": true,
+    "parse_error": null,
+    "api_error": null,
+    "finish_reason": "stop",
+    "prompt_tokens": 1338,
+    "completion_tokens": 265
+  },
+  {
+    "model": "qwen3.5-4b",
+    "listing_id": "565011225142588325",
+    "elapsed_seconds": 12.026,
+    "raw": "{\"promises\":[{\"promise\":\"cleanliness\",\"label\":\"negative\",\"evidence_for\":[\"Evin her tarafı çatlaklarla doluydu . Duvarlar kirden siyahlaşmıştı . Buzdolabının içi rezaletti\"],\"evidence_against\":[],\"evidence_review_ids\":[\"1689123437050727847\"]},{\"promise\":\"hygiene\",\"label\":\"negative\",\"evidence_for\":[\"Çarşafların üstünde kıl vardı . Bu ev sadece konumu için var yoksa evde değil köpek kulübesinde kalsanız daha rahat edersiniz\"],\"evidence_against\":[],\"evidence_review_ids\":[\"1689123437050727847\"]},{\"promise\":\"host responsiveness\",\"label\":\"positive\",\"evidence_for\":[\"Ali et ses co-partenaires sont toujours réactifs, vous avez une question ou un problème, ils sont toujours présents pour vous répondre et arranger le problème\"],\"evidence_against\":[],\"evidence_review_ids\":[\"1153465450529210761\"]},{\"promise\":\"location\",\"label\":\"positive\",\"evidence_for\":[\"Cafes restaurants super markets are 1 minute distance\"],\"evidence_against\":[],\"evidence_review_ids\":[\"1689123437050727847\"]}]}",
+    "parsed": {
+      "promises": [
+        {
+          "promise": "cleanliness",
+          "label": "negative",
+          "evidence_for": [
+            "Evin her tarafı çatlaklarla doluydu . Duvarlar kirden siyahlaşmıştı . Buzdolabının içi rezaletti"
+          ],
+          "evidence_against": [],
+          "evidence_review_ids": [
+            "1689123437050727847"
+          ]
+        },
+        {
+          "promise": "hygiene",
+          "label": "negative",
+          "evidence_for": [
+            "Çarşafların üstünde kıl vardı . Bu ev sadece konumu için var yoksa evde değil köpek kulübesinde kalsanız daha rahat edersiniz"
+          ],
+          "evidence_against": [],
+          "evidence_review_ids": [
+            "1689123437050727847"
+          ]
+        },
+        {
+          "promise": "host responsiveness",
+          "label": "positive",
+          "evidence_for": [
+            "Ali et ses co-partenaires sont toujours réactifs, vous avez une question ou un problème, ils sont toujours présents pour vous répondre et arranger le problème"
+          ],
+          "evidence_against": [],
+          "evidence_review_ids": [
+            "1153465450529210761"
+          ]
+        },
+        {
+          "promise": "location",
+          "label": "positive",
+          "evidence_for": [
+            "Cafes restaurants super markets are 1 minute distance"
+          ],
+          "evidence_against": [],
+          "evidence_review_ids": [
+            "1689123437050727847"
+          ]
+        }
+      ]
+    },
+    "json_valid": true,
+    "schema_valid": true,
+    "parse_error": null,
+    "api_error": null,
+    "finish_reason": "stop",
+    "prompt_tokens": 970,
+    "completion_tokens": 309
+  },
+  {
+    "model": "qwen3.5-4b",
+    "listing_id": "667163391627541992",
+    "elapsed_seconds": 12.793,
+    "raw": "{\"promises\":[{\"promise\":\"The host is nice and helpful\",\"label\":\"positive\",\"evidence_for\":[\"Zefer and his brother are really nice, relabel and helpful\"],\"evidence_against\":[],\"evidence_review_ids\":[\"735281247174926485\"]},{\"promise\":\"The apartment looks exactly like in the photos\",\"label\":\"positive\",\"evidence_for\":[\"It is located on the fifth floor (Zafer helped us with our bags) and considering it is the last floor, you have a big balcony with a great view of Istanbul\"],\"evidence_against\":[],\"evidence_review_ids\":[\"870845181988651701\"]},{\"promise\":\"The apartment has no elevator\",\"label\":\"negative\",\"evidence_for\":[\"Like most of the apartments in Istanbul is has no elevator\"],\"evidence_against\":[],\"evidence_review_ids\":[\"735281247174926485\"]},{\"promise\":\"There are stairs to get to the apartment\",\"label\":\"mixed\",\"evidence_for\":[\"A manager that checked us in was extremely helpful and friendly. He also provided us a parking place just near the apartment\"],\"evidence_against\":[\"the stairs that you have to take everyday to get to the apartment\"],\"evidence_review_ids\":[\"732434816494277999\",\"818608894075831594\"]}]}",
+    "parsed": {
+      "promises": [
+        {
+          "promise": "The host is nice and helpful",
+          "label": "positive",
+          "evidence_for": [
+            "Zefer and his brother are really nice, relabel and helpful"
+          ],
+          "evidence_against": [],
+          "evidence_review_ids": [
+            "735281247174926485"
+          ]
+        },
+        {
+          "promise": "The apartment looks exactly like in the photos",
+          "label": "positive",
+          "evidence_for": [
+            "It is located on the fifth floor (Zafer helped us with our bags) and considering it is the last floor, you have a big balcony with a great view of Istanbul"
+          ],
+          "evidence_against": [],
+          "evidence_review_ids": [
+            "870845181988651701"
+          ]
+        },
+        {
+          "promise": "The apartment has no elevator",
+          "label": "negative",
+          "evidence_for": [
+            "Like most of the apartments in Istanbul is has no elevator"
+          ],
+          "evidence_against": [],
+          "evidence_review_ids": [
+            "735281247174926485"
+          ]
+        },
+        {
+          "promise": "There are stairs to get to the apartment",
+          "label": "mixed",
+          "evidence_for": [
+            "A manager that checked us in was extremely helpful and friendly. He also provided us a parking place just near the apartment"
+          ],
+          "evidence_against": [
+            "the stairs that you have to take everyday to get to the apartment"
+          ],
+          "evidence_review_ids": [
+            "732434816494277999",
+            "818608894075831594"
+          ]
+        }
+      ]
+    },
+    "json_valid": true,
+    "schema_valid": true,
+    "parse_error": null,
+    "api_error": null,
+    "finish_reason": "stop",
+    "prompt_tokens": 1044,
+    "completion_tokens": 320
+  },
+  {
+    "model": "qwen3.5-4b",
+    "listing_id": "7001892",
+    "elapsed_seconds": 12.282,
+    "raw": "{\"promises\":[{\"promise\":\"Host provides excellent service and responsiveness\",\"label\":\"positive\",\"evidence_for\":[\"She'll help with everything and will respond right away\"],\"evidence_against\":[],\"evidence_review_ids\":[\"712868031924599009\"]},{\"promise\":\"Host offers personalized guidance and local recommendations\",\"label\":\"positive\",\"evidence_for\":[\"She helped me find places and gave me a lot of suggestions as well\"],\"evidence_against\":[],\"evidence_review_ids\":[\"978097500538850579\"]},{\"promise\":\"Apartment is fully equipped with necessary amenities\",\"label\":\"positive\",\"evidence_for\":[\"You will find everything you need in the house\"],\"evidence_against\":[\"Lack of cleaning supplies, Shampoo, soaps toilet paper, washing machine Detergent, dishwasher detergent\"],\"evidence_review_ids\":[\"712868031924599009\",\"978097500538850579\"]},{\"promise\":\"Location is ideal for tourists near major attractions\",\"label\":\"positive\",\"evidence_for\":[\"It's also close to Taksim metro and tophane tram stations, and just two minutes to Istiklal street\"],\"evidence_against\":[],\"evidence_review_ids\":[\"712868031924599009\"]}]\n}",
+    "parsed": {
+      "promises": [
+        {
+          "promise": "Host provides excellent service and responsiveness",
+          "label": "positive",
+          "evidence_for": [
+            "She'll help with everything and will respond right away"
+          ],
+          "evidence_against": [],
+          "evidence_review_ids": [
+            "712868031924599009"
+          ]
+        },
+        {
+          "promise": "Host offers personalized guidance and local recommendations",
+          "label": "positive",
+          "evidence_for": [
+            "She helped me find places and gave me a lot of suggestions as well"
+          ],
+          "evidence_against": [],
+          "evidence_review_ids": [
+            "978097500538850579"
+          ]
+        },
+        {
+          "promise": "Apartment is fully equipped with necessary amenities",
+          "label": "positive",
+          "evidence_for": [
+            "You will find everything you need in the house"
+          ],
+          "evidence_against": [
+            "Lack of cleaning supplies, Shampoo, soaps toilet paper, washing machine Detergent, dishwasher detergent"
+          ],
+          "evidence_review_ids": [
+            "712868031924599009",
+            "978097500538850579"
+          ]
+        },
+        {
+          "promise": "Location is ideal for tourists near major attractions",
+          "label": "positive",
+          "evidence_for": [
+            "It's also close to Taksim metro and tophane tram stations, and just two minutes to Istiklal street"
+          ],
+          "evidence_against": [],
+          "evidence_review_ids": [
+            "712868031924599009"
+          ]
+        }
+      ]
+    },
+    "json_valid": true,
+    "schema_valid": true,
+    "parse_error": null,
+    "api_error": null,
+    "finish_reason": "stop",
+    "prompt_tokens": 1153,
+    "completion_tokens": 305
+  },
+  {
+    "model": "qwen3.5-4b",
+    "listing_id": "764469843346122080",
+    "elapsed_seconds": 10.805,
+    "raw": "{\"promises\":[{\"promise\":\"The apartment is spotless and very clean.\",\"label\":\"positive\",\"evidence_for\":[\"apartment is spotless\"],\"evidence_against\":[],\"evidence_review_ids\":[\"972299159851831053\"]},{\"promise\":\"There are visible stains on the bed sheets, windows, and curtains.\",\"label\":\"negative\",\"evidence_for\":[\"visible stains on the bed sheets, windows, and curtains\"],\"evidence_against\":[],\"evidence_review_ids\":[\"1431747241299629744\"]},{\"promise\":\"The apartment is very close to City's Shopping Mall.\",\"label\":\"positive\",\"evidence_for\":[\"very close to City's Shopping Mall\"],\"evidence_against\":[],\"evidence_review_ids\":[\"1102793253129873257\"]},{\"promise\":\"There are visible stains on the bed sheets, windows, and curtains.\",\"label\":\"negative\",\"evidence_for\":[\"visible stains on the bed sheets, windows, and curtains\"],\"evidence_against\":[],\"evidence_review_ids\":[\"1431747241299629744\"]}]\n}",
+    "parsed": {
+      "promises": [
+        {
+          "promise": "The apartment is spotless and very clean.",
+          "label": "positive",
+          "evidence_for": [
+            "apartment is spotless"
+          ],
+          "evidence_against": [],
+          "evidence_review_ids": [
+            "972299159851831053"
+          ]
+        },
+        {
+          "promise": "There are visible stains on the bed sheets, windows, and curtains.",
+          "label": "negative",
+          "evidence_for": [
+            "visible stains on the bed sheets, windows, and curtains"
+          ],
+          "evidence_against": [],
+          "evidence_review_ids": [
+            "1431747241299629744"
+          ]
+        },
+        {
+          "promise": "The apartment is very close to City's Shopping Mall.",
+          "label": "positive",
+          "evidence_for": [
+            "very close to City's Shopping Mall"
+          ],
+          "evidence_against": [],
+          "evidence_review_ids": [
+            "1102793253129873257"
+          ]
+        },
+        {
+          "promise": "There are visible stains on the bed sheets, windows, and curtains.",
+          "label": "negative",
+          "evidence_for": [
+            "visible stains on the bed sheets, windows, and curtains"
+          ],
+          "evidence_against": [],
+          "evidence_review_ids": [
+            "1431747241299629744"
+          ]
+        }
+      ]
+    },
+    "json_valid": true,
+    "schema_valid": true,
+    "parse_error": null,
+    "api_error": null,
+    "finish_reason": "stop",
+    "prompt_tokens": 984,
+    "completion_tokens": 264
+  },
+  {
+    "model": "qwen3.5-4b",
+    "listing_id": "836030646532487826",
+    "elapsed_seconds": 8.776,
+    "raw": "{\"promises\":[{\"promise\":\"Easy access via metro\",\"label\":\"positive\",\"evidence_for\":[\"Gemakkelijk te bereiken via metro.\"],\"evidence_against\":[],\"evidence_review_ids\":[\"1249096573440609948\"]},{\"promise\":\"Friendly reception and helpful host\",\"label\":\"positive\",\"evidence_for\":[\"Vriendelijke ontvangst. Behulpzame host.\"],\"evidence_against\":[],\"evidence_review_ids\":[\"1249096573440609948\"]},{\"promise\":\"Good accessibility with stroller and elevator\",\"label\":\"positive\",\"evidence_for\":[\"Goed toegankelijk met een kinderwagen. Grote lift aanwezig\"],\"evidence_against\":[],\"evidence_review_ids\":[\"1249096573440609948\"]},{\"promise\":\"Suitable for families with children\",\"label\":\"positive\",\"evidence_for\":[\"We look forward to hosting our guests.\"],\"evidence_against\":[],\"evidence_review_ids\":[\"listing\"]}]}",
+    "parsed": {
+      "promises": [
+        {
+          "promise": "Easy access via metro",
+          "label": "positive",
+          "evidence_for": [
+            "Gemakkelijk te bereiken via metro."
+          ],
+          "evidence_against": [],
+          "evidence_review_ids": [
+            "1249096573440609948"
+          ]
+        },
+        {
+          "promise": "Friendly reception and helpful host",
+          "label": "positive",
+          "evidence_for": [
+            "Vriendelijke ontvangst. Behulpzame host."
+          ],
+          "evidence_against": [],
+          "evidence_review_ids": [
+            "1249096573440609948"
+          ]
+        },
+        {
+          "promise": "Good accessibility with stroller and elevator",
+          "label": "positive",
+          "evidence_for": [
+            "Goed toegankelijk met een kinderwagen. Grote lift aanwezig"
+          ],
+          "evidence_against": [],
+          "evidence_review_ids": [
+            "1249096573440609948"
+          ]
+        },
+        {
+          "promise": "Suitable for families with children",
+          "label": "positive",
+          "evidence_for": [
+            "We look forward to hosting our guests."
+          ],
+          "evidence_against": [],
+          "evidence_review_ids": [
+            "listing"
+          ]
+        }
+      ]
+    },
+    "json_valid": true,
+    "schema_valid": true,
+    "parse_error": null,
+    "api_error": null,
+    "finish_reason": "stop",
+    "prompt_tokens": 561,
+    "completion_tokens": 224
+  },
+  {
+    "model": "qwen3.5-4b",
+    "listing_id": "870363049775718784",
+    "elapsed_seconds": 12.026,
+    "raw": "{\"promises\":[{\"promise\":\"The stairs are steep and narrow, making entry difficult for some guests.\",\"label\":\"negative\",\"evidence_for\":[\"Steep staircase to enter the place which may prove to be a problem for some guests.\"],\"evidence_against\":[],\"evidence_review_ids\":[\"1204983214122391421\"]},{\"promise\":\"The location is central and close to major attractions like Istiklal Street.\",\"label\":\"positive\",\"evidence_for\":[\"Close enough to the major attractions.\"],\"evidence_against\":[],\"evidence_review_ids\":[\"1204983214122391421\"]},{\"promise\":\"The host was friendly and helpful with check-in and luggage assistance.\",\"label\":\"positive\",\"evidence_for\":[\"Hakan & Turkan were very responsive to our questions and requests.\"],\"evidence_against\":[],\"evidence_review_ids\":[\"1204983214122391421\"]},{\"promise\":\"There is a mosque next door causing noise during early morning prayer hours.\",\"label\":\"negative\",\"evidence_for\":[\"you hear the call to prayer 5 times a day and it is a little bit annoying specially at 4 a.m in the morning.\"],\"evidence_against\":[],\"evidence_review_ids\":[\"936772615702862147\"]}]}",
+    "parsed": {
+      "promises": [
+        {
+          "promise": "The stairs are steep and narrow, making entry difficult for some guests.",
+          "label": "negative",
+          "evidence_for": [
+            "Steep staircase to enter the place which may prove to be a problem for some guests."
+          ],
+          "evidence_against": [],
+          "evidence_review_ids": [
+            "1204983214122391421"
+          ]
+        },
+        {
+          "promise": "The location is central and close to major attractions like Istiklal Street.",
+          "label": "positive",
+          "evidence_for": [
+            "Close enough to the major attractions."
+          ],
+          "evidence_against": [],
+          "evidence_review_ids": [
+            "1204983214122391421"
+          ]
+        },
+        {
+          "promise": "The host was friendly and helpful with check-in and luggage assistance.",
+          "label": "positive",
+          "evidence_for": [
+            "Hakan & Turkan were very responsive to our questions and requests."
+          ],
+          "evidence_against": [],
+          "evidence_review_ids": [
+            "1204983214122391421"
+          ]
+        },
+        {
+          "promise": "There is a mosque next door causing noise during early morning prayer hours.",
+          "label": "negative",
+          "evidence_for": [
+            "you hear the call to prayer 5 times a day and it is a little bit annoying specially at 4 a.m in the morning."
+          ],
+          "evidence_against": [],
+          "evidence_review_ids": [
+            "936772615702862147"
+          ]
+        }
+      ]
+    },
+    "json_valid": true,
+    "schema_valid": true,
+    "parse_error": null,
+    "api_error": null,
+    "finish_reason": "stop",
+    "prompt_tokens": 1195,
+    "completion_tokens": 299
+  },
+  {
+    "model": "qwen3.5-4b",
+    "listing_id": "874627122429456319",
+    "elapsed_seconds": 10.124,
+    "raw": "{\"promises\":[{\"promise\":\"The apartment is fresh and beautiful\",\"label\":\"positive\",\"evidence_for\":[\"The apartment is fresh and beautiful\"],\"evidence_against\":[],\"evidence_review_ids\":[\"931690941171406146\"]},{\"promise\":\"Rayan was very friendly and responsive\",\"label\":\"positive\",\"evidence_for\":[\"Rayan was a very friendly and responsive\"],\"evidence_against\":[],\"evidence_review_ids\":[\"1019339193203972973\"]},{\"promise\":\"The apartment is tidy and clean\",\"label\":\"positive\",\"evidence_for\":[\"The appartment was very tidy and clean\"],\"evidence_against\":[],\"evidence_review_ids\":[\"1476719249671457182\"]},{\"promise\":\"There are no elevators in the houses\",\"label\":\"negative\",\"evidence_for\":[\"there are no elevators in the houses\"],\"evidence_against\":[],\"evidence_review_ids\":[\"931690941171406146\"]}]}",
+    "parsed": {
+      "promises": [
+        {
+          "promise": "The apartment is fresh and beautiful",
+          "label": "positive",
+          "evidence_for": [
+            "The apartment is fresh and beautiful"
+          ],
+          "evidence_against": [],
+          "evidence_review_ids": [
+            "931690941171406146"
+          ]
+        },
+        {
+          "promise": "Rayan was very friendly and responsive",
+          "label": "positive",
+          "evidence_for": [
+            "Rayan was a very friendly and responsive"
+          ],
+          "evidence_against": [],
+          "evidence_review_ids": [
+            "1019339193203972973"
+          ]
+        },
+        {
+          "promise": "The apartment is tidy and clean",
+          "label": "positive",
+          "evidence_for": [
+            "The appartment was very tidy and clean"
+          ],
+          "evidence_against": [],
+          "evidence_review_ids": [
+            "1476719249671457182"
+          ]
+        },
+        {
+          "promise": "There are no elevators in the houses",
+          "label": "negative",
+          "evidence_for": [
+            "there are no elevators in the houses"
+          ],
+          "evidence_against": [],
+          "evidence_review_ids": [
+            "931690941171406146"
+          ]
+        }
+      ]
+    },
+    "json_valid": true,
+    "schema_valid": true,
+    "parse_error": null,
+    "api_error": null,
+    "finish_reason": "stop",
+    "prompt_tokens": 1291,
+    "completion_tokens": 236
+  },
+  {
+    "model": "qwen3.5-4b",
+    "listing_id": "965763086508866736",
+    "elapsed_seconds": 9.812,
+    "raw": "{\"promises\":[{\"promise\":\"Cleanliness\",\"label\":\"positive\",\"evidence_for\":[\"Oda genel olarak temizdi\"],\"evidence_against\":[],\"evidence_review_ids\":[\"1078883819787501191\"]},{\"promise\":\"Host responsiveness\",\"label\":\"positive\",\"evidence_for\":[\"İsmet beye öncelikle hızlı cevaplarından olumlu yanıtlarından\"],\"evidence_against\":[],\"evidence_review_ids\":[\"1078883819787501191\"]},{\"promise\":\"Location quality\",\"label\":\"positive\",\"evidence_for\":[\"Konumu Mükemmel\"],\"evidence_against\":[],\"evidence_review_ids\":[\"1160035500036526744\"]},{\"promise\":\"Host helpfulness\",\"label\":\"positive\",\"evidence_for\":[\"Ismet also gave us an extra checkout time due to some technical issues that were later resolved!\"],\"evidence_against\":[],\"evidence_review_ids\":[\"971521143453411657\"]}]}",
+    "parsed": {
+      "promises": [
+        {
+          "promise": "Cleanliness",
+          "label": "positive",
+          "evidence_for": [
+            "Oda genel olarak temizdi"
+          ],
+          "evidence_against": [],
+          "evidence_review_ids": [
+            "1078883819787501191"
+          ]
+        },
+        {
+          "promise": "Host responsiveness",
+          "label": "positive",
+          "evidence_for": [
+            "İsmet beye öncelikle hızlı cevaplarından olumlu yanıtlarından"
+          ],
+          "evidence_against": [],
+          "evidence_review_ids": [
+            "1078883819787501191"
+          ]
+        },
+        {
+          "promise": "Location quality",
+          "label": "positive",
+          "evidence_for": [
+            "Konumu Mükemmel"
+          ],
+          "evidence_against": [],
+          "evidence_review_ids": [
+            "1160035500036526744"
+          ]
+        },
+        {
+          "promise": "Host helpfulness",
+          "label": "positive",
+          "evidence_for": [
+            "Ismet also gave us an extra checkout time due to some technical issues that were later resolved!"
+          ],
+          "evidence_against": [],
+          "evidence_review_ids": [
+            "971521143453411657"
+          ]
+        }
+      ]
+    },
+    "json_valid": true,
+    "schema_valid": true,
+    "parse_error": null,
+    "api_error": null,
+    "finish_reason": "stop",
+    "prompt_tokens": 859,
+    "completion_tokens": 238
+  },
+  {
+    "model": "qwen3.5-4b",
+    "listing_id": "966549453851256572",
+    "elapsed_seconds": 13.745,
+    "raw": "{\"promises\":[{\"promise\":\"daily cleaning service\",\"label\":\"positive\",\"evidence_for\":[\"There is daily cleaning\"],\"evidence_against\":[],\"evidence_review_ids\":[\"1209342326851182479\"]},{\"promise\":\"24-hour reception service\",\"label\":\"positive\",\"evidence_for\":[\"24-hour reception service\"],\"evidence_against\":[],\"evidence_review_ids\":[\"1209342326851182479\"]},{\"promise\":\"friendly and welcoming receptionist\",\"label\":\"positive\",\"evidence_for\":[\"The receptionist was friendly and welcoming\"],\"evidence_against\":[],\"evidence_review_ids\":[\"1209342326851182479\"]},{\"promise\":\"modern and comfortable accommodation experience\",\"label\":\"insufficient_evidence\",\"evidence_for\":[\"Pesa Suites offers its guests a comfortable accommodation experience with its stylish and modern design\"],\"evidence_against\":[\"The accommodation itself is a bit worn out. I was surprised that there was no headboard on the bed, which was not very comfortable. There were only 2 pillows instead of 4 as shown in the photo, so my head touched the wall, which was not very comfortable. The towels had a smell and stains, which really spoiled the impression. But I brought my own just in case. On the last night, noisy men moved into the next room.\"],\"evidence_review_ids\":[\"1209342326851182479\"]}]}",
+    "parsed": {
+      "promises": [
+        {
+          "promise": "daily cleaning service",
+          "label": "positive",
+          "evidence_for": [
+            "There is daily cleaning"
+          ],
+          "evidence_against": [],
+          "evidence_review_ids": [
+            "1209342326851182479"
+          ]
+        },
+        {
+          "promise": "24-hour reception service",
+          "label": "positive",
+          "evidence_for": [
+            "24-hour reception service"
+          ],
+          "evidence_against": [],
+          "evidence_review_ids": [
+            "1209342326851182479"
+          ]
+        },
+        {
+          "promise": "friendly and welcoming receptionist",
+          "label": "positive",
+          "evidence_for": [
+            "The receptionist was friendly and welcoming"
+          ],
+          "evidence_against": [],
+          "evidence_review_ids": [
+            "1209342326851182479"
+          ]
+        },
+        {
+          "promise": "modern and comfortable accommodation experience",
+          "label": "insufficient_evidence",
+          "evidence_for": [
+            "Pesa Suites offers its guests a comfortable accommodation experience with its stylish and modern design"
+          ],
+          "evidence_against": [
+            "The accommodation itself is a bit worn out. I was surprised that there was no headboard on the bed, which was not very comfortable. There were only 2 pillows instead of 4 as shown in the photo, so my head touched the wall, which was not very comfortable. The towels had a smell and stains, which really spoiled the impression. But I brought my own just in case. On the last night, noisy men moved into the next room."
+          ],
+          "evidence_review_ids": [
+            "1209342326851182479"
+          ]
+        }
+      ]
+    },
+    "json_valid": true,
+    "schema_valid": true,
+    "parse_error": null,
+    "api_error": null,
+    "finish_reason": "stop",
+    "prompt_tokens": 1260,
+    "completion_tokens": 327
+  },
+  {
+    "model": "qwen3.5-4b",
+    "listing_id": "990736959386301904",
+    "elapsed_seconds": 9.478,
+    "raw": "{\"promises\":[{\"promise\":\"The host resolves issues swiftly\",\"label\":\"positive\",\"evidence_for\":[\"Swiftly resolving a WiFi issue we encountered\"],\"evidence_against\":[],\"evidence_review_ids\":[\"1033935491661739752\"]},{\"promise\":\"Zain responds quickly to guests\",\"label\":\"positive\",\"evidence_for\":[\"Zain responded quickly and provided clear instructions for the check-in process\"],\"evidence_against\":[],\"evidence_review_ids\":[\"1480367811319678310\"]},{\"promise\":\"The apartment is clean and well equipped\",\"label\":\"positive\",\"evidence_for\":[\"The apartment was clean, ideal for a couple\"],\"evidence_against\":[],\"evidence_review_ids\":[\"1033935491661739752\"]},{\"promise\":\"The neighborhood has all necessary shops\",\"label\":\"positive\",\"evidence_for\":[\"The neighborhood has all necessary shops\"],\"evidence_against\":[],\"evidence_review_ids\":[\"1507912333207526074\"]}]}",
+    "parsed": {
+      "promises": [
+        {
+          "promise": "The host resolves issues swiftly",
+          "label": "positive",
+          "evidence_for": [
+            "Swiftly resolving a WiFi issue we encountered"
+          ],
+          "evidence_against": [],
+          "evidence_review_ids": [
+            "1033935491661739752"
+          ]
+        },
+        {
+          "promise": "Zain responds quickly to guests",
+          "label": "positive",
+          "evidence_for": [
+            "Zain responded quickly and provided clear instructions for the check-in process"
+          ],
+          "evidence_against": [],
+          "evidence_review_ids": [
+            "1480367811319678310"
+          ]
+        },
+        {
+          "promise": "The apartment is clean and well equipped",
+          "label": "positive",
+          "evidence_for": [
+            "The apartment was clean, ideal for a couple"
+          ],
+          "evidence_against": [],
+          "evidence_review_ids": [
+            "1033935491661739752"
+          ]
+        },
+        {
+          "promise": "The neighborhood has all necessary shops",
+          "label": "positive",
+          "evidence_for": [
+            "The neighborhood has all necessary shops"
+          ],
+          "evidence_against": [],
+          "evidence_review_ids": [
+            "1507912333207526074"
+          ]
+        }
+      ]
+    },
+    "json_valid": true,
+    "schema_valid": true,
+    "parse_error": null,
+    "api_error": null,
+    "finish_reason": "stop",
+    "prompt_tokens": 813,
+    "completion_tokens": 241
+  },
+  {
+    "model": "qwen3.5-4b",
+    "listing_id": "995722181761466075",
+    "elapsed_seconds": 10.58,
+    "raw": "{\"promises\":[{\"promise\":\"cleanliness\",\"label\":\"mixed\",\"evidence_for\":[\"Temizlik, rahatlık konusunda harikaydı\"],\"evidence_against\":[\"There was too much dust in the floor and furniture's\"],\"evidence_review_ids\":[\"1396245841377610717\",\"1254978599778972325\"]},{\"promise\":\"location\",\"label\":\"positive\",\"evidence_for\":[\"Ev Taksim metrosuna yürüme mesafesindeydi\"],\"evidence_against\":[],\"evidence_review_ids\":[\"1396245841377610717\"]},{\"promise\":\"host responsiveness\",\"label\":\"positive\",\"evidence_for\":[\"The host responds very quickly and informatively\"],\"evidence_against\":[],\"evidence_review_ids\":[\"1476727484431559297\"]},{\"promise\":\"amenities value\",\"label\":\"positive\",\"evidence_for\":[\"the pool and sauna is totally worth it after a long day visiting the city\"],\"evidence_against\":[],\"evidence_review_ids\":[\"1254978599778972325\"]}]}",
+    "parsed": {
+      "promises": [
+        {
+          "promise": "cleanliness",
+          "label": "mixed",
+          "evidence_for": [
+            "Temizlik, rahatlık konusunda harikaydı"
+          ],
+          "evidence_against": [
+            "There was too much dust in the floor and furniture's"
+          ],
+          "evidence_review_ids": [
+            "1396245841377610717",
+            "1254978599778972325"
+          ]
+        },
+        {
+          "promise": "location",
+          "label": "positive",
+          "evidence_for": [
+            "Ev Taksim metrosuna yürüme mesafesindeydi"
+          ],
+          "evidence_against": [],
+          "evidence_review_ids": [
+            "1396245841377610717"
+          ]
+        },
+        {
+          "promise": "host responsiveness",
+          "label": "positive",
+          "evidence_for": [
+            "The host responds very quickly and informatively"
+          ],
+          "evidence_against": [],
+          "evidence_review_ids": [
+            "1476727484431559297"
+          ]
+        },
+        {
+          "promise": "amenities value",
+          "label": "positive",
+          "evidence_for": [
+            "the pool and sauna is totally worth it after a long day visiting the city"
+          ],
+          "evidence_against": [],
+          "evidence_review_ids": [
+            "1254978599778972325"
+          ]
+        }
+      ]
+    },
+    "json_valid": true,
+    "schema_valid": true,
+    "parse_error": null,
+    "api_error": null,
+    "finish_reason": "stop",
+    "prompt_tokens": 767,
+    "completion_tokens": 267
+  }
+]

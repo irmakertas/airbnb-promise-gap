@@ -1,0 +1,85 @@
+﻿promise_normalized,example_promise,promise_count,positive_count,negative_count,mixed_count,insufficient_count,negative_share_observed
+cleanliness,cleanliness,500,339,16,144,1,0.03206412825651302
+host helpfulness,host helpfulness,79,76,0,3,0,0.0
+location,location,189,185,0,4,0,0.0
+host responsiveness,host responsiveness,110,105,0,5,0,0.0
+the host is responsive and helpful.,The host is responsive and helpful.,25,25,0,0,0,0.0
+cleanliness issues,cleanliness issues,11,0,10,1,0,0.9090909090909091
+clean room,clean room,24,22,0,2,0,0.0
+responsive host,responsive host,62,59,0,3,0,0.0
+clean apartment,clean apartment,85,76,1,7,1,0.011904761904761904
+clean rooms,clean rooms,26,18,0,8,0,0.0
+good value for money,good value for money,10,9,0,1,0,0.0
+friendly host,friendly host,23,21,0,2,0,0.0
+good location,good location,20,20,0,0,0,0.0
+value for money,value for money,23,18,1,4,0,0.043478260869565216
+noise level,noise level,43,0,23,20,0,0.5348837209302325
+host communication,host communication,47,40,0,7,0,0.0
+the host is friendly and responsive.,The host is friendly and responsive.,8,8,0,0,0,0.0
+responsive host communication,responsive host communication,6,6,0,0,0,0.0
+location convenience,location convenience,158,150,0,8,0,0.0
+comfort level,comfort level,5,5,0,0,0,0.0
+view quality,view quality,9,9,0,0,0,0.0
+staff_friendliness,staff_friendliness,6,5,1,0,0,0.16666666666666666
+great location,great location,18,18,0,0,0,0.0
+the apartment is very clean.,The apartment is very clean.,14,14,0,0,0,0.0
+amenities,amenities,22,13,3,6,0,0.13636363636363635
+room_size,room_size,5,0,2,3,0,0.4
+helpful host,helpful host,16,16,0,0,0,0.0
+host_responsiveness,host_responsiveness,31,27,0,4,0,0.0
+apartment cleanliness,apartment cleanliness,8,8,0,0,0,0.0
+apartment comfort,apartment comfort,6,5,0,1,0,0.0
+communication,communication,10,7,1,2,0,0.1
+location proximity to taksim square,location proximity to Taksim Square,5,5,0,0,0,0.0
+comfortable bed,comfortable bed,26,25,0,1,0,0.0
+friendly staff,friendly staff,27,26,0,1,0,0.0
+comfortable beds,comfortable beds,18,17,1,0,0,0.05555555555555555
+location quality,Location quality,10,10,0,0,0,0.0
+daily cleaning service,daily cleaning service,11,11,0,0,0,0.0
+24-hour reception service,24-hour reception service,5,5,0,0,0,0.0
+convenient location,convenient location,6,6,0,0,0,0.0
+host friendliness,host friendliness,12,12,0,0,0,0.0
+comfortable stay,comfortable stay,9,8,0,1,0,0.0
+host_friendliness,host_friendliness,13,12,0,1,0,0.0
+there is no elevator in the building.,There is no elevator in the building.,6,0,6,0,0,1.0
+comfort,comfort,16,11,1,4,0,0.0625
+value,value,6,4,0,1,1,0.0
+24/7 reception service,24/7 reception service,5,5,0,0,0,0.0
+kitchen_equipment,kitchen_equipment,12,5,5,2,0,0.4166666666666667
+noise,noise,7,0,4,3,0,0.5714285714285714
+location proximity to galata tower,location proximity to Galata Tower,7,7,0,0,0,0.0
+room comfort,room comfort,8,6,1,1,0,0.125
+the apartment is clean and comfortable.,The apartment is clean and comfortable.,16,16,0,0,0,0.0
+quiet location,quiet location,8,8,0,0,0,0.0
+staff helpfulness,staff helpfulness,16,16,0,0,0,0.0
+fully equipped kitchen,fully equipped kitchen,5,5,0,0,0,0.0
+the host is helpful and responsive.,The host is helpful and responsive.,12,12,0,0,0,0.0
+bed comfort,bed comfort,16,8,4,4,0,0.25
+the apartment is clean and comfortable,The apartment is clean and comfortable,15,15,0,0,0,0.0
+the apartment is clean and tidy.,The apartment is clean and tidy.,5,5,0,0,0,0.0
+host hospitality,host hospitality,25,24,0,1,0,0.0
+noise_level,noise_level,11,0,4,7,0,0.36363636363636365
+room size,room size,17,3,12,2,0,0.7058823529411765
+staff friendliness,staff friendliness,8,8,0,0,0,0.0
+security,security,7,4,0,3,0,0.0
+quiet environment,quiet environment,5,4,0,1,0,0.0
+the host is responsive and helpful,The host is responsive and helpful,9,9,0,0,0,0.0
+staff_service,staff_service,9,9,0,0,0,0.0
+hot water availability,hot water availability,5,1,3,1,0,0.6
+clean accommodation,clean accommodation,7,6,0,1,0,0.0
+the host is responsive and friendly.,The host is responsive and friendly.,5,5,0,0,0,0.0
+wifi reliability,wifi reliability,5,0,2,3,0,0.4
+the apartment is clean and well-maintained.,The apartment is clean and well-maintained.,13,12,0,1,0,0.0
+the host is friendly and helpful,The host is friendly and helpful,5,5,0,0,0,0.0
+host_service,host_service,9,8,0,1,0,0.0
+the host is very helpful and responsive.,The host is very helpful and responsive.,5,5,0,0,0,0.0
+central location,central location,10,9,0,1,0,0.0
+host availability,host availability,5,4,0,1,0,0.0
+location_convenience,location_convenience,5,5,0,0,0,0.0
+the room is clean and comfortable.,The room is clean and comfortable.,6,6,0,0,0,0.0
+maintenance,maintenance,5,1,1,3,0,0.2
+the apartment was clean and comfortable.,The apartment was clean and comfortable.,5,5,0,0,0,0.0
+positive,positive,7,4,0,3,0,0.0
+parking availability,parking availability,5,1,2,1,1,0.5
+host is responsive and helpful,host is responsive and helpful,10,9,0,1,0,0.0
+apartment condition,apartment condition,6,2,1,3,0,0.16666666666666666

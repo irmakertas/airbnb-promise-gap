@@ -1,0 +1,2 @@
+﻿model,listing_id,elapsed_seconds,json_valid,schema_valid,parse_error,api_error,finish_reason,prompt_tokens,completion_tokens
+qwen3.5-4b,1382699482624419478,12.425,True,True,,,stop,884,267

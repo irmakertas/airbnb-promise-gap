@@ -1,0 +1,63 @@
+[
+  {
+    "model": "qwen3.5-4b",
+    "listing_id": "1382699482624419478",
+    "elapsed_seconds": 12.425,
+    "raw": "{\"promises\":[{\"promise\":\"The apartment is exceptionally clean and tidy.\",\"label\":\"positive\",\"evidence_for\":[\"exceptionally clean, tidy\"],\"evidence_against\":[],\"evidence_review_ids\":[\"1767180777738714118\"]},{\"promise\":\"The host provides 24/7 security with friendly guards.\",\"label\":\"positive\",\"evidence_for\":[\"security guards within 24/7\"],\"evidence_against\":[],\"evidence_review_ids\":[\"1683985860727673976\"]},{\"promise\":\"The apartment is located close to Taksim Square and the metro.\",\"label\":\"positive\",\"evidence_for\":[\"only 5 minutes on foot to Taksim Square and Taksim metro station\"],\"evidence_against\":[],\"evidence_review_ids\":[\"1683985860727673976\"]},{\"promise\":\"The host is very attentive, kind, and always available.\",\"label\":\"positive\",\"evidence_for\":[\"very attentive, kind, and always available whenever we needed anything\"],\"evidence_against\":[],\"evidence_review_ids\":[\"1767180777738714118\"]}]}",
+    "parsed": {
+      "promises": [
+        {
+          "promise": "The apartment is exceptionally clean and tidy.",
+          "label": "positive",
+          "evidence_for": [
+            "exceptionally clean, tidy"
+          ],
+          "evidence_against": [],
+          "evidence_review_ids": [
+            "1767180777738714118"
+          ]
+        },
+        {
+          "promise": "The host provides 24/7 security with friendly guards.",
+          "label": "positive",
+          "evidence_for": [
+            "security guards within 24/7"
+          ],
+          "evidence_against": [],
+          "evidence_review_ids": [
+            "1683985860727673976"
+          ]
+        },
+        {
+          "promise": "The apartment is located close to Taksim Square and the metro.",
+          "label": "positive",
+          "evidence_for": [
+            "only 5 minutes on foot to Taksim Square and Taksim metro station"
+          ],
+          "evidence_against": [],
+          "evidence_review_ids": [
+            "1683985860727673976"
+          ]
+        },
+        {
+          "promise": "The host is very attentive, kind, and always available.",
+          "label": "positive",
+          "evidence_for": [
+            "very attentive, kind, and always available whenever we needed anything"
+          ],
+          "evidence_against": [],
+          "evidence_review_ids": [
+            "1767180777738714118"
+          ]
+        }
+      ]
+    },
+    "json_valid": true,
+    "schema_valid": true,
+    "parse_error": null,
+    "api_error": null,
+    "finish_reason": "stop",
+    "prompt_tokens": 884,
+    "completion_tokens": 267
+  }
+]

@@ -1,0 +1,91 @@
+{
+  "listings": 800,
+  "unique_listings": 800,
+  "calls": 800,
+  "json_valid": 800,
+  "schema_valid": 800,
+  "model_seconds": 8323.987,
+  "mean_seconds_per_listing": 10.405,
+  "max_seconds": 27.615,
+  "calls_over_20_seconds": 1,
+  "promise_rows": 3195,
+  "labels": {
+    "positive": 2527,
+    "negative": 408,
+    "mixed": 247,
+    "insufficient_evidence": 13
+  },
+  "evidence_quotes": 3430,
+  "source_matched_quotes": 3093,
+  "quote_source_match_rate": 0.9017,
+  "raw_exact_quote_rate": 0.7886,
+  "quote_repair_rate": 0.1131,
+  "valid_review_id_rate": 0.9831,
+  "citation_alignment_rate": 0.869,
+  "combined_evidence_validation_rate": 0.8948,
+  "part_metrics": {
+    "part_001_schema_v2": {
+      "calls": 50,
+      "schema_valid": 50,
+      "mean_seconds": 10.228,
+      "max_seconds": 15.365,
+      "over_20_seconds": 0
+    },
+    "part_002": {
+      "calls": 50,
+      "schema_valid": 50,
+      "mean_seconds": 10.325,
+      "max_seconds": 13.745,
+      "over_20_seconds": 0
+    },
+    "part_003_004": {
+      "calls": 100,
+      "schema_valid": 100,
+      "mean_seconds": 10.561,
+      "max_seconds": 27.615,
+      "over_20_seconds": 1
+    },
+    "part_005_006": {
+      "calls": 100,
+      "schema_valid": 100,
+      "mean_seconds": 10.558,
+      "max_seconds": 15.822,
+      "over_20_seconds": 0
+    },
+    "part_007_008": {
+      "calls": 100,
+      "schema_valid": 100,
+      "mean_seconds": 10.251,
+      "max_seconds": 14.122,
+      "over_20_seconds": 0
+    },
+    "part_009_010": {
+      "calls": 100,
+      "schema_valid": 100,
+      "mean_seconds": 10.656,
+      "max_seconds": 18.027,
+      "over_20_seconds": 0
+    },
+    "part_011_012": {
+      "calls": 100,
+      "schema_valid": 100,
+      "mean_seconds": 10.387,
+      "max_seconds": 14.095,
+      "over_20_seconds": 0
+    },
+    "part_013_014": {
+      "calls": 100,
+      "schema_valid": 100,
+      "mean_seconds": 10.193,
+      "max_seconds": 13.925,
+      "over_20_seconds": 0
+    },
+    "part_015_016": {
+      "calls": 100,
+      "schema_valid": 100,
+      "mean_seconds": 10.357,
+      "max_seconds": 16.909,
+      "over_20_seconds": 0
+    }
+  }
+}

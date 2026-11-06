@@ -1,0 +1,45 @@
+{
+  "api_base": "http://localhost:1235/v1",
+  "requested_models": [
+    "qwen3.5-9b",
+    "qwen3.5-4b"
+  ],
+  "run_models": [
+    "qwen3.5-4b"
+  ],
+  "available_models_at_start": [
+    "qwen3.5-4b"
+  ],
+  "listings": [
+    "1402838197531909461"
+  ],
+  "max_reviews_per_listing": 5,
+  "max_promises_per_listing": 4,
+  "max_tokens": 1600,
+  "fast_mode": true,
+  "seed": 42,
+  "batch_mode": false,
+  "batch_index": 0,
+  "total_listings": 1,
+  "retrieval": "deterministic lexical topic coverage with description overlap; same selected reviews passed to each model",
+  "summary": {
+    "qwen3.5-4b": {
+      "calls": 1,
+      "json_valid_rate": 1.0,
+      "schema_valid_rate": 1.0,
+      "total_seconds": 17.346,
+      "mean_seconds_per_listing": 17.346,
+      "labels": {
+        "positive": 4
+      },
+      "quote_validation_rate": 1.0,
+      "quote_source_match_rate": 1.0,
+      "raw_exact_quote_rate": 0.5,
+      "quote_repair_rate": 0.5,
+      "id_validation_rate": 1.0,
+      "citation_alignment_rate": 1.0,
+      "combined_evidence_validation_rate": 1.0,
+      "promise_count": 4
+    }
+  }
+}

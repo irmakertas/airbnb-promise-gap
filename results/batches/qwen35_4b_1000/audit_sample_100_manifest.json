@@ -1,0 +1,17 @@
+{
+  "sample_size": 100,
+  "strata_population": {
+    "has_negative": 404,
+    "positive_only": 451,
+    "has_mixed_no_negative": 140,
+    "has_insufficient_no_negative_or_mixed": 5
+  },
+  "strata_sample": {
+    "has_negative": 40,
+    "positive_only": 45,
+    "has_insufficient_no_negative_or_mixed": 1,
+    "has_mixed_no_negative": 14
+  },
+  "missing_rating_count": 0,
+  "seed": 20261101
+}

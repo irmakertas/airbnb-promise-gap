@@ -1,0 +1,16 @@
+{
+  "models": [
+    "qwen3.5-4b"
+  ],
+  "listings": 1,
+  "max_reviews": 5,
+  "max_promises": 4,
+  "max_tokens": 1600,
+  "fast_mode": true,
+  "batch_mode": false,
+  "seed": 42,
+  "response_format": "strict_json_schema_v1",
+  "listing_ids": [
+    "1402838197531909461"
+  ]
+}

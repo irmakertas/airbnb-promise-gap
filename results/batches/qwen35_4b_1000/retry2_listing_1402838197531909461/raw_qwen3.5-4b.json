@@ -1,0 +1,63 @@
+[
+  {
+    "model": "qwen3.5-4b",
+    "listing_id": "1402838197531909461",
+    "elapsed_seconds": 17.346,
+    "raw": "{\"promises\":[{\"promise\":\"quiet location perfect for families\",\"label\":\"positive\",\"evidence_for\":[\"Review ID: 1421699320245555607 | Review: The apartment is quite swanky. It's a quiet type of luxury and central location, easy to catch public transport (taxi/bus) from and 15-30 mins walking to the local shops/restaurants.\"],\"evidence_against\":[],\"evidence_review_ids\":[\"1421699320245555607\"]},{\"promise\":\"secure premises with friendly security\",\"label\":\"positive\",\"evidence_for\":[\"Review ID: 1421699320245555607 | Review: The premises is secure with gated security, whom are incredibly friendly once you become familiar.\"],\"evidence_against\":[],\"evidence_review_ids\":[\"1421699320245555607\"]},{\"promise\":\"excellent natural lighting and air conditioning\",\"label\":\"positive\",\"evidence_for\":[\"Review ID: 1421699320245555607 | Review: Because there's lots of exposure to the sun, the space gets excellent natural lighting, and the air conditioning system keeps the room at a comfortable temperature.\"],\"evidence_against\":[],\"evidence_review_ids\":[\"1421699320245555607\"]},{\"promise\":\"spacious apartment with friendly host\",\"label\":\"positive\",\"evidence_for\":[\"Review ID: 1714333709382476904 | Review: Spacious and lots of natural light. friendly host who was there to greet us at the entrance.\"],\"evidence_against\":[],\"evidence_review_ids\":[\"1714333709382476904\"]}]\n}",
+    "parsed": {
+      "promises": [
+        {
+          "promise": "quiet location perfect for families",
+          "label": "positive",
+          "evidence_for": [
+            "Review ID: 1421699320245555607 | Review: The apartment is quite swanky. It's a quiet type of luxury and central location, easy to catch public transport (taxi/bus) from and 15-30 mins walking to the local shops/restaurants."
+          ],
+          "evidence_against": [],
+          "evidence_review_ids": [
+            "1421699320245555607"
+          ]
+        },
+        {
+          "promise": "secure premises with friendly security",
+          "label": "positive",
+          "evidence_for": [
+            "Review ID: 1421699320245555607 | Review: The premises is secure with gated security, whom are incredibly friendly once you become familiar."
+          ],
+          "evidence_against": [],
+          "evidence_review_ids": [
+            "1421699320245555607"
+          ]
+        },
+        {
+          "promise": "excellent natural lighting and air conditioning",
+          "label": "positive",
+          "evidence_for": [
+            "Review ID: 1421699320245555607 | Review: Because there's lots of exposure to the sun, the space gets excellent natural lighting, and the air conditioning system keeps the room at a comfortable temperature."
+          ],
+          "evidence_against": [],
+          "evidence_review_ids": [
+            "1421699320245555607"
+          ]
+        },
+        {
+          "promise": "spacious apartment with friendly host",
+          "label": "positive",
+          "evidence_for": [
+            "Review ID: 1714333709382476904 | Review: Spacious and lots of natural light. friendly host who was there to greet us at the entrance."
+          ],
+          "evidence_against": [],
+          "evidence_review_ids": [
+            "1714333709382476904"
+          ]
+        }
+      ]
+    },
+    "json_valid": true,
+    "schema_valid": true,
+    "parse_error": null,
+    "api_error": null,
+    "finish_reason": "stop",
+    "prompt_tokens": 783,
+    "completion_tokens": 422
+  }
+]
